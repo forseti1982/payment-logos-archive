@@ -1,54 +1,40 @@
 # Payment Brands
 
-A curated, source-audited payment-brand library for **wallee**.
+A production-oriented payment-brand asset system for developers, designers and payment integrators.
 
-> This repository is independent. It is not a mirror of another PSP's asset library and third-party logo collections are never treated as authoritative sources.
+## Goals
+One stable catalogue for dynamically rendering payment marks across terminals, kiosks, checkout UIs, merchant signage, apps and documentation.
 
-## Architecture
+### Three layers
+- `src/brands/<id>/` — authoritative brand artwork and metadata. Never add wallee styling to these masters.
+- `dist/raw/` — normalized exports of official artwork.
+- `dist/tiles/` — generated presentation tiles using the wallee frame specification.
 
-```text
-assets/
-  source/       # untouched official master artwork
-  legacy/       # historical compatibility only
-dist/
-  raw/          # normalized exports without wallee presentation
-  tiles/        # generated wallee presentation tiles
-registry/
-  brands.json   # canonical brand registry
-  sources.json  # first-party provenance and audit evidence
-scripts/
-  validate.mjs  # structural/brand-policy checks
-docs/
-  BRAND-SPEC.md # normative design and usage rules
-  GALLERY.md    # human visual QA
-```
+Consumers should use `dist/manifest.json` rather than hard-coded filenames.
 
-## Non-negotiable rules
+## Stable identity
+Every brand has a permanent lowercase kebab-case ID such as `mastercard`, `apple-pay`, `postfinance-pay` or `ep2`. Display names and artwork may change without changing the integration ID.
 
-**Official master artwork is immutable.** Never redraw, recolor, stretch, crop or add a wallee border to files under `assets/source`.
+## Classification
+- `scheme` — payment/card network
+- `wallet` — mobile or wearable wallet
+- `payment-method` — alternative/account-based payment method
+- `acceptance-mark` — infrastructure/acceptance mark such as ep2
 
-**Presentation is generated.** wallee tiles are derived outputs:
+A wallet is not automatically a separate acquiring acceptance capability. Metadata distinguishes consumer-facing wallet branding from the underlying acceptance rails.
 
-`1 px white outer edge → 1 px #11D9CC frame → white safe area → official artwork`
+## Asset states
+- `verified` — first-party artwork and intended usage checked
+- `review` — not yet safe to present as current
+- `legacy` — compatibility/history only
+- `retired` — no longer current
 
-Brand-owner clearspace/minimum-size/background requirements override attempts to make marks visually larger.
+Production integrations SHOULD consume only `verified` entries unless legacy compatibility is explicitly required.
 
-**Acceptance ≠ logo availability.** A corporate logo is not automatically a merchant acceptance mark. The registry records whether storefront/POS usage is actually verified.
+## wallee presentation tile
+Generated tiles use:
+`1 px white outer edge → 1 px #11D9CC frame → white clear field → untouched official mark`.
 
-## Categories
+The frame is presentation chrome. It is never baked into the authoritative master logo.
 
-| Category | Meaning |
-|---|---|
-| `scheme` | Card/payment network |
-| `wallet` | Mobile or wearable wallet |
-| `apm` | Alternative/local payment method |
-| `acceptance` | Infrastructure/acceptance mark, e.g. ep2 |
-
-## Status model
-
-- `verified` — current first-party artwork and intended usage checked
-- `review` — requires current first-party verification
-- `legacy` — retained for historical/compatibility purposes
-- `retired` — no longer presented as current acceptance
-
-The repository intentionally starts conservative: migrated brands remain `review` until individually audited.
+See `BRAND-SPEC.md`, `docs/INTEGRATION.md` and `dist/manifest.json`.
