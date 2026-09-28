@@ -164,7 +164,17 @@
       "id": "ep2",
       "name": "ep2",
       "category": "acceptance-mark",
-      "status": "review"
+      "status": "verified",
+      "artwork": {
+        "source": "assets/source/ep2/original.svg",
+        "variants": [
+          "original",
+          "negative",
+          "grayscale"
+        ],
+        "sha256": "998c9db631e54424c6d6b3a6a1db9aaab842ea7912f14de256debaef7fe37ba2",
+        "sourceType": "user-supplied-official-master"
+      }
     },
     {
       "id": "maestro",
