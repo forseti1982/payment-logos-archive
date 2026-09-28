@@ -37,7 +37,7 @@
 | <img src="dist/tiles/svg/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
 | <img src="dist/tiles/svg/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
 | <img src="dist/tiles/svg/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
-| — | **PostFinance Card** | `postfinance-card` | review |
+| — | **PostFinance Card** | `postfinance-card` | official PNG/JPG |
 | <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
 | <img src="dist/tiles/svg/v-pay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
 
@@ -48,7 +48,8 @@
 | <img src="dist/tiles/svg/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
 | — | **Garmin Pay** | `garmin-pay` | review |
 | <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
-| — | **Samsung Wallet** | `samsung-wallet` | review |
+| — | **Samsung Pay** | `samsung-pay` | official toolkit |
+| — | **Samsung Wallet** | `samsung-wallet` | official toolkit |
 | — | **SwatchPAY!** | `swatchpay` | review |
 | — | **Xiaomi Pay** | `xiaomi-pay` | review |
 | — | **Zepp Pay** | `zepp-pay` | review |
@@ -57,15 +58,15 @@
 
 | Brand | Integration ID | Status |
 |---|---|:--:|
-| **PostFinance** | `postfinance` | review |
-| **PostFinance Pay** | `postfinance-pay` | review |
-| **TWINT** | `twint` | review |
+| **PostFinance** | `postfinance` | official EPS/PNG/JPG |
+| **PostFinance Pay** | `postfinance-pay` | official SVG/PNG/JPG |
+| **TWINT** | `twint` | merchant-portal gated |
 
 These are separate product identities. A corporate PostFinance mark MUST NOT substitute for PostFinance Card or PostFinance Pay.
 
 ### Other payment methods
 
-**Current gaps already confirmed for audit:** Alipay+, WeChat Pay and Wero. The historical APM catalogue is also being audited and migrated into stable IDs. New artwork is published only after taxonomy, lifecycle and first-party checks.
+**First-party catalogue:** Alipay+ (official assets, license-gated), Wero (official Media Kit + checkout guidelines), WeChat Pay (first-party master still to be resolved). The historical APM catalogue is also being audited and migrated into stable IDs. New artwork is published only after taxonomy, lifecycle and first-party checks.
 
 ### Biometric payment & verification
 
@@ -97,6 +98,23 @@ Legacy entries are retained for compatibility and history but are excluded from 
 **Primary compact recognition mark:** the official turquoise wallee signet (`wallee_signet_turqoise.png`, 13,585 × 8,565 RGBA). Use the signet for small UI, machine tiles and compact brand recognition; use the complete wallee wordmark where space permits.
 
 wallee-owned corporate and marketing assets are maintained separately from third-party payment marks. The official wallee download catalogue includes RGB screen logos, CMYK print logos and current terminal imagery. See [Asset gaps →](docs/GAPS.md).
+
+### Source completeness
+
+| Brand | First-party state | Best known official source |
+|---|---|---|
+| PostFinance | official download | EPS |
+| PostFinance Card | official download | PNG |
+| PostFinance Pay | official download | SVG |
+| Wero | official media kit | Media Kit |
+| Samsung Wallet | official toolkit | Logo Asset v2025_2.0 |
+| Samsung Pay | official toolkit | Logo Toolkit v3.0.0 |
+| Alipay+ | official, license-gated | official PNG assets |
+| Garmin Pay | request-gated | Garmin Brand Guidelines |
+| TWINT | merchant-portal gated | TWINT Business Portal |
+| SwatchPAY! | first-party confirmed | distributable master still required |
+
+A gated brand remains in the catalogue; it is never replaced with a scraped or third-party logo.
 
 ---
 

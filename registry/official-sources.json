@@ -31,45 +31,62 @@
       "note": "Official RGB package supplied directly; SVG wordmark and high-resolution signet available."
     },
     "garmin-pay": {
-      "status": "controlled-access",
+      "status": "request-gated",
       "official": "https://developer.garmin.com/brand-guidelines/pay/",
-      "guidelines": "https://developer.garmin.com/brand-guidelines/pay/",
-      "rule": "Official Garmin Pay assets must be requested from Garmin. Do not scrape/reconstruct."
+      "checked": "2026-09-28"
     },
     "samsung-wallet": {
-      "status": "official-toolkit-available",
-      "official": "https://developer.samsung.com/wallet/design",
-      "guidelines": "https://developer.samsung.com/wallet/design",
-      "rule": "Use approved Wallet logo lock-up and toolkit variant appropriate to context."
+      "status": "official-toolkit",
+      "official": "https://developer.samsung.com/wallet/references/imageresources.html",
+      "toolkitVersion": "2025_2.0",
+      "toolkitSizeMB": 11.2,
+      "logoAssetVersion": "2025_2.0",
+      "logoAssetSizeMB": 37.8,
+      "checked": "2026-09-28"
     },
     "postfinance": {
-      "status": "official-download-available",
-      "official": "https://www.postfinance.ch/en/support/partner/partner-information-payment-solutions.html",
-      "rule": "Corporate PostFinance, PostFinance Card and PostFinance Pay are distinct marks."
+      "status": "official-download",
+      "official": "https://www.postfinance.ch/de/support/partner/partnerinformationen-payment-solutions.html",
+      "download": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-logo.zip",
+      "formats": [
+        "eps",
+        "png",
+        "jpg"
+      ],
+      "preferred": "eps",
+      "checked": "2026-09-28"
     },
     "postfinance-card": {
-      "status": "official-download-available",
-      "official": "https://www.postfinance.ch/en/support/partner/partner-information-payment-solutions.html",
+      "status": "official-download",
+      "official": "https://www.postfinance.ch/de/support/partner/partnerinformationen-payment-solutions.html",
+      "download": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-card-logo.zip",
       "formats": [
-        "jpg",
-        "png"
-      ]
+        "png",
+        "jpg"
+      ],
+      "preferred": "png",
+      "checked": "2026-09-28"
     },
     "postfinance-pay": {
-      "status": "official-vector-available",
-      "official": "https://www.postfinance.ch/en/support/partner/partner-information-payment-solutions.html",
+      "status": "official-download",
+      "official": "https://www.postfinance.ch/de/support/partner/partnerinformationen-payment-solutions.html",
+      "download": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-pay-logo.zip",
       "formats": [
-        "jpg",
+        "svg",
         "png",
-        "svg"
+        "jpg"
       ],
-      "preferred": "svg"
+      "preferred": "svg",
+      "checked": "2026-09-28"
     },
     "alipay-plus": {
-      "status": "licensed-official-assets",
-      "official": "https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_acq/brand_assets?product=Payment1&role=ACQP&version=1.2.2",
-      "guidelines": "https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_acq/foundational_brand?product=Payment1&role=ACQP&version=1.2.0",
-      "rule": "Use only under applicable authorization/license and product-specific display guideline."
+      "status": "license-gated-official-download",
+      "official": "https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_mpp/brand_assets",
+      "formats": [
+        "png"
+      ],
+      "checked": "2026-09-28",
+      "rule": "Use requires written authorization or appropriate license from Ant Group and compliance with current guidelines."
     },
     "click-to-pay": {
       "status": "official-trademark-centre",
@@ -78,14 +95,27 @@
       "rule": "Use EMVCo Click to Pay mark and applicable mark usage guidance."
     },
     "twint": {
-      "status": "merchant-controlled",
-      "official": "https://www.twint.ch/en/business-customers/industry-solutions/e-commerce/",
-      "rule": "Merchant product logo is distributed through TWINT Business Portal; use received product logo unchanged and clearly visible."
+      "status": "merchant-portal-gated",
+      "official": "https://www.twint.ch/en/business-customers/",
+      "checked": "2026-09-28"
     },
     "swatchpay": {
-      "status": "first-party-mark-confirmed",
-      "official": "https://www.swatch.com/en-ch/",
-      "rule": "First-party site confirms current SwatchPAY! mark; obtain original distributable artwork rather than extracting a rendered page image."
+      "status": "first-party-confirmed-master-needed",
+      "official": "https://www.swatch.com/",
+      "checked": "2026-09-28"
+    },
+    "wero": {
+      "status": "official-download",
+      "official": "https://wero-wallet.eu/brand-center",
+      "download": "https://wero-wallet.eu/storage/files/Mediakit.zip",
+      "guidelines": "https://wero-wallet.eu/brand-center",
+      "checked": "2026-09-28"
+    },
+    "samsung-pay": {
+      "status": "official-toolkit",
+      "official": "https://developer.samsung.com/pay/web/download.html",
+      "toolkitVersion": "3.0.0",
+      "checked": "2026-09-28"
     }
   }
 }
