@@ -214,6 +214,328 @@
       "status": "review",
       "lifecycle": "current-service-mark",
       "sourceStatus": "official-toolkit"
+    },
+    {
+      "id": "elo",
+      "name": "Elo",
+      "category": "scheme",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "hipercard",
+      "name": "Hipercard",
+      "category": "scheme",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "uatp",
+      "name": "UATP",
+      "category": "scheme",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "alipay",
+      "name": "Alipay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "amazon-pay",
+      "name": "Amazon Pay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "availabill",
+      "name": "Availabill",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "bancontact",
+      "name": "Bancontact",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "blik",
+      "name": "BLIK",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "boncard",
+      "name": "boncard",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "bonus-card",
+      "name": "Bonus Card",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "butterfly-card",
+      "name": "Butterfly Card",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "cembrapay",
+      "name": "CembraPay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "crif",
+      "name": "CRIF",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "dimoco",
+      "name": "DIMOCO",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "ebill",
+      "name": "eBill",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "eps",
+      "name": "EPS",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "giropay",
+      "name": "giropay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "half-fare-plus",
+      "name": "Half Fare Plus",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "ideal",
+      "name": "iDEAL",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "ideal-wero",
+      "name": "iDEAL | Wero",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "klarna",
+      "name": "Klarna",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "lunch-check",
+      "name": "Lunch-Check",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "mediamarkt",
+      "name": "MediaMarkt",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "migros-giftcard",
+      "name": "Migros Gift Card",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "mobilepay",
+      "name": "MobilePay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "paycard",
+      "name": "Paycard",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "paysafecard",
+      "name": "Paysafecard",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "pointspay",
+      "name": "PointsPay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "postfinance-efinance",
+      "name": "PostFinance e-finance",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "powerpay",
+      "name": "POWERPAY",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "przelewy24",
+      "name": "Przelewy24",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "reka",
+      "name": "Reka",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "sepa",
+      "name": "SEPA",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "skrill",
+      "name": "Skrill",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "swish",
+      "name": "Swish",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "swisscom-pay",
+      "name": "Swisscom Pay",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "swisspass",
+      "name": "SwissPass",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "vipps",
+      "name": "Vipps",
+      "category": "payment-method",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "card-generic",
+      "name": "Generic Card",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "card-generic-alt",
+      "name": "Generic Card Alt",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "card-generic-gold",
+      "name": "Generic Card Gold",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "gift-card-generic",
+      "name": "Generic Gift Card",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "gift-card-generic-alt",
+      "name": "Generic Gift Card Alt",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "gift-card-generic-gold",
+      "name": "Generic Gift Card Gold",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
+    },
+    {
+      "id": "invoice",
+      "name": "Invoice",
+      "category": "generic",
+      "status": "review",
+      "coverageSource": "datatrans-benchmark"
     }
   ],
   "sorting": {
@@ -224,6 +546,7 @@
       "biometric-payment",
       "identity-verification",
       "acceptance-mark",
+      "generic",
       "legacy"
     ],
     "withinGroup": "display-name-ascending",
