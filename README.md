@@ -169,7 +169,7 @@ AGENTS.md             mandatory AI policy
 
 Anything unresolved stays **review**. Legacy brands remain explicit instead of silently masquerading as current payment products.
 
-[Asset gaps →](docs/GAPS.md) · [Audit rules →](docs/AUDIT.md) · [Architecture →](docs/ARCHITECTURE.md) · [Mandatory AI policy →](AGENTS.md)
+[Official sourcing →](docs/SOURCING.md) · [Asset gaps →](docs/GAPS.md) · [Audit rules →](docs/AUDIT.md) · [Architecture →](docs/ARCHITECTURE.md) · [Mandatory AI policy →](AGENTS.md)
 
 ---
 
