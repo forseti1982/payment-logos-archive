@@ -31,9 +31,9 @@ Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nac
 | ep2 | Vektor-Master von ep2 | Original eingesetzt |
 | VOLTOX Smile & Pay, Age Verification | Firmenlogo, von wallee geliefert (PNG 200 × 200) | Vektor-Master bei VOLTOX anfragen |
 | PostFinance e-finance | altes Logo zurückgezogen | Platzhalter, Produktstatus prüfen |
-| TWINT | TWINT Brand Portal | Platzhalter, Zugang zum Portal nötig |
+| TWINT | Logo-SVG von twint.ch (Brand Portal nur mit Login) | Übergangslösung, Merchant-Logo über Brand Portal beziehen |
 | Click to Pay | EMVCo Trademark Centre | Platzhalter, Lizenzvertrag nötig |
-| WeChat Pay | nur Richtlinien-PDF 2017 | Platzhalter, Master anfragen |
+| WeChat Pay | Logo-SVG der WeChat Pay Open Platform (Tencent) | Original der Plattform eingesetzt |
 | Garmin Pay | Anfrageformular Garmin | fehlt, Anfrage durch wallee |
 | SwatchPAY! | Webbild von swatch.com (PNG 678 × 108), kein freigegebenes Original | Übergangslösung, Original bei Swatch anfragen |
 | Samsung Wallet | Toolkit von Samsung (ca. 38 MB) | fehlt, Download ausstehend |

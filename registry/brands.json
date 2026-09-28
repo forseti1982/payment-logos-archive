@@ -178,13 +178,30 @@
       "name": "TWINT",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "merchant-portal-gated"
+      "sourceStatus": "brand-owner-website",
+      "artwork": {
+        "source": "assets/source/twint/twint-logo-twint-ch.svg",
+        "format": "svg",
+        "sha256": "29c693eae2ec6ff8fcce2450d2d3672145772c9d4aa4e13847799638a1028ff4",
+        "from": "https://www.twint.ch/en/ (header logo, inline SVG)",
+        "retrieved": "2026-09-28",
+        "note": "Taken from the brand owner's website; official merchant logo package sits behind the TWINT Brand Portal login. Owner-approved interim."
+      }
     },
     {
       "id": "wechat-pay",
       "name": "WeChat Pay",
       "category": "payment-method",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "brand-owner-website",
+      "artwork": {
+        "source": "assets/source/wechat-pay/wechat-pay-logo-official-site.svg",
+        "format": "svg",
+        "sha256": "03bdfefd849db5688ef863435bc07facf00ba73192b76643a187f2e120402b19",
+        "from": "https://gtimg.wechatpay-global.com/pay_en/img/common/logo.svg (WeChat Pay Open Platform)",
+        "retrieved": "2026-09-28",
+        "guidelines": "https://res.wx.qq.com/a/wx_fed/wedesign/res/17f8/WeChat_Pay_Visual_Identity_Guidelines_201703.pdf"
+      }
     },
     {
       "id": "wero",
