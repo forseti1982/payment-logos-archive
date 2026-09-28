@@ -94,6 +94,8 @@ Legacy entries are retained for compatibility and history but are excluded from 
 
 ### wallee brand & marketing
 
+**Primary compact recognition mark:** the official turquoise wallee signet (`wallee_signet_turqoise.png`, 13,585 × 8,565 RGBA). Use the signet for small UI, machine tiles and compact brand recognition; use the complete wallee wordmark where space permits.
+
 wallee-owned corporate and marketing assets are maintained separately from third-party payment marks. The official wallee download catalogue includes RGB screen logos, CMYK print logos and current terminal imagery. See [Asset gaps →](docs/GAPS.md).
 
 ---

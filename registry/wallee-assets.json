@@ -68,5 +68,37 @@
         }
       ]
     }
+  ],
+  "sourcePackage": {
+    "name": "wallee_Logos_RGB",
+    "suppliedByUser": true
+  },
+  "verifiedAssets": [
+    {
+      "id": "wallee-logo-turquoise",
+      "type": "wordmark",
+      "status": "verified",
+      "canonical": "assets/wallee/corporate/rgb/wallee-logo-turquoise.svg",
+      "native": {
+        "format": "svg",
+        "width": 596,
+        "height": 153
+      },
+      "sha256": "227bdd53bdafee334caf6fdfa90735b71fe4258fc662997461ee2733a808290d"
+    },
+    {
+      "id": "wallee-signet-turquoise",
+      "type": "signet",
+      "status": "verified",
+      "sourceFilename": "wallee_signet_turqoise.png",
+      "native": {
+        "format": "png",
+        "width": 13585,
+        "height": 8565,
+        "alpha": true
+      },
+      "sha256": "b3af963e733531a7dab3a7bf056b00809913e28d3613055c7de25f4ae6d17170",
+      "usage": "compact recognition mark; small UI, machine tiles, favicon/app-like contexts"
+    }
   ]
 }
