@@ -42,6 +42,11 @@ Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nac
 
 Details zu jeder Quelle stehen in `registry/official-sources.json`.
 
+### Hinweise zur Auswahl
+
+- **Alipay und Alipay+:** Für die Akzeptanz beim Händler ist das Zeichen von Alipay+ vorgeschrieben. Ein einzelnes Wallet-Logo wie Alipay darf nur zusammen mit einem Hinweis auf Alipay+ erscheinen ([Alipay+ Brand Guidelines](https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_acq/brand_in_store_acq)). Für Terminals und Checkout daher `alipay-plus` verwenden.
+- **Visa Electron:** Visa hat die Marke am 13.04.2024 eingestellt, Nachfolger ist Visa Debit. Es gibt keine eigene Kachel; bestehende Connectors werden mit `visa` dargestellt und als Legacy gekennzeichnet.
+
 ## Cards & schemes
 
 | Logo | Brand |
