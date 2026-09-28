@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "unattended-md",
+  "purpose": "Medium unattended machine display",
+  "canvas": {
+    "width": 160,
+    "height": 100,
+    "unit": "px"
+  },
+  "formats": [
+    "svg",
+    "png",
+    "webp",
+    "jpg"
+  ],
+  "rasterDensities": [
+    1,
+    2,
+    4
+  ],
+  "tile": true,
+  "channels": [
+    "terminal",
+    "vending",
+    "ev-charging",
+    "kiosk"
+  ],
+  "background": "#FFFFFF"
+}

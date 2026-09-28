@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "auditVersion": "2026",
+  "presentation": {
+    "tile": {
+      "aspectRatio": "credit-card",
+      "outerWhitePx": 1,
+      "framePx": 1,
+      "frameColor": "#11D9CC",
+      "fieldColor": "#FFFFFF",
+      "cornerStyle": "rounded"
+    },
+    "rules": {
+      "preserveArtwork": true,
+      "brandClearspaceWins": true
+    }
+  },
+  "brands": [
+    {
+      "id": "visa",
+      "name": "Visa",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "american-express",
+      "name": "American Express",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "jcb",
+      "name": "JCB",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "unionpay",
+      "name": "UnionPay",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "discover",
+      "name": "Discover",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "diners-club",
+      "name": "Diners Club",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro",
+      "category": "scheme",
+      "status": "legacy"
+    },
+    {
+      "id": "v-pay",
+      "name": "V PAY",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "apple-pay",
+      "name": "Apple Pay",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "google-pay",
+      "name": "Google Pay",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "samsung-wallet",
+      "name": "Samsung Wallet",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "garmin-pay",
+      "name": "Garmin Pay",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "swatchpay",
+      "name": "SwatchPAY!",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "xiaomi-pay",
+      "name": "Xiaomi Pay",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "zepp-pay",
+      "name": "Zepp Pay",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
+      "id": "postfinance",
+      "name": "PostFinance",
+      "category": "apm",
+      "status": "review"
+    },
+    {
+      "id": "postfinance-card",
+      "name": "PostFinance Card",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "postfinance-pay",
+      "name": "PostFinance Pay",
+      "category": "apm",
+      "status": "review"
+    },
+    {
+      "id": "twint",
+      "name": "TWINT",
+      "category": "apm",
+      "status": "review"
+    },
+    {
+      "id": "ep2",
+      "name": "ep2",
+      "category": "acceptance",
+      "status": "review"
+    }
+  ]
+}

@@ -1,103 +1,146 @@
-# Payment Logos 💳 ✨
+<div align="center">
 
-Welcome to the ultimate payment method logos repo! 🎉 We curated an extensive collection of logos and icons representing debit and credit card schemes, wallets, and alternative payment methods.
+# wallee payment brands
 
-While this repo holds the icons we use across our solutions, you may use them to enhance your projects too!
+### easy pay any way
 
-Shortcuts to individual sections:
+**One source for payment marks across terminals, vending, EV charging, kiosks, checkout and apps.**
 
-- [Debit & credit cards](#debit--credit-cards)
-- [Wallets](#wallets)
-- [Generic logos](#generic-logos)
-- [Alternative payment methods](#alternative-payment-methods)
+`developer-ready` · `designer-safe` · `integration-controlled`
 
-👀 Missing a logo? Open an issue and we will make sure to add it in a future release!
+</div>
 
-## Debit & credit cards
+---
 
-| Asset | Path |
-| ----- | ---- |
-| ![mastercard](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/mastercard.svg?sanitize=true) | assets/cards/mastercard.svg |
-| ![visa](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/visa.svg?sanitize=true) | assets/cards/visa.svg |
-| ![american-express](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/american-express.svg?sanitize=true) | assets/cards/american-express.svg |
-| ![cartes-bancaires](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/cartes-bancaires.svg?sanitize=true) | assets/cards/cartes-bancaires.svg |
-| ![dankort](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/dankort.svg?sanitize=true) | assets/cards/dankort.svg |
-| ![diners](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/diners.svg?sanitize=true) | assets/cards/diners.svg |
-| ![discover](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/discover.svg?sanitize=true) | assets/cards/discover.svg |
-| ![elo](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/elo.svg?sanitize=true) | assets/cards/elo.svg |
-| ![hipercard](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/hipercard.svg?sanitize=true) | assets/cards/hipercard.svg |
-| ![jcb](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/jcb.svg?sanitize=true) | assets/cards/jcb.svg |
-| ![maestro-alt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/maestro-alt.svg?sanitize=true) | assets/cards/maestro-alt.svg |
-| ![maestro](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/maestro.svg?sanitize=true) | assets/cards/maestro.svg |
-| ![mastercard-alt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/mastercard-alt.svg?sanitize=true) | assets/cards/mastercard-alt.svg |
-| ![uatp](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/uatp.svg?sanitize=true) | assets/cards/uatp.svg |
-| ![unionpay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/unionpay.svg?sanitize=true) | assets/cards/unionpay.svg |
-| ![visa-alt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/visa-alt.svg?sanitize=true) | assets/cards/visa-alt.svg |
-| ![vpay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/cards/vpay.svg?sanitize=true) | assets/cards/vpay.svg |
+## Payment brands
 
-## Wallets
+> **2026 audit in progress.** Existing artwork remains visible for migration and review. Only entries marked **verified** are approved for new production delivery.
 
-| Asset | Path |
-| ----- | ---- |
-| ![apple-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/wallets/apple-pay.svg?sanitize=true) | assets/wallets/apple-pay.svg |
-| ![google-pay-alt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/wallets/google-pay-alt.svg?sanitize=true) | assets/wallets/google-pay-alt.svg |
-| ![google-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/wallets/google-pay.svg?sanitize=true) | assets/wallets/google-pay.svg |
+<p>
+  <a href="#cards--schemes"><b>Cards & schemes</b></a> ·
+  <a href="#wallets"><b>Wallets</b></a> ·
+  <a href="#payment-methods"><b>Payment methods</b></a> ·
+  <a href="#acceptance-marks"><b>Acceptance marks</b></a> ·
+  <a href="docs/INTEGRATION.md"><b>Integrate</b></a> ·
+  <a href="docs/DESIGN.md"><b>Design</b></a>
+</p>
 
-## Generic logos
+### Cards & schemes
 
-| Asset | Path |
-| ----- | ---- |
-| ![card-generic-alt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/card-generic-alt.svg?sanitize=true) | assets/generic/card-generic-alt.svg |
-| ![card-generic-gold](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/card-generic-gold.svg?sanitize=true) | assets/generic/card-generic-gold.svg |
-| ![card-generic](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/card-generic.svg?sanitize=true) | assets/generic/card-generic.svg |
-| ![gift-card-generic-alt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/gift-card-generic-alt.svg?sanitize=true) | assets/generic/gift-card-generic-alt.svg |
-| ![gift-card-generic-gold](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/gift-card-generic-gold.svg?sanitize=true) | assets/generic/gift-card-generic-gold.svg |
-| ![gift-card-generic](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/gift-card-generic.svg?sanitize=true) | assets/generic/gift-card-generic.svg |
-| ![invoice](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/generic/invoice.svg?sanitize=true) | assets/generic/invoice.svg |
+| | Brand | Integration ID | Status |
+|:--:|---|---|:--:|
+| <img src="assets/cards/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
+| <img src="assets/cards/visa.svg" width="112" alt="Visa"> | **Visa** | `visa` | review |
+| <img src="assets/cards/american-express.svg" width="112" alt="American Express"> | **American Express** | `american-express` | review |
+| <img src="assets/cards/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
+| <img src="assets/cards/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
+| <img src="assets/cards/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
+| <img src="assets/cards/diners.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
+| <img src="assets/cards/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** | `cartes-bancaires` | review |
+| <img src="assets/cards/dankort.svg" width="112" alt="Dankort"> | **Dankort** | `dankort` | review |
+| <img src="assets/cards/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
+| <img src="assets/cards/vpay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
 
-## Alternative payment methods
+### Wallets
 
-| Asset | Path |
-| ----- | ---- |
-| ![alipay-plus](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/alipay-plus.svg?sanitize=true) | assets/apm/alipay-plus.svg |
-| ![alipay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/alipay.svg?sanitize=true) | assets/apm/alipay.svg |
-| ![amazon-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/amazon-pay.svg?sanitize=true) | assets/apm/amazon-pay.svg |
-| ![availabill](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/availabill.svg?sanitize=true) | assets/apm/availabill.svg |
-| ![bancontact](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/bancontact.svg?sanitize=true) | assets/apm/bancontact.svg |
-| ![blik](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/blik.svg?sanitize=true) | assets/apm/blik.svg |
-| ![boncard](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/boncard.svg?sanitize=true) | assets/apm/boncard.svg |
-| ![bonus-card](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/bonus-card.svg?sanitize=true) | assets/apm/bonus-card.svg |
-| ![butterfly-card](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/butterfly-card.svg?sanitize=true) | assets/apm/butterfly-card.svg |
-| ![cembrapay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/cembrapay.svg?sanitize=true) | assets/apm/cembrapay.svg |
-| ![crif](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/crif.svg?sanitize=true) | assets/apm/crif.svg |
-| ![crypto](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/crypto.svg?sanitize=true) | assets/apm/crypto.svg |
-| ![ebill](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/ebill.svg?sanitize=true) | assets/apm/ebill.svg |
-| ![eps](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/eps.svg?sanitize=true) | assets/apm/eps.svg |
-| ![giropay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/giropay.svg?sanitize=true) | assets/apm/giropay.svg |
-| ![half-fare-plus](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/half-fare-plus.svg?sanitize=true) | assets/apm/half-fare-plus.svg |
-| ![ideal](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/ideal.svg?sanitize=true) | assets/apm/ideal.svg |
-| ![klarna](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/klarna.svg?sanitize=true) | assets/apm/klarna.svg |
-| ![lunch-check](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/lunch-check.svg?sanitize=true) | assets/apm/lunch-check.svg |
-| ![mediamarkt](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/mediamarkt.svg?sanitize=true) | assets/apm/mediamarkt.svg |
-| ![migros-giftcard](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/migros-giftcard.svg?sanitize=true) | assets/apm/migros-giftcard.svg |
-| ![mobilepay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/mobilepay.svg?sanitize=true) | assets/apm/mobilepay.svg |
-| ![paycard](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/paycard.svg?sanitize=true) | assets/apm/paycard.svg |
-| ![paypal](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/paypal.svg?sanitize=true) | assets/apm/paypal.svg |
-| ![paysafecard](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/paysafecard.svg?sanitize=true) | assets/apm/paysafecard.svg |
-| ![pointspay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/pointspay.svg?sanitize=true) | assets/apm/pointspay.svg |
-| ![postfinance-card](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/postfinance-card.svg?sanitize=true) | assets/apm/postfinance-card.svg |
-| ![postfinance-efinance](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/postfinance-efinance.svg?sanitize=true) | assets/apm/postfinance-efinance.svg |
-| ![postfinance-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/postfinance-pay.svg?sanitize=true) | assets/apm/postfinance-pay.svg |
-| ![powerpay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/powerpay.svg?sanitize=true) | assets/apm/powerpay.svg |
-| ![przelewy24](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/przelewy24.svg?sanitize=true) | assets/apm/przelewy24.svg |
-| ![reka](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/reka.svg?sanitize=true) | assets/apm/reka.svg |
-| ![samsung-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/samsung-pay.svg?sanitize=true) | assets/apm/samsung-pay.svg |
-| ![sepa](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/sepa.svg?sanitize=true) | assets/apm/sepa.svg |
-| ![skrill](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/skrill.svg?sanitize=true) | assets/apm/skrill.svg |
-| ![swish](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/swish.svg?sanitize=true) | assets/apm/swish.svg |
-| ![swissbilling](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/swissbilling.svg?sanitize=true) | assets/apm/swissbilling.svg |
-| ![swisscom-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/swisscom-pay.svg?sanitize=true) | assets/apm/swisscom-pay.svg |
-| ![swisspass](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/swisspass.svg?sanitize=true) | assets/apm/swisspass.svg |
-| ![twint](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/twint.svg?sanitize=true) | assets/apm/twint.svg |
-| ![vipps](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/vipps.svg?sanitize=true) | assets/apm/vipps.svg |
-| ![wechat-pay](https://raw.githubusercontent.com/datatrans/payment-logos/master/assets/apm/wechat-pay.svg?sanitize=true) | assets/apm/wechat-pay.svg |
+| | Brand | Integration ID | Status |
+|:--:|---|---|:--:|
+| <img src="assets/wallets/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
+| <img src="assets/wallets/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
+
+Samsung Wallet, Garmin Pay, SwatchPAY!, Xiaomi Pay and Zepp Pay are tracked in the new registry and will appear here only after the required first-party artwork and usage audit.
+
+### Payment methods
+
+The APM catalogue is being migrated from the historical asset set into stable integration IDs. **PostFinance, PostFinance Card and PostFinance Pay are audited as distinct products.**
+
+See the [brand audit procedure](docs/AUDIT.md) for the publication gate.
+
+### Acceptance marks
+
+**ep2** is modeled as an acceptance/infrastructure mark — not as a card scheme. Its current official artwork will be published after first-party verification.
+
+---
+
+## Built for dynamic machines
+
+Partners do not need to resize logos manually. wallee defines **device profiles** and an **availability matrix** so a machine can request the correct approved asset for its context.
+
+```text
+brand
+  → verified?
+  → market
+  → channel
+  → device profile
+  → availability matrix
+  → SVG / PNG / WebP / JPG
+```
+
+**Default policy: DENY.** A logo is delivered only when both verification and contextual availability allow it.
+
+[Dynamic delivery →](docs/DELIVERY.md) · [Availability matrix →](docs/MATRIX.md) · [Integration contract →](docs/INTEGRATION.md)
+
+---
+
+## wallee tile
+
+Every standardized presentation tile uses the same deterministic visual system:
+
+```text
+1 px white outer edge
+→ 1 px wallee turquoise #11D9CC
+→ white safe field
+→ untouched official payment mark
+```
+
+The official master artwork is never recolored, stretched or baked into wallee presentation chrome.
+
+[Design specification →](docs/DESIGN.md)
+
+---
+
+## For developers · designers · integrators
+
+| Developers | Designers | Integrators |
+|---|---|---|
+| Stable IDs and manifest | Official master artwork | Device profiles |
+| Deterministic builds | Brand clearspace | Availability matrix |
+| SVG / PNG / WebP / JPG | wallee tile system | Immutable release assets |
+| Runtime-safe catalogue | Visual QA | Market/channel controls |
+
+### Repository contract
+
+```text
+assets/source/       official masters
+assets/legacy/       compatibility assets
+registry/            identity + provenance
+profiles/            machine/display specifications
+config/              delivery policy matrix
+dist/raw/            normalized exports
+dist/tiles/          wallee presentation assets
+dist/manifest.json   runtime catalogue
+docs/                technical + design documentation
+AGENTS.md             mandatory AI policy
+```
+
+---
+
+## Quality gate
+
+**verified** = first-party source + current artwork + intended acceptance usage + technical validation + visual QA.
+
+Anything unresolved stays **review**. Legacy brands remain explicit instead of silently masquerading as current payment products.
+
+[Audit rules →](docs/AUDIT.md) · [Architecture →](docs/ARCHITECTURE.md) · [Mandatory AI policy →](AGENTS.md)
+
+---
+
+<div align="center">
+
+### wallee
+
+**easy pay any way**
+
+Payment brand assets with one identity, one policy and one delivery contract.
+
+</div>
