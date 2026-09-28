@@ -14,7 +14,7 @@
 
 ## Payment brands
 
-> **2026 audit in progress.** Existing artwork remains visible for migration and review. Only entries marked **verified** are approved for new production delivery.
+> **wallee presentation tiles.** Every preview below uses the standardized wallee tile layer. Brand verification remains independent; only **verified** entries are approved for new production delivery.
 
 <p>
   <a href="#cards--schemes"><b>Cards & schemes</b></a> ·
@@ -29,24 +29,24 @@
 
 | | Brand | Integration ID | Status |
 |:--:|---|---|:--:|
-| <img src="assets/cards/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
-| <img src="assets/cards/visa.svg" width="112" alt="Visa"> | **Visa** | `visa` | review |
-| <img src="assets/cards/american-express.svg" width="112" alt="American Express"> | **American Express** | `american-express` | review |
-| <img src="assets/cards/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
-| <img src="assets/cards/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
-| <img src="assets/cards/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
-| <img src="assets/cards/diners.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
-| <img src="assets/cards/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** | `cartes-bancaires` | review |
-| <img src="assets/cards/dankort.svg" width="112" alt="Dankort"> | **Dankort** | `dankort` | review |
-| <img src="assets/cards/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
-| <img src="assets/cards/vpay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
+| <img src="dist/tiles/svg/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
+| <img src="dist/tiles/svg/visa.svg" width="112" alt="Visa"> | **Visa** | `visa` | review |
+| <img src="dist/tiles/svg/american-express.svg" width="112" alt="American Express"> | **American Express** | `american-express` | review |
+| <img src="dist/tiles/svg/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
+| <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
+| <img src="dist/tiles/svg/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
+| <img src="dist/tiles/svg/diners-club.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
+| <img src="dist/tiles/svg/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** | `cartes-bancaires` | review |
+| <img src="dist/tiles/svg/dankort.svg" width="112" alt="Dankort"> | **Dankort** | `dankort` | review |
+| <img src="dist/tiles/svg/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
+| <img src="dist/tiles/svg/v-pay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
 
 ### Wallets
 
 | | Brand | Integration ID | Status |
 |:--:|---|---|:--:|
-| <img src="assets/wallets/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
-| <img src="assets/wallets/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
+| <img src="dist/tiles/svg/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
+| <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
 
 Samsung Wallet, Garmin Pay, SwatchPAY!, Xiaomi Pay and Zepp Pay are tracked in the new registry and will appear here only after the required first-party artwork and usage audit.
 
