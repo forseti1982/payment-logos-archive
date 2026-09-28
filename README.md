@@ -1,93 +1,146 @@
 <div align="center">
 
-# wallee · payment brands
+# wallee payment brands
 
-**easy pay any way**
+### easy pay any way
 
-Production-ready payment brand assets for terminals, kiosks, checkout, apps and merchant integrations.
+**One source for payment marks across terminals, vending, EV charging, kiosks, checkout and apps.**
 
-`#11D9CC` · source-audited · machine-readable · integration-safe
+`developer-ready` · `designer-safe` · `integration-controlled`
 
 </div>
 
 ---
 
-## One catalogue. Every surface.
+## Payment brands
 
-This repository is the canonical payment-brand asset system for **wallee** integrations. It is designed for three audiences:
+> **2026 audit in progress.** Existing artwork remains visible for migration and review. Only entries marked **verified** are approved for new production delivery.
 
-| Audience | Use |
-|---|---|
-| **Developers** | Stable IDs, manifests and deterministic assets for dynamic rendering |
-| **Designers** | Authoritative master artwork, clearspace rules and normalized presentation tiles |
-| **Integrators** | Verified payment marks with explicit lifecycle, taxonomy and provenance |
+<p>
+  <a href="#cards--schemes"><b>Cards & schemes</b></a> ·
+  <a href="#wallets"><b>Wallets</b></a> ·
+  <a href="#payment-methods"><b>Payment methods</b></a> ·
+  <a href="#acceptance-marks"><b>Acceptance marks</b></a> ·
+  <a href="docs/INTEGRATION.md"><b>Integrate</b></a> ·
+  <a href="docs/DESIGN.md"><b>Design</b></a>
+</p>
 
-> **Production rule:** consume the manifest. Do not hard-code filenames or infer acceptance from a logo.
+### Cards & schemes
 
-## Architecture
+| | Brand | Integration ID | Status |
+|:--:|---|---|:--:|
+| <img src="assets/cards/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
+| <img src="assets/cards/visa.svg" width="112" alt="Visa"> | **Visa** | `visa` | review |
+| <img src="assets/cards/american-express.svg" width="112" alt="American Express"> | **American Express** | `american-express` | review |
+| <img src="assets/cards/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
+| <img src="assets/cards/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
+| <img src="assets/cards/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
+| <img src="assets/cards/diners.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
+| <img src="assets/cards/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** | `cartes-bancaires` | review |
+| <img src="assets/cards/dankort.svg" width="112" alt="Dankort"> | **Dankort** | `dankort` | review |
+| <img src="assets/cards/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
+| <img src="assets/cards/vpay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
+
+### Wallets
+
+| | Brand | Integration ID | Status |
+|:--:|---|---|:--:|
+| <img src="assets/wallets/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
+| <img src="assets/wallets/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
+
+Samsung Wallet, Garmin Pay, SwatchPAY!, Xiaomi Pay and Zepp Pay are tracked in the new registry and will appear here only after the required first-party artwork and usage audit.
+
+### Payment methods
+
+The APM catalogue is being migrated from the historical asset set into stable integration IDs. **PostFinance, PostFinance Card and PostFinance Pay are audited as distinct products.**
+
+See the [brand audit procedure](docs/AUDIT.md) for the publication gate.
+
+### Acceptance marks
+
+**ep2** is modeled as an acceptance/infrastructure mark — not as a card scheme. Its current official artwork will be published after first-party verification.
+
+---
+
+## Built for dynamic machines
+
+Partners do not need to resize logos manually. wallee defines **device profiles** and an **availability matrix** so a machine can request the correct approved asset for its context.
 
 ```text
-assets/
-  source/          authoritative brand-owner artwork
-  legacy/          historical / compatibility artwork
-dist/
-  raw/             normalized integration assets
-  tiles/           generated wallee presentation tiles
-  manifest.json    machine-readable production catalogue
-registry/
-  brands.json      canonical identity + lifecycle registry
-  sources.json     first-party provenance
-docs/
-  DESIGN.md        wallee presentation specification
-  INTEGRATION.md   integration contract
-  AUDIT.md         brand verification procedure
-  ARCHITECTURE.md  repository and data model
-AGENTS.md           mandatory rules for AI agents
+brand
+  → verified?
+  → market
+  → channel
+  → device profile
+  → availability matrix
+  → SVG / PNG / WebP / JPG
 ```
 
-## wallee tile system
+**Default policy: DENY.** A logo is delivered only when both verification and contextual availability allow it.
 
-All standardized presentation tiles follow one deterministic construction:
+[Dynamic delivery →](docs/DELIVERY.md) · [Availability matrix →](docs/MATRIX.md) · [Integration contract →](docs/INTEGRATION.md)
+
+---
+
+## wallee tile
+
+Every standardized presentation tile uses the same deterministic visual system:
 
 ```text
-absolute edge
-└─ 1 px white
-   └─ 1 px wallee turquoise #11D9CC
-      └─ white safe field
-         └─ untouched official brand artwork
+1 px white outer edge
+→ 1 px wallee turquoise #11D9CC
+→ white safe field
+→ untouched official payment mark
 ```
 
-The turquoise frame is **presentation chrome**, never part of the master logo. Brand-owner clearspace and minimum-size rules always win.
+The official master artwork is never recolored, stretched or baked into wallee presentation chrome.
 
-## Trust model
+[Design specification →](docs/DESIGN.md)
 
-| State | Production default | Meaning |
-|---|:---:|---|
-| **verified** | ✓ | First-party artwork and intended usage checked |
-| **review** | — | Evidence incomplete; do not assume current |
-| **legacy** | — | Compatibility/history only |
-| **retired** | — | No longer current |
+---
 
-A logo that merely looks correct is **not verified**.
+## For developers · designers · integrators
 
-## Taxonomy
+| Developers | Designers | Integrators |
+|---|---|---|
+| Stable IDs and manifest | Official master artwork | Device profiles |
+| Deterministic builds | Brand clearspace | Availability matrix |
+| SVG / PNG / WebP / JPG | wallee tile system | Immutable release assets |
+| Runtime-safe catalogue | Visual QA | Market/channel controls |
 
-`scheme` · `wallet` · `payment-method` · `acceptance-mark`
+### Repository contract
 
-Consumer branding and acceptance rails are separate concepts. ep2 is treated as an acceptance/infrastructure mark, not as a card scheme.
+```text
+assets/source/       official masters
+assets/legacy/       compatibility assets
+registry/            identity + provenance
+profiles/            machine/display specifications
+config/              delivery policy matrix
+dist/raw/            normalized exports
+dist/tiles/          wallee presentation assets
+dist/manifest.json   runtime catalogue
+docs/                technical + design documentation
+AGENTS.md             mandatory AI policy
+```
 
-## Documentation
+---
 
-- **[Integration guide](docs/INTEGRATION.md)** — dynamic consumption and API contract
-- **[Design system](docs/DESIGN.md)** — wallee tile geometry and visual rules
-- **[Brand audit](docs/AUDIT.md)** — mandatory verification workflow
-- **[Architecture](docs/ARCHITECTURE.md)** — data model and repository layers
-- **[AI policy](AGENTS.md)** — mandatory instructions for AI contributors
+## Quality gate
+
+**verified** = first-party source + current artwork + intended acceptance usage + technical validation + visual QA.
+
+Anything unresolved stays **review**. Legacy brands remain explicit instead of silently masquerading as current payment products.
+
+[Audit rules →](docs/AUDIT.md) · [Architecture →](docs/ARCHITECTURE.md) · [Mandatory AI policy →](AGENTS.md)
 
 ---
 
 <div align="center">
 
-**wallee** · easy pay any way
+### wallee
+
+**easy pay any way**
+
+Payment brand assets with one identity, one policy and one delivery contract.
 
 </div>
