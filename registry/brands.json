@@ -17,32 +17,16 @@
   },
   "brands": [
     {
-      "id": "visa",
-      "name": "Visa",
-      "category": "scheme",
-      "status": "review"
-    },
-    {
-      "id": "mastercard",
-      "name": "Mastercard",
-      "category": "scheme",
-      "status": "review"
-    },
-    {
       "id": "american-express",
       "name": "American Express",
       "category": "scheme",
       "status": "review"
     },
+    null,
+    null,
     {
-      "id": "jcb",
-      "name": "JCB",
-      "category": "scheme",
-      "status": "review"
-    },
-    {
-      "id": "unionpay",
-      "name": "UnionPay",
+      "id": "diners-club",
+      "name": "Diners Club",
       "category": "scheme",
       "status": "review"
     },
@@ -53,16 +37,28 @@
       "status": "review"
     },
     {
-      "id": "diners-club",
-      "name": "Diners Club",
+      "id": "jcb",
+      "name": "JCB",
       "category": "scheme",
       "status": "review"
     },
     {
-      "id": "maestro",
-      "name": "Maestro",
+      "id": "mastercard",
+      "name": "Mastercard",
       "category": "scheme",
-      "status": "legacy"
+      "status": "review"
+    },
+    {
+      "id": "postfinance-card",
+      "name": "PostFinance Card",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "unionpay",
+      "name": "UnionPay",
+      "category": "scheme",
+      "status": "review"
     },
     {
       "id": "v-pay",
@@ -77,6 +73,12 @@
       "status": "review"
     },
     {
+      "id": "garmin-pay",
+      "name": "Garmin Pay",
+      "category": "wallet",
+      "status": "review"
+    },
+    {
       "id": "google-pay",
       "name": "Google Pay",
       "category": "wallet",
@@ -85,12 +87,6 @@
     {
       "id": "samsung-wallet",
       "name": "Samsung Wallet",
-      "category": "wallet",
-      "status": "review"
-    },
-    {
-      "id": "garmin-pay",
-      "name": "Garmin Pay",
       "category": "wallet",
       "status": "review"
     },
@@ -115,32 +111,43 @@
     {
       "id": "postfinance",
       "name": "PostFinance",
-      "category": "apm",
-      "status": "review"
-    },
-    {
-      "id": "postfinance-card",
-      "name": "PostFinance Card",
-      "category": "scheme",
+      "category": "payment-method",
       "status": "review"
     },
     {
       "id": "postfinance-pay",
       "name": "PostFinance Pay",
-      "category": "apm",
+      "category": "payment-method",
       "status": "review"
     },
     {
       "id": "twint",
       "name": "TWINT",
-      "category": "apm",
+      "category": "payment-method",
       "status": "review"
     },
     {
       "id": "ep2",
       "name": "ep2",
-      "category": "acceptance",
+      "category": "acceptance-mark",
       "status": "review"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro",
+      "category": "scheme",
+      "status": "legacy"
     }
-  ]
+  ],
+  "sorting": {
+    "groupOrder": [
+      "scheme",
+      "wallet",
+      "payment-method",
+      "acceptance-mark",
+      "legacy"
+    ],
+    "withinGroup": "display-name-ascending",
+    "lifecycleRule": "legacy-and-retired-last"
+  }
 }
