@@ -1,8 +1,9 @@
 <svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Generated wallee presentation tile; source brand geometry is not edited. -->
 <rect width="120" height="80" rx="5" fill="#FFFFFF"/>
 <rect x="1" y="1" width="118" height="78" rx="4" fill="#11D9CC"/>
-<svg x="2" y="2" width="116" height="76" viewBox="0 0 120 80" preserveAspectRatio="xMidYMid meet">
-
+<rect x="2" y="2" width="116" height="76" rx="3" fill="#FFFFFF"/>
+<svg x="6" y="6" width="108" height="68" viewBox="0 0 120 80" preserveAspectRatio="xMidYMid meet">
 <rect width="120" height="80" rx="4" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M29 80H116.002C118.21 80 120 78.211 120 75.9957V48C120 48 87.8616 70.1063 29 80Z" fill="#E7792B"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M113.088 33.8624C113.088 30.7125 110.888 28.8951 107.053 28.8951H102.12V45.7197H105.443V38.9609H105.877L110.481 45.7197H114.571L109.202 38.6314C111.708 38.129 113.088 36.4383 113.088 33.8624ZM106.414 36.6411H105.443V31.5451H106.467C108.538 31.5451 109.665 32.4018 109.665 34.0385C109.665 35.7305 108.538 36.6411 106.414 36.6411Z" fill="#1A1918"/>
@@ -23,6 +24,5 @@
 <stop offset="1" stop-color="#A4420A"/>
 </radialGradient>
 </defs>
-
 </svg>
 </svg>
