@@ -62,7 +62,8 @@
       "id": "postfinance-card",
       "name": "PostFinance Card",
       "category": "scheme",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "official-download"
     },
     {
       "id": "unionpay",
@@ -86,7 +87,8 @@
       "id": "garmin-pay",
       "name": "Garmin Pay",
       "category": "wallet",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "request-gated"
     },
     {
       "id": "google-pay",
@@ -98,13 +100,15 @@
       "id": "samsung-wallet",
       "name": "Samsung Wallet",
       "category": "wallet",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "official-toolkit"
     },
     {
       "id": "swatchpay",
       "name": "SwatchPAY!",
       "category": "wallet",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "first-party-confirmed-master-needed"
     },
     {
       "id": "xiaomi-pay",
@@ -122,25 +126,29 @@
       "id": "alipay-plus",
       "name": "Alipay+",
       "category": "payment-method",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "license-gated-official-download"
     },
     {
       "id": "postfinance",
       "name": "PostFinance",
       "category": "payment-method",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "official-download"
     },
     {
       "id": "postfinance-pay",
       "name": "PostFinance Pay",
       "category": "payment-method",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "official-download"
     },
     {
       "id": "twint",
       "name": "TWINT",
       "category": "payment-method",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "merchant-portal-gated"
     },
     {
       "id": "wechat-pay",
@@ -152,7 +160,8 @@
       "id": "wero",
       "name": "Wero",
       "category": "payment-method",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "official-download"
     },
     {
       "id": "voltox-smile-pay",
@@ -197,6 +206,14 @@
       "name": "Maestro",
       "category": "scheme",
       "status": "legacy"
+    },
+    {
+      "id": "samsung-pay",
+      "name": "Samsung Pay",
+      "category": "wallet",
+      "status": "review",
+      "lifecycle": "current-service-mark",
+      "sourceStatus": "official-toolkit"
     }
   ],
   "sorting": {
