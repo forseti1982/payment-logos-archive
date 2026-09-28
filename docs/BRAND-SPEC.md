@@ -17,7 +17,7 @@ The canonical tile uses a fixed credit-card-like canvas. Exact pixel dimensions 
 From the absolute image edge inward:
 
 - 1 px white perimeter
-- 1 px wallee turquoise `#11D9CC` frame
+- 2 px wallee turquoise `#11D9CC` frame
 - white safe area
 - centered official artwork
 

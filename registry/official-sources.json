@@ -116,6 +116,15 @@
       "official": "https://developer.samsung.com/pay/web/download.html",
       "toolkitVersion": "3.0.0",
       "checked": "2026-09-28"
+    },
+    "voltox": {
+      "status": "user-supplied-raster",
+      "official": null,
+      "source": "assets/source/voltox/voltox-logo-supplied.png",
+      "format": "png 200x200",
+      "supplied": "2026-09-28",
+      "suppliedBy": "Martin Bitzer (wallee)",
+      "note": "Company logo supplied in chat for both VOLTOX product tiles. Origin, usage rights and a vector master (SVG/PDF) still to be obtained from VOLTOX. Status stays review."
     }
   }
 }

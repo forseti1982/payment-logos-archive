@@ -7,7 +7,7 @@ Master artwork is kept separate from wallee presentation. Do not add borders, sh
 The generated tile provides a consistent visual footprint:
 - fixed aspect ratio and dimensions defined by the generator
 - 1 px white outer edge
-- 1 px wallee turquoise `#11D9CC` frame
+- 2 px wallee turquoise `#11D9CC` frame
 - white internal logo field
 - subtle corner radius
 - official mark centered optically and geometrically without distortion

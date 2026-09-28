@@ -63,8 +63,9 @@ Generated presentation layer for consistent dynamic display. It is NOT the maste
 Unless an explicit brand-owner rule prohibits the container:
 - fixed credit-card-like canvas/aspect ratio;
 - **1 px white at the absolute outer image edge**;
-- immediately inside: **1 px wallee turquoise frame `#11D9CC`**;
-- white internal logo field;
+- immediately inside: **2 px wallee turquoise frame `#11D9CC`** (owner decision 28.09.2026, previously 1 px);
+- white internal logo field starting directly inside the frame;
+- tiles are generated only by `scripts/build-tiles.mjs` from `registry/tile-sources.json`; never hand-edit files in `dist/tiles/`;
 - rounded container corners;
 - official artwork centered inside usable clearspace;
 - original aspect ratio preserved.

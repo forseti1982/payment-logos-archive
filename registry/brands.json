@@ -5,7 +5,7 @@
     "tile": {
       "aspectRatio": "credit-card",
       "outerWhitePx": 1,
-      "framePx": 1,
+      "framePx": 2,
       "frameColor": "#11D9CC",
       "fieldColor": "#FFFFFF",
       "cornerStyle": "rounded"
@@ -74,6 +74,12 @@
     {
       "id": "v-pay",
       "name": "V PAY",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "visa",
+      "name": "Visa",
       "category": "scheme",
       "status": "review"
     },
@@ -169,7 +175,17 @@
       "category": "biometric-payment",
       "status": "review",
       "vendor": "VOLTOX",
-      "product": "Smile & Pay"
+      "product": "Smile & Pay",
+      "sourceStatus": "user-supplied-raster",
+      "artwork": {
+        "source": "assets/source/voltox/voltox-logo-supplied.png",
+        "format": "png",
+        "pixels": "200x200",
+        "sha256": "249a6a6db55542ea4c1050bf933305fe74a13b9b36065887fbd86a518f94038a",
+        "suppliedBy": "Martin Bitzer (wallee)",
+        "supplied": "2026-09-28",
+        "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
+      }
     },
     {
       "id": "voltox-age-verification",
@@ -177,7 +193,17 @@
       "category": "identity-verification",
       "status": "review",
       "vendor": "VOLTOX",
-      "product": "Age Verification"
+      "product": "Age Verification",
+      "sourceStatus": "user-supplied-raster",
+      "artwork": {
+        "source": "assets/source/voltox/voltox-logo-supplied.png",
+        "format": "png",
+        "pixels": "200x200",
+        "sha256": "249a6a6db55542ea4c1050bf933305fe74a13b9b36065887fbd86a518f94038a",
+        "suppliedBy": "Martin Bitzer (wallee)",
+        "supplied": "2026-09-28",
+        "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
+      }
     },
     {
       "id": "click-to-pay",
