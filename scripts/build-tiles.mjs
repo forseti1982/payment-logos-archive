@@ -106,6 +106,14 @@ function build(id, spec) {
     body.push(`<svg x="${field.x}" y="${field.y}" width="${field.w}" height="${field.h}" viewBox="${spec.artworkBounds ?? `0 0 ${w} ${h}`}" preserveAspectRatio="xMidYMid meet">`);
     body.push(`<image width="${w}" height="${h}" href="data:image/png;base64,${buf.toString("base64")}"/>`);
     body.push(`</svg>`);
+  } else if (spec.mode === "raster-mark") {
+    // Raster wordmark (no vector available): centred in the field with clearspace, pixels untouched.
+    const buf = fs.readFileSync(path.join(root, spec.source));
+    const [w, h] = spec.pixelSize;
+    const pad = 12;
+    body.push(`<svg x="${field.x + pad}" y="${field.y + pad}" width="${field.w - 2 * pad}" height="${field.h - 2 * pad}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">`);
+    body.push(`<image width="${w}" height="${h}" href="data:image/png;base64,${buf.toString("base64")}"/>`);
+    body.push(`</svg>`);
   } else if (spec.mode === "badge") {
     // Square raster badge supplied as master: full field height, centred, pixels untouched.
     const buf = fs.readFileSync(path.join(root, spec.source));

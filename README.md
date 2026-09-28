@@ -35,7 +35,7 @@ Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nac
 | Click to Pay | EMVCo Trademark Centre | Platzhalter, Lizenzvertrag nötig |
 | WeChat Pay | nur Richtlinien-PDF 2017 | Platzhalter, Master anfragen |
 | Garmin Pay | Anfrageformular Garmin | fehlt, Anfrage durch wallee |
-| SwatchPAY! | keine öffentliche Quelle | fehlt, Anfrage bei Swatch |
+| SwatchPAY! | Webbild von swatch.com (PNG 678 × 108), kein freigegebenes Original | Übergangslösung, Original bei Swatch anfragen |
 | Samsung Wallet | Toolkit von Samsung (ca. 38 MB) | fehlt, Download ausstehend |
 | Xiaomi Pay, Zepp Pay | keine offizielle Quelle gefunden | fehlt |
 | übrige Marken | Datatrans-Katalog (`assets/source/datatrans/`), kein Original des Markeninhabers | Ersatz durch Originale ausstehend |
@@ -69,7 +69,7 @@ Details zu jeder Quelle stehen in `registry/official-sources.json`.
 | <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** |
 | <img src="dist/tiles/svg/samsung-pay.svg" width="112" alt="Samsung Pay"> | **Samsung Pay** |
 | — | **Samsung Wallet** |
-| — | **SwatchPAY!** |
+| <img src="dist/tiles/svg/swatchpay.svg" width="112" alt="SwatchPAY!"> | **SwatchPAY!** |
 | — | **Xiaomi Pay** |
 | — | **Zepp Pay** |
 

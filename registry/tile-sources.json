@@ -302,6 +302,15 @@
     "wero": {
       "mode": "card",
       "source": "assets/source/wero/wero-checkout-card.svg"
+    },
+    "swatchpay": {
+      "mode": "raster-mark",
+      "source": "assets/source/swatch/swatchpay_logo_black.png",
+      "pixelSize": [
+        678,
+        108
+      ],
+      "note": "Web image from swatch.com (no official master download offered). Used on explicit instruction of the repository owner, 28.09.2026."
     }
   }
 }

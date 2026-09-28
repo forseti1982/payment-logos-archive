@@ -123,7 +123,15 @@
       "name": "SwatchPAY!",
       "category": "wallet",
       "status": "review",
-      "sourceStatus": "first-party-confirmed-master-needed"
+      "sourceStatus": "web-image-owner-approved",
+      "artwork": {
+        "source": "assets/source/swatch/swatchpay_logo_black.png",
+        "format": "png 678x108",
+        "sha256": "9b7087820fcb69b453c217d465adfca366eba4cffee7feaca0d16e601d213184",
+        "from": "https://www.swatch.com/on/demandware.static/-/Library-Sites-swarp-global/default/dw206fb21f/images/Swatch/collections/2026/swatch-pay/LP/swatchpay_logo_black.png",
+        "retrieved": "2026-09-28",
+        "note": "Image served on swatch.com, not an authorised master download. Used as interim on the owner's instruction; replace once Swatch provides an official master."
+      }
     },
     {
       "id": "xiaomi-pay",

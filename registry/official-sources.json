@@ -112,10 +112,11 @@
       "note": "Logo and design guidelines on TWINT Brand Portal; public view returned an error on 28.09.2026, login area brand.twint.ch/auth."
     },
     "swatchpay": {
-      "status": "first-party-confirmed-master-needed",
+      "status": "web-image-owner-approved",
       "official": "https://www.swatch.com/",
       "checked": "2026-09-28",
-      "note": "No public logo download or brand guidelines found on swatch.com / swatchgroup.com; request from Swatch needed."
+      "note": "No public logo download or guidelines on swatch.com / swatchgroup.com. Interim: web image from swatch.com (black, 678x108), owner-approved 28.09.2026. Official master still to be requested from Swatch.",
+      "interimFile": "assets/source/swatch/swatchpay_logo_black.png"
     },
     "wero": {
       "status": "official-download",
