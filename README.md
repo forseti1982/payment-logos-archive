@@ -65,7 +65,7 @@ These are separate product identities. A corporate PostFinance mark MUST NOT sub
 
 ### Other payment methods
 
-The historical APM catalogue is being audited and migrated into stable IDs. New entries are published here only after taxonomy, lifecycle and first-party artwork checks.
+**Current gaps already confirmed for audit:** Alipay+, WeChat Pay and Wero. The historical APM catalogue is also being audited and migrated into stable IDs. New artwork is published only after taxonomy, lifecycle and first-party checks.
 
 ### Acceptance & infrastructure
 
@@ -73,7 +73,7 @@ The historical APM catalogue is being audited and migrated into stable IDs. New 
 |---|---|:--:|
 | **ep2** | `ep2` | review |
 
-ep2 is an acceptance/infrastructure mark, not a card scheme.
+ep2 is an acceptance/infrastructure mark, not a card scheme. **Its official production artwork is still a Priority-0 gap.** Click to Pay is also queued here as a distinct checkout acceptance mark.
 
 ### Legacy
 
@@ -82,6 +82,10 @@ ep2 is an acceptance/infrastructure mark, not a card scheme.
 | <img src="dist/tiles/svg/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
 
 Legacy entries are retained for compatibility and history but are excluded from the default current catalogue.
+
+### wallee brand & marketing
+
+wallee-owned corporate and marketing assets are maintained separately from third-party payment marks. The official wallee download catalogue includes RGB screen logos, CMYK print logos and current terminal imagery. See [Asset gaps →](docs/GAPS.md).
 
 ---
 
@@ -154,7 +158,7 @@ AGENTS.md             mandatory AI policy
 
 Anything unresolved stays **review**. Legacy brands remain explicit instead of silently masquerading as current payment products.
 
-[Audit rules →](docs/AUDIT.md) · [Architecture →](docs/ARCHITECTURE.md) · [Mandatory AI policy →](AGENTS.md)
+[Asset gaps →](docs/GAPS.md) · [Audit rules →](docs/AUDIT.md) · [Architecture →](docs/ARCHITECTURE.md) · [Mandatory AI policy →](AGENTS.md)
 
 ---
 
