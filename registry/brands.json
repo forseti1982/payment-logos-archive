@@ -258,7 +258,16 @@
       "id": "click-to-pay",
       "name": "Click to Pay",
       "category": "acceptance-mark",
-      "status": "review"
+      "status": "review",
+      "sourceStatus": "brand-owner-website",
+      "artwork": {
+        "source": "assets/source/emvco/click-to-pay-icon-emvco-site.svg",
+        "format": "svg",
+        "sha256": "7c9fe0ed67fa6b255c687d27be22d5911fe846ed12215042f1ae4b43a48a9a90",
+        "from": "https://www.emvco.com/wp-content/uploads/2022/07/EMV_TECHNOLOGIES_ON-WHITE_emvco-technology-icon_emv-secure-remote-commerce.svg",
+        "retrieved": "2026-09-28",
+        "note": "Icon in EMVCo's site colour #0E405B. Colour and lockup rules are in the Click to Pay Reproduction Requirements v2.0; licensed master still to be obtained."
+      }
     },
     {
       "id": "ep2",

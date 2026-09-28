@@ -71,8 +71,9 @@
       "source": "assets/source/datatrans/apm/cembrapay.svg"
     },
     "click-to-pay": {
-      "mode": "placeholder",
-      "label": null
+      "mode": "mark",
+      "source": "assets/source/emvco/click-to-pay-icon-emvco-site.svg",
+      "note": "Click to Pay icon as served on emvco.com (knowledge hub, SRC technology icon), sha256 verified. Official mark files require the EMVCo Trademark License Agreement. Owner-approved interim, 28.09.2026."
     },
     "crif": {
       "mode": "card",

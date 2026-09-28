@@ -32,7 +32,7 @@ Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nac
 | VOLTOX Smile & Pay, Age Verification | Firmenlogo, von wallee geliefert (PNG 200 × 200) | Vektor-Master bei VOLTOX anfragen |
 | PostFinance e-finance | altes Logo zurückgezogen | Platzhalter, Produktstatus prüfen |
 | TWINT | Logo-SVG von twint.ch (Brand Portal nur mit Login) | Übergangslösung, Merchant-Logo über Brand Portal beziehen |
-| Click to Pay | EMVCo Trademark Centre | Platzhalter, Lizenzvertrag nötig |
+| Click to Pay | Icon von emvco.com (SVG) | Übergangslösung, lizenzierte Master-Datei über den EMVCo-Lizenzvertrag beziehen |
 | WeChat Pay | Logo-SVG der WeChat Pay Open Platform (Tencent) | Original der Plattform eingesetzt |
 | Garmin Pay | Anfrageformular Garmin | fehlt, Anfrage durch wallee |
 | SwatchPAY! | Webbild von swatch.com (PNG 678 × 108), kein freigegebenes Original | Übergangslösung, Original bei Swatch anfragen |
@@ -64,6 +64,7 @@ Details zu jeder Quelle stehen in `registry/official-sources.json`.
 | <img src="dist/tiles/svg/uatp.svg" width="112" alt="UATP"> | **UATP** |
 | <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** |
 | <img src="dist/tiles/svg/v-pay.svg" width="112" alt="V PAY"> | **V PAY** |
+| <img src="dist/tiles/svg/visa.svg" width="112" alt="Visa"> | **Visa** |
 
 ## Wallets
 
@@ -99,7 +100,7 @@ Details zu jeder Quelle stehen in `registry/official-sources.json`.
 | <img src="dist/tiles/svg/giropay.svg" width="112" alt="giropay"> | **giropay** |
 | <img src="dist/tiles/svg/half-fare-plus.svg" width="112" alt="Half Fare Plus"> | **Half Fare Plus** |
 | <img src="dist/tiles/svg/ideal.svg" width="112" alt="iDEAL"> | **iDEAL** |
-| <img src="dist/tiles/svg/ideal-wero.svg" width="112" alt="iDEAL | Wero"> | **iDEAL | Wero** |
+| <img src="dist/tiles/svg/ideal-wero.svg" width="112" alt="iDEAL \| Wero"> | **iDEAL \| Wero** |
 | <img src="dist/tiles/svg/klarna.svg" width="112" alt="Klarna"> | **Klarna** |
 | <img src="dist/tiles/svg/lunch-check.svg" width="112" alt="Lunch-Check"> | **Lunch-Check** |
 | <img src="dist/tiles/svg/mediamarkt.svg" width="112" alt="MediaMarkt"> | **MediaMarkt** |

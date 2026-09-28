@@ -98,12 +98,13 @@
       "rule": "Use requires written authorization or appropriate license from Ant Group and compliance with current guidelines."
     },
     "click-to-pay": {
-      "status": "official-trademark-centre",
+      "status": "brand-owner-website",
       "official": "https://www.emvco.com/trademark-centre/",
       "guidelines": "https://www.emvco.com/wp-content/uploads/2025/04/Click-to-Pay-Reproduction-Requirements_v2.0-.pdf",
       "rule": "Use EMVCo Click to Pay mark and applicable mark usage guidance.",
       "checked": "2026-09-28",
-      "license": "EMVCo Trademark License Agreement for Click to Pay Marks (free, must be signed)"
+      "license": "EMVCo Trademark License Agreement for Click to Pay Marks (free, must be signed)",
+      "retrievedFile": "assets/source/emvco/click-to-pay-icon-emvco-site.svg"
     },
     "twint": {
       "status": "brand-owner-website",
