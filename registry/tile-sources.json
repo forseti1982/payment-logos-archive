@@ -195,12 +195,14 @@
       "source": "assets/source/datatrans/apm/pointspay.svg"
     },
     "postfinance-card": {
-      "mode": "card",
-      "source": "assets/source/datatrans/apm/postfinance-card.svg"
+      "mode": "placeholder",
+      "retiredSource": "assets/source/datatrans/apm/postfinance-card.svg",
+      "reason": "Artwork outdated and no longer valid (owner decision 28.09.2026). Replace only with the current PostFinance master from postfinance.ch."
     },
     "postfinance-efinance": {
-      "mode": "card",
-      "source": "assets/source/datatrans/apm/postfinance-efinance.svg"
+      "mode": "placeholder",
+      "retiredSource": "assets/source/datatrans/apm/postfinance-efinance.svg",
+      "reason": "Artwork outdated and no longer valid (owner decision 28.09.2026). Replace only with the current PostFinance master from postfinance.ch."
     },
     "postfinance-pay": {
       "mode": "placeholder",
@@ -268,11 +270,15 @@
     },
     "voltox-age-verification": {
       "mode": "badge",
-      "source": "assets/source/voltox/voltox-logo-supplied.png"
+      "source": "assets/source/voltox/voltox-logo-supplied.png",
+      "fieldFill": "#1C5157",
+      "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png."
     },
     "voltox-smile-pay": {
       "mode": "badge",
-      "source": "assets/source/voltox/voltox-logo-supplied.png"
+      "source": "assets/source/voltox/voltox-logo-supplied.png",
+      "fieldFill": "#1C5157",
+      "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png."
     },
     "wechat-pay": {
       "mode": "placeholder",

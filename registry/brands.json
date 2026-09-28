@@ -63,7 +63,9 @@
       "name": "PostFinance Card",
       "category": "scheme",
       "status": "review",
-      "sourceStatus": "official-download"
+      "sourceStatus": "official-download",
+      "artworkLifecycle": "outdated",
+      "artworkNote": "Previous artwork (old PostFinance logo from the Datatrans set) declared outdated by the repository owner on 28.09.2026. Tile shows placeholder until the current official master is imported. Product status itself not yet checked."
     },
     {
       "id": "unionpay",
@@ -449,7 +451,9 @@
       "name": "PostFinance e-finance",
       "category": "payment-method",
       "status": "review",
-      "coverageSource": "datatrans-benchmark"
+      "coverageSource": "datatrans-benchmark",
+      "artworkLifecycle": "outdated",
+      "artworkNote": "Previous artwork (old PostFinance logo from the Datatrans set) declared outdated by the repository owner on 28.09.2026. Tile shows placeholder until the current official master is imported. Product status itself not yet checked."
     },
     {
       "id": "powerpay",
