@@ -11,9 +11,9 @@ This register separates **known missing brands** from **publishable production a
 | wallee Logo CMYK | wallee corporate | source identified | import official PDF package |
 | easy pay any way | wallee corporate claim | review | define approved lockups and standalone usage |
 | wallee terminal views | wallee marketing | source identified | import current official media package |
-| PostFinance | corporate/payment context | artwork missing | use current official PostFinance partner asset |
-| PostFinance Card | scheme/payment method | artwork missing | use dedicated official mark |
-| PostFinance Pay | payment method | artwork missing | use dedicated official mark |
+| PostFinance | corporate/payment context | official download located | EPS/PNG/JPG ZIP from PostFinance |
+| PostFinance Card | scheme/payment method | official download located | PNG/JPG ZIP from PostFinance |
+| PostFinance Pay | payment method | official download located | SVG/PNG/JPG ZIP from PostFinance |
 | TWINT | payment method | audit required | verify current merchant mark |
 
 ## Priority 1 — wearable wallets
@@ -22,7 +22,7 @@ This register separates **known missing brands** from **publishable production a
 |---|---|---|
 | Garmin Pay | controlled source | Garmin Pay official assets require request/access; do not redraw |
 | SwatchPAY! | first-party presence confirmed | obtain distributable official artwork |
-| Samsung Wallet | audit required | verify current merchant-facing naming/mark |
+| Samsung Wallet | official toolkit located | Logo Asset + Toolkit v2025_2.0 |
 | Xiaomi Pay | audit required | verify market/device/card applicability |
 | Zepp Pay | audit required | verify market/device/card applicability |
 
@@ -30,8 +30,8 @@ This register separates **known missing brands** from **publishable production a
 
 | Asset | State |
 |---|---|
-| Wero | wallee 2026 support confirmed; artwork audit required |
-| Alipay+ | wallee 2026 support confirmed; artwork audit required |
+| Wero | official Media Kit and checkout guidelines located |
+| Alipay+ | official assets located; license/authorization required |
 | WeChat Pay | wallee 2026 support confirmed; artwork audit required |
 | Click to Pay | wallee page confirms checkout mark; official EMVCo/Visa usage audit required |
 
