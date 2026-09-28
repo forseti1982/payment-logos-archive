@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "purpose": "wallee-owned brand, product and marketing assets",
+  "sourcePolicy": "Only first-party wallee source files may be published.",
+  "groups": [
+    {
+      "id": "corporate",
+      "name": "Corporate identity",
+      "assets": [
+        {
+          "id": "wallee-logo-rgb",
+          "name": "wallee Logo RGB",
+          "formats": [
+            "svg",
+            "png",
+            "pdf"
+          ],
+          "status": "source-required"
+        },
+        {
+          "id": "wallee-logo-cmyk",
+          "name": "wallee Logo CMYK",
+          "formats": [
+            "pdf"
+          ],
+          "status": "source-required"
+        },
+        {
+          "id": "wallee-claim",
+          "name": "easy pay any way",
+          "formats": [],
+          "status": "review"
+        }
+      ]
+    },
+    {
+      "id": "product-brands",
+      "name": "Product & solution brands",
+      "assets": []
+    },
+    {
+      "id": "terminal-media",
+      "name": "Terminal media",
+      "assets": [
+        {
+          "id": "wallee-terminal-views",
+          "name": "Current wallee terminal views",
+          "formats": [],
+          "status": "source-required"
+        }
+      ]
+    },
+    {
+      "id": "partner-marketing",
+      "name": "Partner & marketing material",
+      "assets": [
+        {
+          "id": "acceptance-material",
+          "name": "Acceptance material",
+          "formats": [],
+          "status": "source-required"
+        },
+        {
+          "id": "large-partner-material",
+          "name": "Large partner / stadium / event material",
+          "formats": [],
+          "status": "on-request"
+        }
+      ]
+    }
+  ]
+}
