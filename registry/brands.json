@@ -63,9 +63,16 @@
       "name": "PostFinance Card",
       "category": "scheme",
       "status": "review",
-      "sourceStatus": "official-download",
-      "artworkLifecycle": "outdated",
-      "artworkNote": "Previous artwork (old PostFinance logo from the Datatrans set) declared outdated by the repository owner on 28.09.2026. Tile shows placeholder until the current official master is imported. Product status itself not yet checked."
+      "sourceStatus": "official-retrieved",
+      "artwork": {
+        "source": "assets/source/postfinance/postfinance-card/210x132_PFCD_logo.png",
+        "format": "png 630x396 (RGBA)",
+        "sha256": "6b0fefcb8498aa3b2d7092552ef9c5fb952a5936de4c00fd74bb52d95f3a9aa7",
+        "package": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-card-logo.zip",
+        "packageSha256": "f447daa9192e570df5b5524997e477c767ea3b46b8b7994926764d1aefdce5ab",
+        "retrieved": "2026-09-28",
+        "note": "New brand identity (package dated April 2026). PNG/JPG only, no vector master offered. Previous Datatrans artwork retired."
+      }
     },
     {
       "id": "unionpay",

@@ -98,6 +98,14 @@ function build(id, spec) {
     const s = readSvg(spec.source);
     const pad = 9;
     body.push(nested({ x: field.x + pad, y: field.y + pad, w: field.w - 2 * pad, h: field.h - 2 * pad }, s.viewBox, s.inner, s.attrs));
+  } else if (spec.mode === "raster-card") {
+    // Official card image that only exists as raster: embedded byte-for-byte,
+    // shown at its own card bounds (transparent canvas margin dropped), aspect kept.
+    const buf = fs.readFileSync(path.join(root, spec.source));
+    const [w, h] = spec.pixelSize;
+    body.push(`<svg x="${field.x}" y="${field.y}" width="${field.w}" height="${field.h}" viewBox="${spec.artworkBounds ?? `0 0 ${w} ${h}`}" preserveAspectRatio="xMidYMid meet">`);
+    body.push(`<image width="${w}" height="${h}" href="data:image/png;base64,${buf.toString("base64")}"/>`);
+    body.push(`</svg>`);
   } else if (spec.mode === "badge") {
     // Square raster badge supplied as master: full field height, centred, pixels untouched.
     const buf = fs.readFileSync(path.join(root, spec.source));

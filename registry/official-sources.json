@@ -68,7 +68,9 @@
       ],
       "preferred": "png",
       "checked": "2026-09-28",
-      "note": "Package updated 09.04.2026: PNG/JPG only (70x44, 140x88, 210x132), no vector master. Not yet imported."
+      "note": "Package dated April 2026: PNG/JPG only (70x44, 140x88, 210x132 named; PNGs are 3x resolution), no vector master.",
+      "retrieved": "2026-09-28",
+      "retrievedFiles": "assets/source/postfinance/postfinance-card/ (full package, unchanged)"
     },
     "postfinance-pay": {
       "status": "official-download",

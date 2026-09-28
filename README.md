@@ -6,6 +6,42 @@
 
 </div>
 
+## wallee-Kachel
+
+Jedes Logo wird als Kachel im Kartenformat (120 × 80) ausgeliefert. Der Rahmen ist Pflicht und für alle Kacheln gleich:
+
+| Ebene | Vorgabe |
+|---|---|
+| Aussenkante | 1 px Weiss |
+| Rahmen | 2 px wallee-Türkis `#11D9CC` |
+| Logofeld | direkt innerhalb des Rahmens, in der Hintergrundfarbe des Logos statt Weiss, wo das Logo eine eigene Fläche hat |
+| Logo | Original des Markeninhabers, unverändert, Seitenverhältnis erhalten |
+
+Die Kacheln entstehen nur über `npm run build:tiles` aus den Originalen in `assets/source/`, die Zuordnung steht in `registry/tile-sources.json`. Dateien in `dist/tiles/` werden nie von Hand geändert.
+
+## Quellen und offene Punkte
+
+Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nach `AGENTS.md` abgeschlossen ist.
+
+| Marke | Quelle der Kachel | Stand |
+|---|---|---|
+| PostFinance Pay | Originalpaket postfinance.ch, SVG (neues CI, April 2026) | Original eingesetzt |
+| PostFinance Card | Originalpaket postfinance.ch, PNG 630 × 396 (kein Vektor angeboten) | Original eingesetzt |
+| Wero | Checkout-Karte aus den Wero Brand Guidelines, SVG | Original eingesetzt, min. 31 px Breite, 15 px Abstand |
+| ep2 | Vektor-Master von ep2 | Original eingesetzt |
+| VOLTOX Smile & Pay, Age Verification | Firmenlogo, von wallee geliefert (PNG 200 × 200) | Vektor-Master bei VOLTOX anfragen |
+| PostFinance e-finance | altes Logo zurückgezogen | Platzhalter, Produktstatus prüfen |
+| TWINT | TWINT Brand Portal | Platzhalter, Zugang zum Portal nötig |
+| Click to Pay | EMVCo Trademark Centre | Platzhalter, Lizenzvertrag nötig |
+| WeChat Pay | nur Richtlinien-PDF 2017 | Platzhalter, Master anfragen |
+| Garmin Pay | Anfrageformular Garmin | fehlt, Anfrage durch wallee |
+| SwatchPAY! | keine öffentliche Quelle | fehlt, Anfrage bei Swatch |
+| Samsung Wallet | Toolkit von Samsung (ca. 38 MB) | fehlt, Download ausstehend |
+| Xiaomi Pay, Zepp Pay | keine offizielle Quelle gefunden | fehlt |
+| übrige Marken | Datatrans-Katalog (`assets/source/datatrans/`), kein Original des Markeninhabers | Ersatz durch Originale ausstehend |
+
+Details zu jeder Quelle stehen in `registry/official-sources.json`.
+
 ## Cards & schemes
 
 | Logo | Brand |

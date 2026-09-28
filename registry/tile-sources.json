@@ -201,9 +201,15 @@
       "source": "assets/source/datatrans/apm/pointspay.svg"
     },
     "postfinance-card": {
-      "mode": "placeholder",
-      "retiredSource": "assets/source/datatrans/apm/postfinance-card.svg",
-      "reason": "Artwork outdated and no longer valid (owner decision 28.09.2026). Replace only with the current PostFinance master from postfinance.ch."
+      "mode": "raster-card",
+      "source": "assets/source/postfinance/postfinance-card/210x132_PFCD_logo.png",
+      "pixelSize": [
+        630,
+        396
+      ],
+      "artworkBounds": "15 9 600 378",
+      "fieldFill": "#FECF0F",
+      "note": "Official package has no vector master; largest PNG (630x396 px) used unchanged. artworkBounds = the card inside the transparent canvas; fieldFill = the card's own yellow."
     },
     "postfinance-efinance": {
       "mode": "placeholder",
