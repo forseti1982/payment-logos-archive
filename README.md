@@ -1,40 +1,93 @@
-# Payment Brands
+<div align="center">
 
-A production-oriented payment-brand asset system for developers, designers and payment integrators.
+# wallee · payment brands
 
-## Goals
-One stable catalogue for dynamically rendering payment marks across terminals, kiosks, checkout UIs, merchant signage, apps and documentation.
+**easy pay any way**
 
-### Three layers
-- `src/brands/<id>/` — authoritative brand artwork and metadata. Never add wallee styling to these masters.
-- `dist/raw/` — normalized exports of official artwork.
-- `dist/tiles/` — generated presentation tiles using the wallee frame specification.
+Production-ready payment brand assets for terminals, kiosks, checkout, apps and merchant integrations.
 
-Consumers should use `dist/manifest.json` rather than hard-coded filenames.
+`#11D9CC` · source-audited · machine-readable · integration-safe
 
-## Stable identity
-Every brand has a permanent lowercase kebab-case ID such as `mastercard`, `apple-pay`, `postfinance-pay` or `ep2`. Display names and artwork may change without changing the integration ID.
+</div>
 
-## Classification
-- `scheme` — payment/card network
-- `wallet` — mobile or wearable wallet
-- `payment-method` — alternative/account-based payment method
-- `acceptance-mark` — infrastructure/acceptance mark such as ep2
+---
 
-A wallet is not automatically a separate acquiring acceptance capability. Metadata distinguishes consumer-facing wallet branding from the underlying acceptance rails.
+## One catalogue. Every surface.
 
-## Asset states
-- `verified` — first-party artwork and intended usage checked
-- `review` — not yet safe to present as current
-- `legacy` — compatibility/history only
-- `retired` — no longer current
+This repository is the canonical payment-brand asset system for **wallee** integrations. It is designed for three audiences:
 
-Production integrations SHOULD consume only `verified` entries unless legacy compatibility is explicitly required.
+| Audience | Use |
+|---|---|
+| **Developers** | Stable IDs, manifests and deterministic assets for dynamic rendering |
+| **Designers** | Authoritative master artwork, clearspace rules and normalized presentation tiles |
+| **Integrators** | Verified payment marks with explicit lifecycle, taxonomy and provenance |
 
-## wallee presentation tile
-Generated tiles use:
-`1 px white outer edge → 1 px #11D9CC frame → white clear field → untouched official mark`.
+> **Production rule:** consume the manifest. Do not hard-code filenames or infer acceptance from a logo.
 
-The frame is presentation chrome. It is never baked into the authoritative master logo.
+## Architecture
 
-See `BRAND-SPEC.md`, `docs/INTEGRATION.md` and `dist/manifest.json`.
+```text
+assets/
+  source/          authoritative brand-owner artwork
+  legacy/          historical / compatibility artwork
+dist/
+  raw/             normalized integration assets
+  tiles/           generated wallee presentation tiles
+  manifest.json    machine-readable production catalogue
+registry/
+  brands.json      canonical identity + lifecycle registry
+  sources.json     first-party provenance
+docs/
+  DESIGN.md        wallee presentation specification
+  INTEGRATION.md   integration contract
+  AUDIT.md         brand verification procedure
+  ARCHITECTURE.md  repository and data model
+AGENTS.md           mandatory rules for AI agents
+```
+
+## wallee tile system
+
+All standardized presentation tiles follow one deterministic construction:
+
+```text
+absolute edge
+└─ 1 px white
+   └─ 1 px wallee turquoise #11D9CC
+      └─ white safe field
+         └─ untouched official brand artwork
+```
+
+The turquoise frame is **presentation chrome**, never part of the master logo. Brand-owner clearspace and minimum-size rules always win.
+
+## Trust model
+
+| State | Production default | Meaning |
+|---|:---:|---|
+| **verified** | ✓ | First-party artwork and intended usage checked |
+| **review** | — | Evidence incomplete; do not assume current |
+| **legacy** | — | Compatibility/history only |
+| **retired** | — | No longer current |
+
+A logo that merely looks correct is **not verified**.
+
+## Taxonomy
+
+`scheme` · `wallet` · `payment-method` · `acceptance-mark`
+
+Consumer branding and acceptance rails are separate concepts. ep2 is treated as an acceptance/infrastructure mark, not as a card scheme.
+
+## Documentation
+
+- **[Integration guide](docs/INTEGRATION.md)** — dynamic consumption and API contract
+- **[Design system](docs/DESIGN.md)** — wallee tile geometry and visual rules
+- **[Brand audit](docs/AUDIT.md)** — mandatory verification workflow
+- **[Architecture](docs/ARCHITECTURE.md)** — data model and repository layers
+- **[AI policy](AGENTS.md)** — mandatory instructions for AI contributors
+
+---
+
+<div align="center">
+
+**wallee** · easy pay any way
+
+</div>
