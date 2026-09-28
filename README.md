@@ -67,6 +67,15 @@ These are separate product identities. A corporate PostFinance mark MUST NOT sub
 
 **Current gaps already confirmed for audit:** Alipay+, WeChat Pay and Wero. The historical APM catalogue is also being audited and migrated into stable IDs. New artwork is published only after taxonomy, lifecycle and first-party checks.
 
+### Biometric payment & verification
+
+| Brand / product | Integration ID | Status |
+|---|---|:--:|
+| **VOLTOX · Smile & Pay** | `voltox-smile-pay` | review |
+| **VOLTOX · Age Verification** | `voltox-age-verification` | review |
+
+Smile & Pay is classified as a biometric payment product; Age Verification is an identity/compliance product, not a payment scheme. Official product artwork is required before a production tile is emitted.
+
 ### Acceptance & infrastructure
 
 | Brand | Integration ID | Status |
@@ -122,7 +131,7 @@ Every standardized presentation tile uses the same deterministic visual system:
 
 The official master artwork is never recolored, stretched or baked into wallee presentation chrome.
 
-[Design specification →](docs/DESIGN.md)
+[Design specification →](docs/DESIGN.md) · [Production quality →](docs/QUALITY.md)
 
 ---
 

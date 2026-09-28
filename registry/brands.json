@@ -171,6 +171,22 @@
       "name": "Maestro",
       "category": "scheme",
       "status": "legacy"
+    },
+    {
+      "id": "voltox-smile-pay",
+      "name": "Voltox Smile & Pay",
+      "category": "biometric-payment",
+      "status": "review",
+      "vendor": "VOLTOX",
+      "product": "Smile & Pay"
+    },
+    {
+      "id": "voltox-age-verification",
+      "name": "Voltox Age Verification",
+      "category": "identity-verification",
+      "status": "review",
+      "vendor": "VOLTOX",
+      "product": "Age Verification"
     }
   ],
   "sorting": {

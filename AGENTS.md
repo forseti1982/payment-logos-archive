@@ -154,3 +154,12 @@ If any required item is unresolved, status remains `review`.
 **Never optimize for visual completeness at the expense of payment, brand, legal or technical correctness.**
 
 A missing logo is visible and fixable. A confidently wrong acceptance mark can propagate across terminals, merchant signage and integrations. Verify first; publish second.
+
+
+## Raster quality is not negotiable
+
+- MUST use an authoritative vector master when one exists.
+- MUST NOT use PNG/JPG as a source when an authoritative SVG/EPS/PDF vector master exists.
+- MUST NOT upscale raster artwork to simulate higher resolution.
+- MUST generate deterministic 1x/2x/4x exports from the approved vector master.
+- MUST fail publication when target-size legibility, clearspace or optical centering is inadequate.
