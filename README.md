@@ -116,6 +116,42 @@ wallee-owned corporate and marketing assets are maintained separately from third
 
 A gated brand remains in the catalogue; it is never replaced with a scraped or third-party logo.
 
+## Complete SVG catalogue
+
+Every registered brand has an SVG presentation slot. **A visible slot is not verification:** tiles labelled `OFFICIAL MASTER PENDING` deliberately contain no reconstructed trademark and are replaced only by the authoritative first-party master.
+
+| SVG | Brand | Integration ID | State |
+|:--:|---|---|---|
+| <img src="dist/tiles/svg/american-express.svg" width="112" alt="American Express"> | **American Express** | `american-express` | review |
+| <img src="dist/tiles/svg/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** | `cartes-bancaires` | review |
+| <img src="dist/tiles/svg/dankort.svg" width="112" alt="Dankort"> | **Dankort** | `dankort` | review |
+| <img src="dist/tiles/svg/diners-club.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
+| <img src="dist/tiles/svg/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
+| <img src="dist/tiles/svg/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
+| <img src="dist/tiles/svg/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
+| <img src="dist/tiles/svg/postfinance-card.svg" width="112" alt="PostFinance Card"> | **PostFinance Card** | `postfinance-card` | review · official-download |
+| <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
+| <img src="dist/tiles/svg/v-pay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
+| <img src="dist/tiles/svg/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
+| <img src="dist/tiles/svg/garmin-pay.svg" width="112" alt="Garmin Pay"> | **Garmin Pay** | `garmin-pay` | review · request-gated |
+| <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
+| <img src="dist/tiles/svg/samsung-wallet.svg" width="112" alt="Samsung Wallet"> | **Samsung Wallet** | `samsung-wallet` | review · official-toolkit |
+| <img src="dist/tiles/svg/swatchpay.svg" width="112" alt="SwatchPAY!"> | **SwatchPAY!** | `swatchpay` | review · first-party-confirmed-master-needed |
+| <img src="dist/tiles/svg/xiaomi-pay.svg" width="112" alt="Xiaomi Pay"> | **Xiaomi Pay** | `xiaomi-pay` | review |
+| <img src="dist/tiles/svg/zepp-pay.svg" width="112" alt="Zepp Pay"> | **Zepp Pay** | `zepp-pay` | review |
+| <img src="dist/tiles/svg/alipay-plus.svg" width="112" alt="Alipay+"> | **Alipay+** | `alipay-plus` | review · license-gated-official-download |
+| <img src="dist/tiles/svg/postfinance.svg" width="112" alt="PostFinance"> | **PostFinance** | `postfinance` | review · official-download |
+| <img src="dist/tiles/svg/postfinance-pay.svg" width="112" alt="PostFinance Pay"> | **PostFinance Pay** | `postfinance-pay` | review · official-download |
+| <img src="dist/tiles/svg/twint.svg" width="112" alt="TWINT"> | **TWINT** | `twint` | review · merchant-portal-gated |
+| <img src="dist/tiles/svg/wechat-pay.svg" width="112" alt="WeChat Pay"> | **WeChat Pay** | `wechat-pay` | review |
+| <img src="dist/tiles/svg/wero.svg" width="112" alt="Wero"> | **Wero** | `wero` | review · official-download |
+| <img src="dist/tiles/svg/voltox-smile-pay.svg" width="112" alt="Voltox Smile & Pay"> | **Voltox Smile & Pay** | `voltox-smile-pay` | review |
+| <img src="dist/tiles/svg/voltox-age-verification.svg" width="112" alt="Voltox Age Verification"> | **Voltox Age Verification** | `voltox-age-verification` | review |
+| <img src="dist/tiles/svg/click-to-pay.svg" width="112" alt="Click to Pay"> | **Click to Pay** | `click-to-pay` | review |
+| <img src="dist/tiles/svg/ep2.svg" width="112" alt="ep2"> | **ep2** | `ep2` | verified |
+| <img src="dist/tiles/svg/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
+| <img src="dist/tiles/svg/samsung-pay.svg" width="112" alt="Samsung Pay"> | **Samsung Pay** | `samsung-pay` | review · official-toolkit |
+
 ---
 
 ## Built for dynamic machines
