@@ -5,7 +5,7 @@
     "tile": {
       "aspectRatio": "credit-card",
       "outerWhitePx": 1,
-      "framePx": 1,
+      "framePx": 2,
       "frameColor": "#11D9CC",
       "fieldColor": "#FFFFFF",
       "cornerStyle": "rounded"
@@ -63,7 +63,16 @@
       "name": "PostFinance Card",
       "category": "scheme",
       "status": "review",
-      "sourceStatus": "official-download"
+      "sourceStatus": "official-retrieved",
+      "artwork": {
+        "source": "assets/source/postfinance/postfinance-card/210x132_PFCD_logo.png",
+        "format": "png 630x396 (RGBA)",
+        "sha256": "6b0fefcb8498aa3b2d7092552ef9c5fb952a5936de4c00fd74bb52d95f3a9aa7",
+        "package": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-card-logo.zip",
+        "packageSha256": "f447daa9192e570df5b5524997e477c767ea3b46b8b7994926764d1aefdce5ab",
+        "retrieved": "2026-09-28",
+        "note": "New brand identity (package dated April 2026). PNG/JPG only, no vector master offered. Previous Datatrans artwork retired."
+      }
     },
     {
       "id": "unionpay",
@@ -74,6 +83,12 @@
     {
       "id": "v-pay",
       "name": "V PAY",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "visa",
+      "name": "Visa",
       "category": "scheme",
       "status": "review"
     },
@@ -141,7 +156,14 @@
       "name": "PostFinance Pay",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "official-download"
+      "sourceStatus": "official-retrieved",
+      "artwork": {
+        "source": "assets/source/postfinance/postfinance-pay.svg",
+        "format": "svg",
+        "sha256": "62b850ec16e09ac18eb68f828cecb0805dd189eda4d173d93ed22b070d187a3b",
+        "retrieved": "2026-09-28",
+        "from": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-pay-logo.zip (postfinance-pay.svg, package last modified 09.04.2026)"
+      }
     },
     {
       "id": "twint",
@@ -161,7 +183,15 @@
       "name": "Wero",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "official-download"
+      "sourceStatus": "official-retrieved",
+      "artwork": {
+        "source": "assets/source/wero/wero-checkout-card.svg",
+        "format": "svg",
+        "sha256": "a49671255516e55e1b87c180b2338e2767cafcaf998f72d6bb9348e8cfd4f17b",
+        "retrieved": "2026-09-28",
+        "from": "https://wero-wallet.eu/storage/files/Checkout-Card-Radius.svg (Checkout brand guidelines, file dated 16.01.2026)",
+        "constraints": "Checkout logo layout: acceptor card minimum 31 px wide, minimum 15 px between logos (https://wero-wallet.eu/brand-guidelines/checkout)."
+      }
     },
     {
       "id": "voltox-smile-pay",
@@ -169,7 +199,17 @@
       "category": "biometric-payment",
       "status": "review",
       "vendor": "VOLTOX",
-      "product": "Smile & Pay"
+      "product": "Smile & Pay",
+      "sourceStatus": "user-supplied-raster",
+      "artwork": {
+        "source": "assets/source/voltox/voltox-logo-supplied.png",
+        "format": "png",
+        "pixels": "200x200",
+        "sha256": "249a6a6db55542ea4c1050bf933305fe74a13b9b36065887fbd86a518f94038a",
+        "suppliedBy": "Martin Bitzer (wallee)",
+        "supplied": "2026-09-28",
+        "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
+      }
     },
     {
       "id": "voltox-age-verification",
@@ -177,7 +217,17 @@
       "category": "identity-verification",
       "status": "review",
       "vendor": "VOLTOX",
-      "product": "Age Verification"
+      "product": "Age Verification",
+      "sourceStatus": "user-supplied-raster",
+      "artwork": {
+        "source": "assets/source/voltox/voltox-logo-supplied.png",
+        "format": "png",
+        "pixels": "200x200",
+        "sha256": "249a6a6db55542ea4c1050bf933305fe74a13b9b36065887fbd86a518f94038a",
+        "suppliedBy": "Martin Bitzer (wallee)",
+        "supplied": "2026-09-28",
+        "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
+      }
     },
     {
       "id": "click-to-pay",
@@ -423,7 +473,9 @@
       "name": "PostFinance e-finance",
       "category": "payment-method",
       "status": "review",
-      "coverageSource": "datatrans-benchmark"
+      "coverageSource": "datatrans-benchmark",
+      "artworkLifecycle": "outdated",
+      "artworkNote": "Previous artwork (old PostFinance logo from the Datatrans set) declared outdated by the repository owner on 28.09.2026. Tile shows placeholder until the current official master is imported. Product status itself not yet checked."
     },
     {
       "id": "powerpay",

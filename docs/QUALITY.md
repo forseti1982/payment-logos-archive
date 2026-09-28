@@ -26,7 +26,7 @@ The standard tile is 120 × 80 (3:2), matching the existing payment-card present
 
 Layer order:
 1. absolute outer 1 px white edge;
-2. 1 px #11D9CC wallee frame;
+2. 2 px #11D9CC wallee frame;
 3. white safe field;
 4. official artwork, centered and aspect-ratio locked.
 
