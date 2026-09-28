@@ -205,8 +205,8 @@
       "reason": "Artwork outdated and no longer valid (owner decision 28.09.2026). Replace only with the current PostFinance master from postfinance.ch."
     },
     "postfinance-pay": {
-      "mode": "placeholder",
-      "label": null
+      "mode": "card",
+      "source": "assets/source/postfinance/postfinance-pay.svg"
     },
     "powerpay": {
       "mode": "card",
@@ -285,8 +285,8 @@
       "label": null
     },
     "wero": {
-      "mode": "placeholder",
-      "label": null
+      "mode": "card",
+      "source": "assets/source/wero/wero-checkout-card.svg"
     }
   }
 }

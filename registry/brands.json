@@ -149,7 +149,14 @@
       "name": "PostFinance Pay",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "official-download"
+      "sourceStatus": "official-retrieved",
+      "artwork": {
+        "source": "assets/source/postfinance/postfinance-pay.svg",
+        "format": "svg",
+        "sha256": "62b850ec16e09ac18eb68f828cecb0805dd189eda4d173d93ed22b070d187a3b",
+        "retrieved": "2026-09-28",
+        "from": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-pay-logo.zip (postfinance-pay.svg, package last modified 09.04.2026)"
+      }
     },
     {
       "id": "twint",
@@ -169,7 +176,15 @@
       "name": "Wero",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "official-download"
+      "sourceStatus": "official-retrieved",
+      "artwork": {
+        "source": "assets/source/wero/wero-checkout-card.svg",
+        "format": "svg",
+        "sha256": "a49671255516e55e1b87c180b2338e2767cafcaf998f72d6bb9348e8cfd4f17b",
+        "retrieved": "2026-09-28",
+        "from": "https://wero-wallet.eu/storage/files/Checkout-Card-Radius.svg (Checkout brand guidelines, file dated 16.01.2026)",
+        "constraints": "Checkout logo layout: acceptor card minimum 31 px wide, minimum 15 px between logos (https://wero-wallet.eu/brand-guidelines/checkout)."
+      }
     },
     {
       "id": "voltox-smile-pay",
