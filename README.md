@@ -80,9 +80,9 @@ Smile & Pay is classified as a biometric payment product; Age Verification is an
 
 | Brand | Integration ID | Status |
 |---|---|:--:|
-| **ep2** | `ep2` | review |
+| <img src="dist/tiles/svg/ep2.svg" width="112" alt="ep2"> **ep2** | `ep2` | **verified** |
 
-ep2 is an acceptance/infrastructure mark, not a card scheme. **Its official production artwork is still a Priority-0 gap.** Click to Pay is also queued here as a distinct checkout acceptance mark.
+ep2 is an acceptance/infrastructure mark, not a card scheme. Its supplied official vector master set is **verified** and the wallee presentation tile is generated from that master. Click to Pay remains queued as a distinct checkout acceptance mark.
 
 ### Legacy
 
