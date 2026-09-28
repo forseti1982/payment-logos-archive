@@ -67,15 +67,32 @@ function nested(box, viewBox, inner, attrs = "") {
   return `<svg${attrs} x="${box.x}" y="${box.y}" width="${box.w}" height="${box.h}" viewBox="${viewBox}" preserveAspectRatio="xMidYMid meet">\n${inner}\n</svg>`;
 }
 
+function autoFill(spec) {
+  if (spec.mode !== "card") return undefined;
+  const s = readSvg(spec.source);
+  const [, , w, h] = s.viewBox.split(/[\s,]+/).map(Number);
+  const first = s.inner.replace(/<\?xml[^>]*>|<!--[\s\S]*?-->/g, "").trim().match(/^<rect\b[^>]*>/);
+  if (!first) return undefined;
+  const a = k => first[0].match(new RegExp(`\\s${k}="([^"]*)"`))?.[1];
+  const covers = !a("x") && !a("y") && Number(a("width")) === w && Number(a("height")) === h;
+  const fill = a("fill");
+  return covers && fill && /^#[0-9a-f]{3,8}$|^[a-z]+$/i.test(fill) && fill !== "none" ? fill : undefined;
+}
+
 function build(id, spec) {
   // fieldFill: the logo's own background colour, measured from the source file,
   // extends the artwork to the whole field instead of leaving white margins.
-  const out = frame(id, spec.fieldFill);
+  // Without an explicit fieldFill, a card source whose first shape is a solid
+  // background rect covering the whole canvas lends that colour to the field,
+  // so no white slivers remain next to the artwork.
+  const out = frame(id, spec.fieldFill ?? autoFill(spec));
   const body = [];
   if (spec.mode === "card") {
     // Card-format source (120 × 80): fills the logo field directly inside the frame.
     const s = readSvg(spec.source);
-    body.push(nested(field, s.viewBox, s.inner, s.attrs));
+    // artworkBounds: the artwork's own extent inside a padded source canvas.
+    // Only the empty canvas is dropped; paths and colours stay untouched.
+    body.push(nested(field, spec.artworkBounds ?? s.viewBox, s.inner, s.attrs));
   } else if (spec.mode === "mark") {
     // Free-standing wordmark: centred in the field with clearspace.
     const s = readSvg(spec.source);

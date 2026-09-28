@@ -12,11 +12,15 @@
     },
     "amazon-pay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/amazon-pay.svg"
+      "source": "assets/source/datatrans/apm/amazon-pay.svg",
+      "fieldFill": "#333E48",
+      "fieldFillNote": "Solid background colour of the source card, measured at its edges."
     },
     "american-express": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/american-express.svg"
+      "source": "assets/source/datatrans/cards/american-express.svg",
+      "fieldFill": "#0690FF",
+      "fieldFillNote": "Solid background colour of the source card, measured at its edges."
     },
     "apple-pay": {
       "mode": "card",
@@ -136,7 +140,9 @@
     },
     "ideal-wero": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/ideal-wero.svg"
+      "source": "assets/source/datatrans/apm/ideal-wero.svg",
+      "fieldFill": "#FFF48D",
+      "fieldFillNote": "Solid background colour of the source card, measured at its edges."
     },
     "ideal": {
       "mode": "card",
@@ -206,7 +212,10 @@
     },
     "postfinance-pay": {
       "mode": "card",
-      "source": "assets/source/postfinance/postfinance-pay.svg"
+      "source": "assets/source/postfinance/postfinance-pay.svg",
+      "artworkBounds": "6 27 84 42",
+      "fieldFill": "#FFCC00",
+      "note": "artworkBounds = extent of the yellow badge inside the official 96x96 canvas; fieldFill = the badge's own yellow."
     },
     "powerpay": {
       "mode": "card",
