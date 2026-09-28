@@ -19,8 +19,9 @@
 <p>
   <a href="#cards--schemes"><b>Cards & schemes</b></a> ·
   <a href="#wallets"><b>Wallets</b></a> ·
-  <a href="#payment-methods"><b>Payment methods</b></a> ·
-  <a href="#acceptance-marks"><b>Acceptance marks</b></a> ·
+  <a href="#swiss-payment-methods"><b>Swiss methods</b></a> ·
+  <a href="#acceptance--infrastructure"><b>Acceptance</b></a> ·
+  <a href="#legacy"><b>Legacy</b></a> ·
   <a href="docs/INTEGRATION.md"><b>Integrate</b></a> ·
   <a href="docs/DESIGN.md"><b>Design</b></a>
 </p>
@@ -29,16 +30,15 @@
 
 | | Brand | Integration ID | Status |
 |:--:|---|---|:--:|
-| <img src="dist/tiles/svg/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
-| <img src="dist/tiles/svg/visa.svg" width="112" alt="Visa"> | **Visa** | `visa` | review |
 | <img src="dist/tiles/svg/american-express.svg" width="112" alt="American Express"> | **American Express** | `american-express` | review |
-| <img src="dist/tiles/svg/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
-| <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
-| <img src="dist/tiles/svg/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
-| <img src="dist/tiles/svg/diners-club.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
 | <img src="dist/tiles/svg/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** | `cartes-bancaires` | review |
 | <img src="dist/tiles/svg/dankort.svg" width="112" alt="Dankort"> | **Dankort** | `dankort` | review |
-| <img src="dist/tiles/svg/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
+| <img src="dist/tiles/svg/diners-club.svg" width="112" alt="Diners Club"> | **Diners Club** | `diners-club` | review |
+| <img src="dist/tiles/svg/discover.svg" width="112" alt="Discover"> | **Discover** | `discover` | review |
+| <img src="dist/tiles/svg/jcb.svg" width="112" alt="JCB"> | **JCB** | `jcb` | review |
+| <img src="dist/tiles/svg/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** | `mastercard` | review |
+| — | **PostFinance Card** | `postfinance-card` | review |
+| <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** | `unionpay` | review |
 | <img src="dist/tiles/svg/v-pay.svg" width="112" alt="V PAY"> | **V PAY** | `v-pay` | review |
 
 ### Wallets
@@ -46,19 +46,42 @@
 | | Brand | Integration ID | Status |
 |:--:|---|---|:--:|
 | <img src="dist/tiles/svg/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** | `apple-pay` | review |
+| — | **Garmin Pay** | `garmin-pay` | review |
 | <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** | `google-pay` | review |
+| — | **Samsung Wallet** | `samsung-wallet` | review |
+| — | **SwatchPAY!** | `swatchpay` | review |
+| — | **Xiaomi Pay** | `xiaomi-pay` | review |
+| — | **Zepp Pay** | `zepp-pay` | review |
 
-Samsung Wallet, Garmin Pay, SwatchPAY!, Xiaomi Pay and Zepp Pay are tracked in the new registry and will appear here only after the required first-party artwork and usage audit.
+### Swiss payment methods
 
-### Payment methods
+| Brand | Integration ID | Status |
+|---|---|:--:|
+| **PostFinance** | `postfinance` | review |
+| **PostFinance Pay** | `postfinance-pay` | review |
+| **TWINT** | `twint` | review |
 
-The APM catalogue is being migrated from the historical asset set into stable integration IDs. **PostFinance, PostFinance Card and PostFinance Pay are audited as distinct products.**
+These are separate product identities. A corporate PostFinance mark MUST NOT substitute for PostFinance Card or PostFinance Pay.
 
-See the [brand audit procedure](docs/AUDIT.md) for the publication gate.
+### Other payment methods
 
-### Acceptance marks
+The historical APM catalogue is being audited and migrated into stable IDs. New entries are published here only after taxonomy, lifecycle and first-party artwork checks.
 
-**ep2** is modeled as an acceptance/infrastructure mark — not as a card scheme. Its current official artwork will be published after first-party verification.
+### Acceptance & infrastructure
+
+| Brand | Integration ID | Status |
+|---|---|:--:|
+| **ep2** | `ep2` | review |
+
+ep2 is an acceptance/infrastructure mark, not a card scheme.
+
+### Legacy
+
+| | Brand | Integration ID | Status |
+|:--:|---|---|:--:|
+| <img src="dist/tiles/svg/maestro.svg" width="112" alt="Maestro"> | **Maestro** | `maestro` | legacy |
+
+Legacy entries are retained for compatibility and history but are excluded from the default current catalogue.
 
 ---
 
