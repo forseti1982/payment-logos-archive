@@ -260,8 +260,10 @@
       "source": "assets/source/datatrans/apm/swisspass.svg"
     },
     "twint": {
-      "mode": "placeholder",
-      "label": null
+      "mode": "card",
+      "source": "assets/source/twint/twint-logo-twint-ch.svg",
+      "fieldFill": "#000000",
+      "note": "Black TWINT logo badge as used in the header of twint.ch (inline SVG, sha256 verified). Brand portal logo downloads require login. Used on the owner's instruction, 28.09.2026."
     },
     "uatp": {
       "mode": "card",
@@ -296,12 +298,22 @@
       "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png."
     },
     "wechat-pay": {
-      "mode": "placeholder",
-      "label": null
+      "mode": "mark",
+      "source": "assets/source/wechat-pay/wechat-pay-logo-official-site.svg",
+      "note": "WeChat Pay logo from Tencent's WeChat Pay site (gtimg.wechatpay-global.com), sha256 verified."
     },
     "wero": {
       "mode": "card",
       "source": "assets/source/wero/wero-checkout-card.svg"
+    },
+    "swatchpay": {
+      "mode": "raster-mark",
+      "source": "assets/source/swatch/swatchpay_logo_black.png",
+      "pixelSize": [
+        678,
+        108
+      ],
+      "note": "Web image from swatch.com (no official master download offered). Used on explicit instruction of the repository owner, 28.09.2026."
     }
   }
 }

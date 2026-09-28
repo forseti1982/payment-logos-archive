@@ -106,16 +106,18 @@
       "license": "EMVCo Trademark License Agreement for Click to Pay Marks (free, must be signed)"
     },
     "twint": {
-      "status": "merchant-portal-gated",
+      "status": "brand-owner-website",
       "official": "https://brand.twint.ch/public/",
       "checked": "2026-09-28",
-      "note": "Logo and design guidelines on TWINT Brand Portal; public view returned an error on 28.09.2026, login area brand.twint.ch/auth."
+      "note": "Brand portal public part works again (28.09.2026) but logo section requires login (SAML / request access). Interim: header logo SVG of twint.ch.",
+      "retrievedFile": "assets/source/twint/twint-logo-twint-ch.svg"
     },
     "swatchpay": {
-      "status": "first-party-confirmed-master-needed",
+      "status": "web-image-owner-approved",
       "official": "https://www.swatch.com/",
       "checked": "2026-09-28",
-      "note": "No public logo download or brand guidelines found on swatch.com / swatchgroup.com; request from Swatch needed."
+      "note": "No public logo download or guidelines on swatch.com / swatchgroup.com. Interim: web image from swatch.com (black, 678x108), owner-approved 28.09.2026. Official master still to be requested from Swatch.",
+      "interimFile": "assets/source/swatch/swatchpay_logo_black.png"
     },
     "wero": {
       "status": "official-download",
@@ -146,11 +148,12 @@
       "note": "Company logo supplied in chat for both VOLTOX product tiles. Origin, usage rights and a vector master (SVG/PDF) still to be obtained from VOLTOX. Status stays review."
     },
     "wechat-pay": {
-      "status": "guidelines-only",
+      "status": "brand-owner-website",
       "official": "https://pay.weixin.qq.com/index.php/public/wechatpay_en",
       "guidelines": "https://res.wx.qq.com/a/wx_fed/wedesign/res/17f8/WeChat_Pay_Visual_Identity_Guidelines_201703.pdf",
       "checked": "2026-09-28",
-      "note": "Official visual identity guidelines (2017) found; no separate master file download located."
+      "note": "Official visual identity guidelines (2017) found; no separate master file download located.",
+      "retrievedFile": "assets/source/wechat-pay/wechat-pay-logo-official-site.svg"
     },
     "xiaomi-pay": {
       "status": "no-first-party-source-found",

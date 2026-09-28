@@ -31,16 +31,21 @@ Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nac
 | ep2 | Vektor-Master von ep2 | Original eingesetzt |
 | VOLTOX Smile & Pay, Age Verification | Firmenlogo, von wallee geliefert (PNG 200 × 200) | Vektor-Master bei VOLTOX anfragen |
 | PostFinance e-finance | altes Logo zurückgezogen | Platzhalter, Produktstatus prüfen |
-| TWINT | TWINT Brand Portal | Platzhalter, Zugang zum Portal nötig |
+| TWINT | Logo-SVG von twint.ch (Brand Portal nur mit Login) | Übergangslösung, Merchant-Logo über Brand Portal beziehen |
 | Click to Pay | EMVCo Trademark Centre | Platzhalter, Lizenzvertrag nötig |
-| WeChat Pay | nur Richtlinien-PDF 2017 | Platzhalter, Master anfragen |
+| WeChat Pay | Logo-SVG der WeChat Pay Open Platform (Tencent) | Original der Plattform eingesetzt |
 | Garmin Pay | Anfrageformular Garmin | fehlt, Anfrage durch wallee |
-| SwatchPAY! | keine öffentliche Quelle | fehlt, Anfrage bei Swatch |
+| SwatchPAY! | Webbild von swatch.com (PNG 678 × 108), kein freigegebenes Original | Übergangslösung, Original bei Swatch anfragen |
 | Samsung Wallet | Toolkit von Samsung (ca. 38 MB) | fehlt, Download ausstehend |
 | Xiaomi Pay, Zepp Pay | keine offizielle Quelle gefunden | fehlt |
 | übrige Marken | Datatrans-Katalog (`assets/source/datatrans/`), kein Original des Markeninhabers | Ersatz durch Originale ausstehend |
 
 Details zu jeder Quelle stehen in `registry/official-sources.json`.
+
+### Hinweise zur Auswahl
+
+- **Alipay und Alipay+:** Für die Akzeptanz beim Händler ist das Zeichen von Alipay+ vorgeschrieben. Ein einzelnes Wallet-Logo wie Alipay darf nur zusammen mit einem Hinweis auf Alipay+ erscheinen ([Alipay+ Brand Guidelines](https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_acq/brand_in_store_acq)). Für Terminals und Checkout daher `alipay-plus` verwenden.
+- **Visa Electron:** Visa hat die Marke am 13.04.2024 eingestellt, Nachfolger ist Visa Debit. Es gibt keine eigene Kachel; bestehende Connectors werden mit `visa` dargestellt und als Legacy gekennzeichnet.
 
 ## Cards & schemes
 
@@ -69,7 +74,7 @@ Details zu jeder Quelle stehen in `registry/official-sources.json`.
 | <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** |
 | <img src="dist/tiles/svg/samsung-pay.svg" width="112" alt="Samsung Pay"> | **Samsung Pay** |
 | — | **Samsung Wallet** |
-| — | **SwatchPAY!** |
+| <img src="dist/tiles/svg/swatchpay.svg" width="112" alt="SwatchPAY!"> | **SwatchPAY!** |
 | — | **Xiaomi Pay** |
 | — | **Zepp Pay** |
 
