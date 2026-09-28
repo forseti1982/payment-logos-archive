@@ -163,3 +163,8 @@ A missing logo is visible and fixable. A confidently wrong acceptance mark can p
 - MUST NOT upscale raster artwork to simulate higher resolution.
 - MUST generate deterministic 1x/2x/4x exports from the approved vector master.
 - MUST fail publication when target-size legibility, clearspace or optical centering is inadequate.
+
+
+## First-party retrieval is mandatory
+
+For every new or refreshed production brand asset, the agent MUST visit the current official brand-owner developer/merchant/partner/brand portal, read the applicable CI/trademark/logo rules, and select the highest-quality authorized original. Quality preference is SVG > EPS/AI > vector PDF > PNG > WebP > JPG. A logo rendered on an official webpage is not automatically an authorized master download. Portal-, license-, agreement- or request-gated assets MUST remain gated until legitimately obtained. The agent MUST record provenance and restrictions in `registry/official-sources.json`.
