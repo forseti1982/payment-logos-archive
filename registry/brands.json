@@ -22,8 +22,18 @@
       "category": "scheme",
       "status": "review"
     },
-    null,
-    null,
+    {
+      "id": "cartes-bancaires",
+      "name": "Cartes Bancaires",
+      "category": "scheme",
+      "status": "review"
+    },
+    {
+      "id": "dankort",
+      "name": "Dankort",
+      "category": "scheme",
+      "status": "review"
+    },
     {
       "id": "diners-club",
       "name": "Diners Club",
@@ -109,6 +119,12 @@
       "status": "review"
     },
     {
+      "id": "alipay-plus",
+      "name": "Alipay+",
+      "category": "payment-method",
+      "status": "review"
+    },
+    {
       "id": "postfinance",
       "name": "PostFinance",
       "category": "payment-method",
@@ -124,6 +140,24 @@
       "id": "twint",
       "name": "TWINT",
       "category": "payment-method",
+      "status": "review"
+    },
+    {
+      "id": "wechat-pay",
+      "name": "WeChat Pay",
+      "category": "payment-method",
+      "status": "review"
+    },
+    {
+      "id": "wero",
+      "name": "Wero",
+      "category": "payment-method",
+      "status": "review"
+    },
+    {
+      "id": "click-to-pay",
+      "name": "Click to Pay",
+      "category": "acceptance-mark",
       "status": "review"
     },
     {
