@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "defaultPolicy": "deny",
+  "dimensions": {
+    "markets": [
+      "CH",
+      "DE",
+      "AT",
+      "EU"
+    ],
+    "profiles": [
+      "unattended-xs",
+      "unattended-sm",
+      "unattended-md",
+      "unattended-hd",
+      "checkout",
+      "signage"
+    ],
+    "channels": [
+      "terminal",
+      "vending",
+      "ev-charging",
+      "kiosk",
+      "checkout",
+      "app"
+    ]
+  },
+  "rules": [
+    {
+      "brandId": "visa",
+      "enabled": false,
+      "reason": "Pending 2026 first-party audit"
+    },
+    {
+      "brandId": "mastercard",
+      "enabled": false,
+      "reason": "Pending 2026 first-party audit"
+    },
+    {
+      "brandId": "twint",
+      "enabled": false,
+      "reason": "Pending 2026 first-party audit"
+    },
+    {
+      "brandId": "postfinance-pay",
+      "enabled": false,
+      "reason": "Pending 2026 first-party audit"
+    },
+    {
+      "brandId": "ep2",
+      "enabled": false,
+      "reason": "Pending 2026 first-party audit"
+    }
+  ]
+}
