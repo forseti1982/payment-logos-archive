@@ -6,8 +6,8 @@ This register separates **known missing brands** from **publishable production a
 
 | Asset | Class | State | Required action |
 |---|---|---|---|
-| ep2 | acceptance / infrastructure | artwork missing | obtain current first-party ep2 artwork and usage permission |
-| wallee Logo RGB | wallee corporate | source identified | import official SVG/PNG/PDF package |
+| ep2 | acceptance / infrastructure | **verified** | official original/negative/grayscale vector masters imported; wallee tile generated |
+| wallee Logo RGB | wallee corporate | **verified** | official RGB package supplied; SVG wordmark and high-resolution signet registered |
 | wallee Logo CMYK | wallee corporate | source identified | import official PDF package |
 | easy pay any way | wallee corporate claim | review | define approved lockups and standalone usage |
 | wallee terminal views | wallee marketing | source identified | import current official media package |
