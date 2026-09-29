@@ -4,7 +4,7 @@
 <rect width="120" height="80" rx="5" fill="#FFFFFF"/>
 <rect x="1" y="1" width="118" height="78" rx="4" fill="#11D9CC"/>
 <rect x="3" y="3" width="114" height="74" rx="2" fill="#FFFFFF"/>
-<svg x="8" y="8" width="104" height="64" viewBox="35.43 35.45 885.83 448.9" preserveAspectRatio="xMidYMid meet">
+<svg x="12" y="12" width="96" height="56" viewBox="35.43 35.45 885.83 448.9" preserveAspectRatio="xMidYMid meet">
 <defs id="defs4"/>
   <g transform="translate(827.88999,968.22013)" id="layer1">
     <path d="M -792.45694,-878.04836 C -792.45694,-907.6486 -768.68375,-931.6666 -739.32839,-931.6666 L 40.118862,-931.6666 C 69.449742,-931.6666 93.247422,-907.6486 93.247422,-878.04836 L 93.247422,-538.88255 C 93.247422,-509.28235 69.449742,-485.28882 40.118862,-485.28882 L -739.32839,-485.28882 C -768.68375,-485.28882 -792.45694,-509.28235 -792.45694,-538.88255 L -792.45694,-878.04836" id="path8304" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
