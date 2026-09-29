@@ -402,6 +402,16 @@
         "checked": "2026-09-29",
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
       }
+    },
+    "voltox-smile-pay": {
+      "status": "verified-supplied-master",
+      "official": "supplied by VOLTOX (sr@voltox.ch), 29.09.2026",
+      "checked": "2026-09-29"
+    },
+    "voltox-age-verification": {
+      "status": "verified-supplied-master",
+      "official": "supplied by VOLTOX (sr@voltox.ch), 29.09.2026",
+      "checked": "2026-09-29"
     }
   }
 }
