@@ -60,3 +60,7 @@ Der 1 px weisse Aussenrand bleibt auf jedem Hintergrund stehen, auch in einer Da
 ## Barrierefreiheit
 
 Jede Kachel trägt `role="img"` und einen `<title>` mit dem Markennamen, damit Screenreader die Marke ansagen. Beim Einbinden zusätzlich `alt` mit dem Markennamen setzen. Logos selbst werden für Kontrast nie umgefärbt oder vereinfacht.
+
+## Dark-Version
+
+`dist/tiles/svg-dark/` enthält dieselben IDs wie die hellen Kacheln. Rahmen identisch, Logofeld #363636. Logos erscheinen als einfarbig weisse Negativform, in ihrer eigenen Box (z. B. AmEx, TWINT, Klarna, Google Pay) oder, wo keine Dark-Form sinnvoll ist, als helle Kachel (PostFinance, PostFinance Card, SwatchPAY, Rechnung). Das Logo füllt das Feld mit 5 px Rand. Erzeugt mit `npm run build:tiles-dark`; die hellen Kacheln bleiben unverändert.

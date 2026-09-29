@@ -70,7 +70,16 @@ Unless an explicit brand-owner rule prohibits the container:
 - official artwork centered inside usable clearspace;
 - original aspect ratio preserved.
 
-The turquoise frame MUST NOT become part of the brand artwork. Brand-owner clearspace/minimum-size rules override optical enlargement. Scale DOWN when required. Never recolor a brand to wallee turquoise.
+The turquoise frame MUST NOT become part of the brand artwork.
+
+### Dark variant (owner decision 29.09.2026)
+Generated only by `scripts/build-tiles-dark.mjs` from `registry/tile-sources-dark.json` into `dist/tiles/svg-dark/`. It never changes the light tiles, their generator or their registry.
+- Same frame (1 px white outer edge, 2 px `#11D9CC`); logo field `#363636` (wallee Design System).
+- Narrow exception to "never recolor", valid for the dark variant only: a monochrome white negative (`treatment: white`) derived from the unchanged source (colours to white, white knockouts to the field colour; shapes unchanged). No outlines, strokes, glows or other effects.
+- Prefer an official negative/dark file from the brand owner as soon as one is available; record the brand guideline that permits one-colour reproduction. Until then the dark tile stays `review`.
+- `treatment: original` shows the unchanged source on the dark field (brand's own box or colours); `treatment: light` falls back to the light tile.
+- The logo fills the field with a 5 px margin, fitted to its measured visible extent (`bounds`). Build fails if a white tile keeps a colour below 3:1 against the field.
+ Brand-owner clearspace/minimum-size rules override optical enlargement. Scale DOWN when required. Never recolor a brand to wallee turquoise.
 
 ## 7. Optical sizing
 Equal bounding boxes do not imply equal perceived size. Optical sizing MAY be metadata-driven, but MUST preserve aspect ratio, mandatory clearspace and deterministic rendering. Never stretch narrow wordmarks or crop symbols to force uniformity.
