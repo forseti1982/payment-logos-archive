@@ -44,15 +44,14 @@ const NEXT = {
 };
 
 // Logo wall: tiles flow inline, no table borders, name on hover (title).
-function wall(list) {
+function wall(list, variant = "light") {
+  const dir = variant === "dark" ? "dist/tiles/svg-dark" : "dist/tiles/svg";
   return list.map((b) => {
-    const src = has(b.id) ? `dist/tiles/svg/${b.id}.svg` : "docs/img/missing-tile.svg";
+    const file = `${dir}/${b.id}.svg`;
+    const src = fs.existsSync(path.join(root, file)) ? file : "docs/img/missing-tile.svg";
     const aids = (b.ep2Aids ?? []).filter((a) => a.active).map((a) => a.aid);
-    const label = (has(b.id) ? `${b.name} · ${b.id}` : `${b.name} · Logo fehlt`) + (aids.length ? ` · AID ${aids.join(", ")}` : "");
-    const img = `<img src="${src}" width="96" alt="${esc(b.name)}" title="${esc(label)}">`;
-    // GitHub shows the dark tile automatically when the viewer uses dark mode.
-    const dark = `dist/tiles/svg-dark/${b.id}.svg`;
-    return fs.existsSync(path.join(root, dark)) ? `<picture><source media="(prefers-color-scheme: dark)" srcset="${dark}">${img}</picture>` : img;
+    const label = `${b.name} · ${b.id}` + (aids.length ? ` · AID ${aids.join(", ")}` : "");
+    return `<img src="${src}" width="96" alt="${esc(b.name)}" title="${esc(label)}">`;
   }).join("\n");
 }
 
@@ -64,11 +63,20 @@ const firstParty = brands.brands.filter((b) => ["Original", "Website Markeninhab
 
 const toc = brands.groups.map((g) => `[${g.title}](#${g.id})`).join(" · ");
 
-const sections = brands.groups.map((g) => {
+const section = (variant) => brands.groups.map((g) => {
   const list = byGroup(g.id).filter((b) => has(b.id));
   if (!list.length) return "";
-  return `### ${g.title}\n\n<p>\n${wall(list)}\n</p>\n`;
+  return `#### ${g.title}\n\n<p>\n${wall(list, variant)}\n</p>\n`;
 }).join("\n");
+const sections = `## Hell\n\n${section("light")}\n## Dunkel\n\n${section("dark")}`;
+
+// Visible AID table: every brand with at least one active Application Identifier.
+const aidRows = brands.groups.flatMap((g) => byGroup(g.id)).filter((b) => has(b.id) && (b.ep2Aids ?? []).some((a) => a.active))
+  .map((b) => {
+    const aids = b.ep2Aids.filter((a) => a.active);
+    return `| <img src="dist/tiles/svg/${b.id}.svg" width="60" alt="${esc(b.name)}"> | <img src="dist/tiles/svg-dark/${b.id}.svg" width="60" alt="${esc(b.name)} dunkel"> | ${cell(b.name)}<br>\`${b.id}\` | ${aids.map((a) => `\`${a.aid}\``).join("<br>")} | ${aids.map((a) => cell(a.description)).join("<br>")} |`;
+  }).join("\n");
+const aidTable = `## AID (Application Identifier)\n\nZuordnung der aktiven ep2-AIDs zu Marke und Kachel. Maschinenlesbar in \`registry/brands.json\` (\`ep2Aids\`), Quellen in [docs/AID-QUELLEN.md](docs/AID-QUELLEN.md).\n\n| Hell | Dunkel | Marke / ID | AID | Bezeichnung |\n|---|---|---|---|---|\n${aidRows}\n`;
 
 // ep2 AIDs (active only) from the ep2 ID master, one per line.
 const aidCell = (b) => (b.ep2Aids ?? []).filter((a) => a.active).map((a) => `\`${a.aid}\``).join("<br>");
@@ -88,9 +96,10 @@ const out = `# Payment Logos
 Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 
 ${sections}
+${aidTable}
 ## Verwenden
 
-Hell in \`dist/tiles/svg/\`, dunkel in \`dist/tiles/svg-dark/\`, gleiche Dateinamen. Diese Seite zeigt automatisch die Variante zu deinem GitHub-Farbschema.
+Hell in \`dist/tiles/svg/\`, dunkel in \`dist/tiles/svg-dark/\`, gleiche Dateinamen. Mit \`<picture>\` wechselt die Kachel automatisch mit dem Farbschema:
 
 \`\`\`html
 <picture>
