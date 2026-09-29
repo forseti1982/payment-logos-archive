@@ -13,6 +13,13 @@
     "rules": {
       "preserveArtwork": true,
       "brandClearspaceWins": true
+    },
+    "order": {
+      "rule": "Mastercard first, Visa second, all tiles same size",
+      "sources": [
+        "https://www.mastercard.com/brandcenter/us/en/brand-requirements/mastercard.html",
+        "https://corporate.visa.com/content/dam/VCOM/corporate/about-visa/documents/visa-in-store-brand-standards-sept2025.pdf"
+      ]
     }
   },
   "brands": [
@@ -70,7 +77,7 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 1
+      "rank": 0
     },
     {
       "id": "postfinance-card",
@@ -112,7 +119,7 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 0
+      "rank": 1
     },
     {
       "id": "apple-pay",
@@ -631,8 +638,11 @@
       "coverageSource": "datatrans-benchmark",
       "artworkLifecycle": "outdated",
       "artworkNote": "Previous artwork (old PostFinance logo from the Datatrans set) declared outdated by the repository owner on 28.09.2026. Tile shows placeholder until the current official master is imported. Product status itself not yet checked.",
-      "group": "switzerland",
-      "rank": 5
+      "group": "legacy",
+      "rank": 2,
+      "lifecycle": "retired",
+      "lifecycleNote": "PostFinance Card und PostFinance e-finance werden seit 10.07.2023 schrittweise durch PostFinance Pay ersetzt; es gibt kein neues e-finance-Logo. Nachfolger: postfinance-pay.",
+      "successor": "postfinance-pay"
     },
     {
       "id": "powerpay",

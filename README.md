@@ -5,8 +5,8 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 ### Kartenmarken (PayFac und Acquiring)
 
 <p>
-<img src="dist/tiles/svg/visa.svg" width="96" alt="Visa" title="Visa · visa">
 <img src="dist/tiles/svg/mastercard.svg" width="96" alt="Mastercard" title="Mastercard · mastercard">
+<img src="dist/tiles/svg/visa.svg" width="96" alt="Visa" title="Visa · visa">
 <img src="dist/tiles/svg/american-express.svg" width="96" alt="American Express" title="American Express · american-express">
 <img src="dist/tiles/svg/diners-club.svg" width="96" alt="Diners Club" title="Diners Club · diners-club">
 <img src="dist/tiles/svg/discover.svg" width="96" alt="Discover" title="Discover · discover">
@@ -123,8 +123,8 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 
 | Marke | ID | Gruppe |
 |---|---|---|
-| Visa | `visa` | Kartenmarken |
 | Mastercard | `mastercard` | Kartenmarken |
+| Visa | `visa` | Kartenmarken |
 | American Express | `american-express` | Kartenmarken |
 | Diners Club | `diners-club` | Kartenmarken |
 | Discover | `discover` | Kartenmarken |
@@ -149,7 +149,6 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | PostFinance Card | `postfinance-card` | Schweiz |
 | PostFinance Pay | `postfinance-pay` | Schweiz |
 | PostFinance | `postfinance` | Schweiz |
-| PostFinance e-finance | `postfinance-efinance` | Schweiz |
 | Reka | `reka` | Schweiz |
 | Lunch-Check | `lunch-check` | Schweiz |
 | boncard | `boncard` | Schweiz |
@@ -199,6 +198,7 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | Invoice | `invoice` | Generisch |
 | Maestro | `maestro` | Legacy |
 | giropay | `giropay` | Legacy |
+| PostFinance e-finance | `postfinance-efinance` | Legacy |
 
 </details>
 
