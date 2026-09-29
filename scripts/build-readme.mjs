@@ -66,8 +66,10 @@ const sections = brands.groups.map((g) => {
   return `### ${g.title}\n\n<p>\n${wall(list)}\n</p>\n`;
 }).join("\n");
 
+// ep2 AIDs (active only) from the ep2 ID master, one per line.
+const aidCell = (b) => (b.ep2Aids ?? []).filter((a) => a.active).map((a) => `\`${a.aid}\``).join("<br>");
 const ref = brands.groups.flatMap((g) => byGroup(g.id).map((b) =>
-  `| ${cell(b.name)} | \`${b.id}\` | ${g.short ?? g.title} |`)).join("\n");
+  `| ${cell(b.name)} | \`${b.id}\` | ${g.short ?? g.title} | ${aidCell(b)} |`)).join("\n");
 
 const pending = brands.brands.filter((b) => b.group !== "generic" && !["Original", "Katalog"].includes(origin(b)))
   .sort((a, b) => a.name.localeCompare(b.name, "de"))
@@ -89,10 +91,10 @@ ${sections}
 \`\`\`
 
 <details>
-<summary>Alle IDs</summary>
+<summary>Alle IDs und ep2-AIDs</summary>
 
-| Marke | ID | Gruppe |
-|---|---|---|
+| Marke | ID | Gruppe | ep2-AID (aktiv) |
+|---|---|---|---|
 ${ref}
 
 </details>

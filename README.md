@@ -149,114 +149,114 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 ```
 
 <details>
-<summary>Alle IDs</summary>
+<summary>Alle IDs und ep2-AIDs</summary>
 
-| Marke | ID | Gruppe |
-|---|---|---|
-| Mastercard | `mastercard` | Kartenmarken |
-| Visa | `visa` | Kartenmarken |
-| American Express | `american-express` | Kartenmarken |
-| Diners Club | `diners-club` | Kartenmarken |
-| Discover | `discover` | Kartenmarken |
-| JCB | `jcb` | Kartenmarken |
-| UnionPay | `unionpay` | Kartenmarken |
-| V PAY | `v-pay` | Kartenmarken |
-| Cartes Bancaires | `cartes-bancaires` | Kartenmarken |
-| Dankort | `dankort` | Kartenmarken |
-| Elo | `elo` | Kartenmarken |
-| Hipercard | `hipercard` | Kartenmarken |
-| UATP | `uatp` | Kartenmarken |
-| RuPay | `rupay` | Kartenmarken |
-| Apple Pay | `apple-pay` | Wallets |
-| Google Pay | `google-pay` | Wallets |
-| Samsung Pay | `samsung-pay` | Wallets |
-| Samsung Wallet | `samsung-wallet` | Wallets |
-| Garmin Pay | `garmin-pay` | Wallets |
-| SwatchPAY! | `swatchpay` | Wallets |
-| Xiaomi Pay | `xiaomi-pay` | Wallets |
-| Zepp Pay | `zepp-pay` | Wallets |
-| ep2 | `ep2` | Schweiz |
-| TWINT | `twint` | Schweiz |
-| PostFinance Card | `postfinance-card` | Schweiz |
-| PostFinance Pay | `postfinance-pay` | Schweiz |
-| PostFinance | `postfinance` | Schweiz |
-| Reka | `reka` | Schweiz |
-| Lunch-Check | `lunch-check` | Schweiz |
-| boncard | `boncard` | Schweiz |
-| Bonus Card | `bonus-card` | Schweiz |
-| Migros Gift Card | `migros-giftcard` | Schweiz |
-| MediaMarkt | `mediamarkt` | Schweiz |
-| SwissPass | `swisspass` | Schweiz |
-| Half Fare Plus | `half-fare-plus` | Schweiz |
-| Swisscom Pay | `swisscom-pay` | Schweiz |
-| CHW (WIR) | `chw` | Schweiz |
-| Bücherbon | `buecherbon` | Schweiz |
-| POWERCARD | `powercard` | Schweiz |
-| AVIA | `avia` | Schweiz |
-| EKZ | `ekz` | Schweiz |
-| Swiss Pay | `swiss-pay` | Schweiz |
-| Innocard | `innocard` | Schweiz |
-| Click to Pay | `click-to-pay` | Online |
-| PayPal | `paypal` | Online |
-| Alipay+ | `alipay-plus` | Online |
-| Alipay | `alipay` | Online |
-| WeChat Pay | `wechat-pay` | Online |
-| Amazon Pay | `amazon-pay` | Online |
-| Wero | `wero` | Online |
-| iDEAL \| Wero | `ideal-wero` | Online |
-| iDEAL | `ideal` | Online |
-| Bancontact | `bancontact` | Online |
-| BLIK | `blik` | Online |
-| EPS | `eps` | Online |
-| MobilePay | `mobilepay` | Online |
-| Vipps | `vipps` | Online |
-| Swish | `swish` | Online |
-| Przelewy24 | `przelewy24` | Online |
-| SEPA | `sepa` | Online |
-| Skrill | `skrill` | Online |
-| Paysafecard | `paysafecard` | Online |
-| PointsPay | `pointspay` | Online |
-| DIMOCO | `dimoco` | Online |
-| Paycard | `paycard` | Online |
-| Butterfly Card | `butterfly-card` | Online |
-| Kryptowährung | `cryptocurrency` | Online |
-| Trustly | `trustly` | Online |
-| Multibanco | `multibanco` | Online |
-| girocard | `girocard` | Online |
-| Pay by Bank | `pay-by-bank` | Online |
-| Interac Online | `interac` | Online |
-| Boleto Bancário | `boleto` | Online |
-| OXXO | `oxxo` | Online |
-| POLi | `poli` | Online |
-| Tenpay | `tenpay` | Online |
-| BankAxess | `bankaxess` | Online |
-| paybox | `paybox` | Online |
-| Klarna | `klarna` | Rechnung |
-| POWERPAY | `powerpay` | Rechnung |
-| CembraPay | `cembrapay` | Rechnung |
-| Availabill | `availabill` | Rechnung |
-| CRIF | `crif` | Rechnung |
-| eBill | `ebill` | Rechnung |
-| Voltox Smile &amp; Pay | `voltox-smile-pay` | Partner |
-| Voltox Age Verification | `voltox-age-verification` | Partner |
-| Generic Card | `card-generic` | Generisch |
-| Generic Card Alt | `card-generic-alt` | Generisch |
-| Generic Card Gold | `card-generic-gold` | Generisch |
-| Generic Gift Card | `gift-card-generic` | Generisch |
-| Generic Gift Card Alt | `gift-card-generic-alt` | Generisch |
-| Generic Gift Card Gold | `gift-card-generic-gold` | Generisch |
-| Invoice | `invoice` | Generisch |
-| Maestro | `maestro` | Legacy |
-| giropay | `giropay` | Legacy |
-| PostFinance e-finance | `postfinance-efinance` | Legacy |
-| Masterpass | `masterpass` | Legacy |
-| SOFORT | `sofort` | Legacy |
-| paydirekt | `paydirekt` | Legacy |
-| QIWI | `qiwi` | Legacy |
-| CASHU | `cashu` | Legacy |
-| DaoPay | `daopay` | Legacy |
-| Payconiq | `payconiq` | Legacy |
-| Paylib | `paylib` | Legacy |
+| Marke | ID | Gruppe | ep2-AID (aktiv) |
+|---|---|---|---|
+| Mastercard | `mastercard` | Kartenmarken | `A0 00 00 01 57 00 20`<br>`A0 00 00 01 57 44 9B` |
+| Visa | `visa` | Kartenmarken | `A0 00 00 01 57 00 30`<br>`A0 00 00 01 57 00 31` |
+| American Express | `american-express` | Kartenmarken | `A0 00 00 01 57 00 10`<br>`A0 00 00 01 57 44 58` |
+| Diners Club | `diners-club` | Kartenmarken | `A0 00 00 01 57 44 43` |
+| Discover | `discover` | Kartenmarken |  |
+| JCB | `jcb` | Kartenmarken | `A0 00 00 01 57 00 40` |
+| UnionPay | `unionpay` | Kartenmarken | `A0 00 00 01 57 44 60` |
+| V PAY | `v-pay` | Kartenmarken | `A0 00 00 01 57 44 52`<br>`A0 00 00 01 57 44 7C` |
+| Cartes Bancaires | `cartes-bancaires` | Kartenmarken |  |
+| Dankort | `dankort` | Kartenmarken |  |
+| Elo | `elo` | Kartenmarken |  |
+| Hipercard | `hipercard` | Kartenmarken |  |
+| UATP | `uatp` | Kartenmarken |  |
+| RuPay | `rupay` | Kartenmarken |  |
+| Apple Pay | `apple-pay` | Wallets |  |
+| Google Pay | `google-pay` | Wallets |  |
+| Samsung Pay | `samsung-pay` | Wallets |  |
+| Samsung Wallet | `samsung-wallet` | Wallets |  |
+| Garmin Pay | `garmin-pay` | Wallets |  |
+| SwatchPAY! | `swatchpay` | Wallets |  |
+| Xiaomi Pay | `xiaomi-pay` | Wallets |  |
+| Zepp Pay | `zepp-pay` | Wallets |  |
+| ep2 | `ep2` | Schweiz |  |
+| TWINT | `twint` | Schweiz | `A0 00 00 01 57 44 9E` |
+| PostFinance Card | `postfinance-card` | Schweiz | `A0 00 00 01 57 00 51` |
+| PostFinance Pay | `postfinance-pay` | Schweiz | `A0 00 00 01 57 44 FB` |
+| PostFinance | `postfinance` | Schweiz |  |
+| Reka | `reka` | Schweiz | `A0 00 00 01 57 44 8C`<br>`A0 00 00 01 57 44 95`<br>`A0 00 00 01 57 44 96`<br>`A0 00 00 01 57 44 97` |
+| Lunch-Check | `lunch-check` | Schweiz | `A0 00 00 01 57 44 7D`<br>`D7 56 00 01 15 00 01` |
+| boncard | `boncard` | Schweiz | `A0 00 00 01 57 44 55`<br>`A0 00 00 01 57 44 5B` |
+| Bonus Card | `bonus-card` | Schweiz | `A0 00 00 01 57 01 0B` |
+| Migros Gift Card | `migros-giftcard` | Schweiz |  |
+| MediaMarkt | `mediamarkt` | Schweiz | `A0 00 00 01 57 01 09` |
+| SwissPass | `swisspass` | Schweiz |  |
+| Half Fare Plus | `half-fare-plus` | Schweiz |  |
+| Swisscom Pay | `swisscom-pay` | Schweiz |  |
+| CHW (WIR) | `chw` | Schweiz | `A0 00 00 01 57 01 0C`<br>`A0 00 00 01 62 00 03 10`<br>`A0 00 00 01 62 00 03 11` |
+| Bücherbon | `buecherbon` | Schweiz |  |
+| POWERCARD | `powercard` | Schweiz | `A0 00 00 01 57 01 0D`<br>`A0 00 00 01 57 44 76`<br>`A0 00 00 01 57 44 78`<br>`A0 00 00 01 57 44 79` |
+| AVIA | `avia` | Schweiz | `A0 00 00 01 57 44 C3` |
+| EKZ | `ekz` | Schweiz | `A0 00 00 01 57 44 7F` |
+| Swiss Pay | `swiss-pay` | Schweiz | `A0 00 00 01 57 44 BD`<br>`A0 00 00 08 01 00 01` |
+| Innocard | `innocard` | Schweiz | `A0 00 00 01 57 44 49`<br>`A0 00 00 01 57 44 5A`<br>`A0 00 00 01 57 44 63`<br>`A0 00 00 01 57 44 6E`<br>`A0 00 00 01 57 44 6F`<br>`A0 00 00 01 57 44 75`<br>`A0 00 00 01 57 44 7A`<br>`A0 00 00 01 57 44 87`<br>`A0 00 00 01 57 44 88`<br>`A0 00 00 01 57 44 89`<br>`A0 00 00 01 57 44 8A` |
+| Click to Pay | `click-to-pay` | Online |  |
+| PayPal | `paypal` | Online | `A0 00 00 01 57 44 EE` |
+| Alipay+ | `alipay-plus` | Online |  |
+| Alipay | `alipay` | Online | `A0 00 00 01 57 44 A0` |
+| WeChat Pay | `wechat-pay` | Online | `A0 00 00 01 57 44 C6` |
+| Amazon Pay | `amazon-pay` | Online |  |
+| Wero | `wero` | Online |  |
+| iDEAL \| Wero | `ideal-wero` | Online |  |
+| iDEAL | `ideal` | Online |  |
+| Bancontact | `bancontact` | Online |  |
+| BLIK | `blik` | Online | `A0 00 00 01 57 44 F9` |
+| EPS | `eps` | Online |  |
+| MobilePay | `mobilepay` | Online |  |
+| Vipps | `vipps` | Online |  |
+| Swish | `swish` | Online |  |
+| Przelewy24 | `przelewy24` | Online |  |
+| SEPA | `sepa` | Online |  |
+| Skrill | `skrill` | Online |  |
+| Paysafecard | `paysafecard` | Online |  |
+| PointsPay | `pointspay` | Online |  |
+| DIMOCO | `dimoco` | Online |  |
+| Paycard | `paycard` | Online | `A0 00 00 01 57 44 8D`<br>`A0 00 00 01 57 44 8E`<br>`A0 00 00 01 57 44 8F` |
+| Butterfly Card | `butterfly-card` | Online | `A0 00 00 01 57 01 12` |
+| Kryptowährung | `cryptocurrency` | Online |  |
+| Trustly | `trustly` | Online |  |
+| Multibanco | `multibanco` | Online |  |
+| girocard | `girocard` | Online |  |
+| Pay by Bank | `pay-by-bank` | Online |  |
+| Interac Online | `interac` | Online |  |
+| Boleto Bancário | `boleto` | Online |  |
+| OXXO | `oxxo` | Online |  |
+| POLi | `poli` | Online |  |
+| Tenpay | `tenpay` | Online |  |
+| BankAxess | `bankaxess` | Online |  |
+| paybox | `paybox` | Online |  |
+| Klarna | `klarna` | Rechnung |  |
+| POWERPAY | `powerpay` | Rechnung |  |
+| CembraPay | `cembrapay` | Rechnung |  |
+| Availabill | `availabill` | Rechnung |  |
+| CRIF | `crif` | Rechnung |  |
+| eBill | `ebill` | Rechnung |  |
+| Voltox Smile &amp; Pay | `voltox-smile-pay` | Partner |  |
+| Voltox Age Verification | `voltox-age-verification` | Partner |  |
+| Generic Card | `card-generic` | Generisch |  |
+| Generic Card Alt | `card-generic-alt` | Generisch |  |
+| Generic Card Gold | `card-generic-gold` | Generisch |  |
+| Generic Gift Card | `gift-card-generic` | Generisch |  |
+| Generic Gift Card Alt | `gift-card-generic-alt` | Generisch |  |
+| Generic Gift Card Gold | `gift-card-generic-gold` | Generisch |  |
+| Invoice | `invoice` | Generisch |  |
+| Maestro | `maestro` | Legacy | `A0 00 00 01 57 00 21`<br>`A0 00 00 01 57 00 22` |
+| giropay | `giropay` | Legacy |  |
+| PostFinance e-finance | `postfinance-efinance` | Legacy |  |
+| Masterpass | `masterpass` | Legacy |  |
+| SOFORT | `sofort` | Legacy |  |
+| paydirekt | `paydirekt` | Legacy |  |
+| QIWI | `qiwi` | Legacy |  |
+| CASHU | `cashu` | Legacy |  |
+| DaoPay | `daopay` | Legacy |  |
+| Payconiq | `payconiq` | Legacy | `A0 00 00 01 57 44 E0` |
+| Paylib | `paylib` | Legacy |  |
 
 </details>
 

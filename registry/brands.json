@@ -29,7 +29,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 2
+      "rank": 2,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 10",
+          "interface": "MagStripe",
+          "description": "American Express Magstripe",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 58",
+          "interface": "MagStripe",
+          "description": "American Express",
+          "active": true
+        }
+      ]
     },
     {
       "id": "cartes-bancaires",
@@ -53,7 +67,15 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 3
+      "rank": 3,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 43",
+          "interface": "MagStripe",
+          "description": "Diners Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "discover",
@@ -69,7 +91,15 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 5
+      "rank": 5,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 40",
+          "interface": "MagStripe",
+          "description": "JCB Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "mastercard",
@@ -77,7 +107,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 0
+      "rank": 0,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 20",
+          "interface": "MagStripe",
+          "description": "MasterCard Magstripe",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 9B",
+          "interface": "MagStripe",
+          "description": "Debit MasterCard CH (nur Brand ID)",
+          "active": true
+        }
+      ]
     },
     {
       "id": "postfinance-card",
@@ -103,7 +147,21 @@
         "packageSha256": "f447daa9192e570df5b5524997e477c767ea3b46b8b7994926764d1aefdce5ab",
         "retrieved": "2026-09-28",
         "note": "New brand identity (package dated April 2026). PNG/JPG only, no vector master offered. Previous Datatrans artwork retired."
-      }
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 50",
+          "interface": "MagStripe",
+          "description": "Postcard B0",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 00 51",
+          "interface": "MagStripe",
+          "description": "PostFinance Card Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "unionpay",
@@ -111,7 +169,15 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 6
+      "rank": 6,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 60",
+          "interface": "MagStripe",
+          "description": "Union Pay  (UP)",
+          "active": true
+        }
+      ]
     },
     {
       "id": "v-pay",
@@ -119,7 +185,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 7
+      "rank": 7,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 52",
+          "interface": "MagStripe",
+          "description": "V PAY",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 7C",
+          "interface": "MagStripe",
+          "description": "V PAY CH",
+          "active": true
+        }
+      ]
     },
     {
       "id": "visa",
@@ -127,7 +207,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 1
+      "rank": 1,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 30",
+          "interface": "MagStripe",
+          "description": "Visa Magstripe",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 00 31",
+          "interface": "MagStripe",
+          "description": "Visa Electron Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "apple-pay",
@@ -278,7 +372,15 @@
         "from": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-pay-logo.zip (postfinance-pay.svg, package last modified 09.04.2026)"
       },
       "group": "switzerland",
-      "rank": 3
+      "rank": 3,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 FB",
+          "interface": "MagStripe",
+          "description": "PF Pay",
+          "active": true
+        }
+      ]
     },
     {
       "id": "twint",
@@ -295,7 +397,15 @@
         "note": "Taken from the brand owner's website; official merchant logo package sits behind the TWINT Brand Portal login. Owner-approved interim."
       },
       "group": "switzerland",
-      "rank": 1
+      "rank": 1,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 9E",
+          "interface": "MagStripe",
+          "description": "TWINT",
+          "active": true
+        }
+      ]
     },
     {
       "id": "wechat-pay",
@@ -312,7 +422,15 @@
         "guidelines": "https://res.wx.qq.com/a/wx_fed/wedesign/res/17f8/WeChat_Pay_Visual_Identity_Guidelines_201703.pdf"
       },
       "group": "online",
-      "rank": 4
+      "rank": 4,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 C6",
+          "interface": "MagStripe",
+          "description": "WeChatPay",
+          "active": true
+        }
+      ]
     },
     {
       "id": "wero",
@@ -429,7 +547,21 @@
       "status": "legacy",
       "group": "legacy",
       "lifecycle": "legacy",
-      "rank": 0
+      "rank": 0,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 21",
+          "interface": "MagStripe",
+          "description": "Maestro Magstripe (International)",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 00 22",
+          "interface": "MagStripe",
+          "description": "Maestro-CH",
+          "active": true
+        }
+      ]
     },
     {
       "id": "samsung-pay",
@@ -475,7 +607,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 3
+      "rank": 3,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A0",
+          "interface": "MagStripe",
+          "description": "Alipay",
+          "active": true
+        }
+      ]
     },
     {
       "id": "amazon-pay",
@@ -511,7 +651,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 10
+      "rank": 10,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 F9",
+          "interface": "MagStripe",
+          "description": "BLIK",
+          "active": true
+        }
+      ]
     },
     {
       "id": "boncard",
@@ -520,7 +668,33 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 8
+      "rank": 8,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 55",
+          "interface": "MagStripe",
+          "description": "boncard POINTS",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 5B",
+          "interface": "MagStripe",
+          "description": "boncard PAY",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 84",
+          "interface": "MagStripe",
+          "description": "boncard PAY M",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 44 85",
+          "interface": "MagStripe",
+          "description": "boncard PAY V",
+          "active": false
+        }
+      ]
     },
     {
       "id": "bonus-card",
@@ -529,7 +703,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 9
+      "rank": 9,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0B",
+          "interface": "MagStripe",
+          "description": "Bonuscard",
+          "active": true
+        }
+      ]
     },
     {
       "id": "butterfly-card",
@@ -538,7 +720,21 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 22
+      "rank": 22,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 12",
+          "interface": "MagStripe",
+          "description": "Accarda Butterfly",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 90",
+          "interface": "MagStripe",
+          "description": "Disabled - Accarda Butterfly",
+          "active": false
+        }
+      ]
     },
     {
       "id": "cembrapay",
@@ -639,7 +835,21 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 7
+      "rank": 7,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 7D",
+          "interface": "MagStripe",
+          "description": "Lunch-Check II",
+          "active": true
+        },
+        {
+          "aid": "D7 56 00 01 15 00 01",
+          "interface": "Domestic",
+          "description": "Lunch-Check I",
+          "active": true
+        }
+      ]
     },
     {
       "id": "mediamarkt",
@@ -648,7 +858,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 11
+      "rank": 11,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 09",
+          "interface": "MagStripe",
+          "description": "Mediamarkt Card",
+          "active": true
+        }
+      ]
     },
     {
       "id": "migros-giftcard",
@@ -675,7 +893,27 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 21
+      "rank": 21,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 8D",
+          "interface": "MagStripe",
+          "description": "paycard App",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8E",
+          "interface": "MagStripe",
+          "description": "paycard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8F",
+          "interface": "MagStripe",
+          "description": "paycard F",
+          "active": true
+        }
+      ]
     },
     {
       "id": "paypal",
@@ -684,7 +922,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 1
+      "rank": 1,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 EE",
+          "interface": "MagStripe",
+          "description": "PayPal",
+          "active": true
+        }
+      ]
     },
     {
       "id": "paysafecard",
@@ -743,7 +989,45 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 6
+      "rank": 6,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0E",
+          "interface": "MagStripe",
+          "description": "Reka-Check",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 44 64",
+          "interface": "MagStripe",
+          "description": "Reka-Card e-Commerce (till 2018)",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8C",
+          "interface": "MagStripe",
+          "description": "Reka E-Commerce",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 95",
+          "interface": "MagStripe",
+          "description": "Reka Rail",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 96",
+          "interface": "MagStripe",
+          "description": "Reka-Check",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 97",
+          "interface": "MagStripe",
+          "description": "Reka-Lunch",
+          "active": true
+        }
+      ]
     },
     {
       "id": "sepa",
@@ -898,7 +1182,27 @@
         "from": "https://www.wir.ch/de/chw-netzwerk/chw-zahlungsverkehr/chwcard/ (Header-Logo, Inline-SVG)",
         "retrieved": "2026-09-29",
         "note": "Firmenlogo der Bank WIR von der Website des Herausgebers; ein eigenes CHWcard-Zeichen ist dort nicht veröffentlicht."
-      }
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0C",
+          "interface": "MagStripe",
+          "description": "WIR Card",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 62 00 03 10",
+          "interface": "International",
+          "description": "WIR Card Plus (VPAY)",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 62 00 03 11",
+          "interface": "International",
+          "description": "WIR Card Plus (DMC)",
+          "active": true
+        }
+      ]
     },
     {
       "id": "buecherbon",
@@ -934,7 +1238,33 @@
         "from": "https://app-wallee.com/resource//web/image/payment/card-brand/powercard.svg",
         "retrieved": "2026-09-29",
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
-      }
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0D",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 76",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 78",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 79",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        }
+      ]
     },
     {
       "id": "avia",
@@ -954,7 +1284,15 @@
         "author": "unbekannt",
         "retrieved": "2026-09-29",
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
-      }
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 C3",
+          "interface": "MagStripe",
+          "description": "AVIA",
+          "active": true
+        }
+      ]
     },
     {
       "id": "ekz",
@@ -965,7 +1303,15 @@
       "rank": 20,
       "sourceStatus": "wallee-supported-logo-missing",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
-      "note": "EKZ = Einkaufszentrum-Karte von boncard (ep2-AID «EKZ card», boncard), nicht Elektrizitätswerke des Kantons Zürich. Kein eigenes Logo gefunden; das wallee-Portal zeigt nur Text «EKZ» plus boncard."
+      "note": "EKZ = Einkaufszentrum-Karte von boncard (ep2-AID «EKZ card», boncard), nicht Elektrizitätswerke des Kantons Zürich. Kein eigenes Logo gefunden; das wallee-Portal zeigt nur Text «EKZ» plus boncard.",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 7F",
+          "interface": "MagStripe",
+          "description": "EKZ card",
+          "active": true
+        }
+      ]
     },
     {
       "id": "swiss-pay",
@@ -983,7 +1329,21 @@
         "from": "https://app-wallee.com/resource//web/image/payment/card-brand/swiss-pay.svg",
         "retrieved": "2026-09-29",
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Das wallee-Portal zeigt für Swiss Pay das boncard-Logo (Herausgeber); ein eigenes Swiss-Pay-Zeichen fehlt."
-      }
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 BD",
+          "interface": "MagStripe",
+          "description": "Swiss PAY II",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 08 01 00 01",
+          "interface": "International",
+          "description": "Swiss PAY",
+          "active": true
+        }
+      ]
     },
     {
       "id": "innocard",
@@ -1001,7 +1361,75 @@
         "from": "https://app-wallee.com/resource//web/image/payment/method/innocard.svg",
         "retrieved": "2026-09-29",
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Firmenlogo innocard / Loyalty AG."
-      }
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 49",
+          "interface": "MagStripe",
+          "description": "SwissBonusCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 5A",
+          "interface": "MagStripe",
+          "description": "SwissCadeau",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 63",
+          "interface": "MagStripe",
+          "description": "SwissBonus+",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 6E",
+          "interface": "MagStripe",
+          "description": "SwissCredit",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 6F",
+          "interface": "MagStripe",
+          "description": "SwissVoucher",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 75",
+          "interface": "MagStripe",
+          "description": "Innofriends",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 7A",
+          "interface": "MagStripe",
+          "description": "loyalty.Marketing",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 87",
+          "interface": "MagStripe",
+          "description": "Prepaid.Innocard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 88",
+          "interface": "MagStripe",
+          "description": "Loyalty.Innocard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 89",
+          "interface": "MagStripe",
+          "description": "Bonus.Innocard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8A",
+          "interface": "MagStripe",
+          "description": "Gift.Innocard",
+          "active": true
+        }
+      ]
     },
     {
       "id": "cryptocurrency",
@@ -1061,7 +1489,15 @@
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Payconiq wird durch Wero abgelöst (payconiq.lu: «new wero»)."
       },
       "lifecycle": "retired",
-      "successor": "wero"
+      "successor": "wero",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 E0",
+          "interface": "MagStripe",
+          "description": "Payconiq",
+          "active": true
+        }
+      ]
     },
     {
       "id": "paylib",
@@ -1441,5 +1877,10 @@
       "title": "Legacy",
       "short": "Legacy"
     }
-  ]
+  ],
+  "ep2AidSource": {
+    "file": "ep2 ID-Master (id_master.xlsx, Tabelle AID)",
+    "received": "2026-09-29",
+    "note": "Nur AID, Schnittstelle, Bezeichnung und Status übernommen; Kontaktpersonen und E-Mails bewusst weggelassen. RID A0 00 00 01 57 = ep2."
+  }
 }

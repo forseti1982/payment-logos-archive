@@ -52,3 +52,11 @@ IDs are lowercase kebab-case and describe the current brand, not a vendor filena
 ep2 is an acceptance/infrastructure mark, not a card scheme.
 Wallets are not automatically distinct acquiring acceptance methods merely because they have consumer-facing logos.
 PostFinance corporate branding, PostFinance Card and PostFinance Pay must not be conflated.
+
+## Weisser Aussenrand auf dunklem Grund
+
+Der 1 px weisse Aussenrand bleibt auf jedem Hintergrund stehen, auch in einer Dark-Variante. Er trennt die Kachel klar vom Umfeld und hebt den türkisen Rahmen hervor; dieselbe Kachel funktioniert so auf hellem und dunklem Grund (Owner-Entscheid 29.09.2026).
+
+## Barrierefreiheit
+
+Jede Kachel trägt `role="img"` und einen `<title>` mit dem Markennamen, damit Screenreader die Marke ansagen. Beim Einbinden zusätzlich `alt` mit dem Markennamen setzen. Logos selbst werden für Kontrast nie umgefärbt oder vereinfacht.
