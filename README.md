@@ -1,162 +1,234 @@
-<div align="center">
+# Payment Logos
 
-# wallee payment logos
+Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 
-### easy pay any way
+### Kartenmarken (PayFac und Acquiring)
 
-</div>
+<p>
+<img src="dist/tiles/svg/mastercard.svg" width="96" alt="Mastercard" title="Mastercard · mastercard">
+<img src="dist/tiles/svg/visa.svg" width="96" alt="Visa" title="Visa · visa">
+<img src="dist/tiles/svg/american-express.svg" width="96" alt="American Express" title="American Express · american-express">
+<img src="dist/tiles/svg/diners-club.svg" width="96" alt="Diners Club" title="Diners Club · diners-club">
+<img src="dist/tiles/svg/discover.svg" width="96" alt="Discover" title="Discover · discover">
+<img src="dist/tiles/svg/jcb.svg" width="96" alt="JCB" title="JCB · jcb">
+<img src="dist/tiles/svg/unionpay.svg" width="96" alt="UnionPay" title="UnionPay · unionpay">
+<img src="dist/tiles/svg/v-pay.svg" width="96" alt="V PAY" title="V PAY · v-pay">
+<img src="dist/tiles/svg/cartes-bancaires.svg" width="96" alt="Cartes Bancaires" title="Cartes Bancaires · cartes-bancaires">
+<img src="dist/tiles/svg/dankort.svg" width="96" alt="Dankort" title="Dankort · dankort">
+<img src="dist/tiles/svg/elo.svg" width="96" alt="Elo" title="Elo · elo">
+<img src="dist/tiles/svg/hipercard.svg" width="96" alt="Hipercard" title="Hipercard · hipercard">
+<img src="dist/tiles/svg/uatp.svg" width="96" alt="UATP" title="UATP · uatp">
+</p>
 
-## wallee-Kachel 
+### Wallets
 
-Jedes Logo wird als Kachel im Kartenformat (120 × 80) ausgeliefert. Der Rahmen ist Pflicht und für alle Kacheln gleich:
+<p>
+<img src="dist/tiles/svg/apple-pay.svg" width="96" alt="Apple Pay" title="Apple Pay · apple-pay">
+<img src="dist/tiles/svg/google-pay.svg" width="96" alt="Google Pay" title="Google Pay · google-pay">
+<img src="dist/tiles/svg/samsung-pay.svg" width="96" alt="Samsung Pay" title="Samsung Pay · samsung-pay">
+<img src="dist/tiles/svg/swatchpay.svg" width="96" alt="SwatchPAY!" title="SwatchPAY! · swatchpay">
+</p>
 
-| Ebene | Vorgabe |
-|---|---|
-| Aussenkante | 1 px Weiss |
-| Rahmen | 2 px wallee-Türkis `#11D9CC` |
-| Logofeld | direkt innerhalb des Rahmens, in der Hintergrundfarbe des Logos statt Weiss, wo das Logo eine eigene Fläche hat |
-| Logo | Original des Markeninhabers, unverändert, Seitenverhältnis erhalten |
+### Schweiz: ep2, TWINT, PostFinance
 
-Die Kacheln entstehen nur über `npm run build:tiles` aus den Originalen in `assets/source/`, die Zuordnung steht in `registry/tile-sources.json`. Dateien in `dist/tiles/` werden nie von Hand geändert.
+<p>
+<img src="dist/tiles/svg/ep2.svg" width="96" alt="ep2" title="ep2 · ep2">
+<img src="dist/tiles/svg/twint.svg" width="96" alt="TWINT" title="TWINT · twint">
+<img src="dist/tiles/svg/postfinance-card.svg" width="96" alt="PostFinance Card" title="PostFinance Card · postfinance-card">
+<img src="dist/tiles/svg/postfinance-pay.svg" width="96" alt="PostFinance Pay" title="PostFinance Pay · postfinance-pay">
+<img src="dist/tiles/svg/reka.svg" width="96" alt="Reka" title="Reka · reka">
+<img src="dist/tiles/svg/lunch-check.svg" width="96" alt="Lunch-Check" title="Lunch-Check · lunch-check">
+<img src="dist/tiles/svg/boncard.svg" width="96" alt="boncard" title="boncard · boncard">
+<img src="dist/tiles/svg/bonus-card.svg" width="96" alt="Bonus Card" title="Bonus Card · bonus-card">
+<img src="dist/tiles/svg/migros-giftcard.svg" width="96" alt="Migros Gift Card" title="Migros Gift Card · migros-giftcard">
+<img src="dist/tiles/svg/mediamarkt.svg" width="96" alt="MediaMarkt" title="MediaMarkt · mediamarkt">
+<img src="dist/tiles/svg/swisspass.svg" width="96" alt="SwissPass" title="SwissPass · swisspass">
+<img src="dist/tiles/svg/half-fare-plus.svg" width="96" alt="Half Fare Plus" title="Half Fare Plus · half-fare-plus">
+<img src="dist/tiles/svg/swisscom-pay.svg" width="96" alt="Swisscom Pay" title="Swisscom Pay · swisscom-pay">
+</p>
 
-## Quellen und offene Punkte
+### Online und international
 
-Stand 28.09.2026. Alle Einträge haben den Status `review`, bis die Prüfung nach `AGENTS.md` abgeschlossen ist.
+<p>
+<img src="dist/tiles/svg/click-to-pay.svg" width="96" alt="Click to Pay" title="Click to Pay · click-to-pay">
+<img src="dist/tiles/svg/paypal.svg" width="96" alt="PayPal" title="PayPal · paypal">
+<img src="dist/tiles/svg/alipay-plus.svg" width="96" alt="Alipay+" title="Alipay+ · alipay-plus">
+<img src="dist/tiles/svg/alipay.svg" width="96" alt="Alipay" title="Alipay · alipay">
+<img src="dist/tiles/svg/wechat-pay.svg" width="96" alt="WeChat Pay" title="WeChat Pay · wechat-pay">
+<img src="dist/tiles/svg/amazon-pay.svg" width="96" alt="Amazon Pay" title="Amazon Pay · amazon-pay">
+<img src="dist/tiles/svg/wero.svg" width="96" alt="Wero" title="Wero · wero">
+<img src="dist/tiles/svg/ideal-wero.svg" width="96" alt="iDEAL | Wero" title="iDEAL | Wero · ideal-wero">
+<img src="dist/tiles/svg/ideal.svg" width="96" alt="iDEAL" title="iDEAL · ideal">
+<img src="dist/tiles/svg/bancontact.svg" width="96" alt="Bancontact" title="Bancontact · bancontact">
+<img src="dist/tiles/svg/blik.svg" width="96" alt="BLIK" title="BLIK · blik">
+<img src="dist/tiles/svg/eps.svg" width="96" alt="EPS" title="EPS · eps">
+<img src="dist/tiles/svg/mobilepay.svg" width="96" alt="MobilePay" title="MobilePay · mobilepay">
+<img src="dist/tiles/svg/vipps.svg" width="96" alt="Vipps" title="Vipps · vipps">
+<img src="dist/tiles/svg/swish.svg" width="96" alt="Swish" title="Swish · swish">
+<img src="dist/tiles/svg/przelewy24.svg" width="96" alt="Przelewy24" title="Przelewy24 · przelewy24">
+<img src="dist/tiles/svg/sepa.svg" width="96" alt="SEPA" title="SEPA · sepa">
+<img src="dist/tiles/svg/skrill.svg" width="96" alt="Skrill" title="Skrill · skrill">
+<img src="dist/tiles/svg/paysafecard.svg" width="96" alt="Paysafecard" title="Paysafecard · paysafecard">
+<img src="dist/tiles/svg/pointspay.svg" width="96" alt="PointsPay" title="PointsPay · pointspay">
+<img src="dist/tiles/svg/dimoco.svg" width="96" alt="DIMOCO" title="DIMOCO · dimoco">
+<img src="dist/tiles/svg/paycard.svg" width="96" alt="Paycard" title="Paycard · paycard">
+<img src="dist/tiles/svg/butterfly-card.svg" width="96" alt="Butterfly Card" title="Butterfly Card · butterfly-card">
+</p>
 
-| Marke | Quelle der Kachel | Stand |
+### Rechnung, Ratenkauf und Bonität
+
+<p>
+<img src="dist/tiles/svg/klarna.svg" width="96" alt="Klarna" title="Klarna · klarna">
+<img src="dist/tiles/svg/powerpay.svg" width="96" alt="POWERPAY" title="POWERPAY · powerpay">
+<img src="dist/tiles/svg/cembrapay.svg" width="96" alt="CembraPay" title="CembraPay · cembrapay">
+<img src="dist/tiles/svg/availabill.svg" width="96" alt="Availabill" title="Availabill · availabill">
+<img src="dist/tiles/svg/crif.svg" width="96" alt="CRIF" title="CRIF · crif">
+<img src="dist/tiles/svg/ebill.svg" width="96" alt="eBill" title="eBill · ebill">
+</p>
+
+### wallee-Partner
+
+<p>
+<img src="dist/tiles/svg/voltox-smile-pay.svg" width="96" alt="Voltox Smile &amp; Pay" title="Voltox Smile &amp; Pay · voltox-smile-pay">
+<img src="dist/tiles/svg/voltox-age-verification.svg" width="96" alt="Voltox Age Verification" title="Voltox Age Verification · voltox-age-verification">
+</p>
+
+### Generische Symbole
+
+<p>
+<img src="dist/tiles/svg/card-generic.svg" width="96" alt="Generic Card" title="Generic Card · card-generic">
+<img src="dist/tiles/svg/card-generic-alt.svg" width="96" alt="Generic Card Alt" title="Generic Card Alt · card-generic-alt">
+<img src="dist/tiles/svg/card-generic-gold.svg" width="96" alt="Generic Card Gold" title="Generic Card Gold · card-generic-gold">
+<img src="dist/tiles/svg/gift-card-generic.svg" width="96" alt="Generic Gift Card" title="Generic Gift Card · gift-card-generic">
+<img src="dist/tiles/svg/gift-card-generic-alt.svg" width="96" alt="Generic Gift Card Alt" title="Generic Gift Card Alt · gift-card-generic-alt">
+<img src="dist/tiles/svg/gift-card-generic-gold.svg" width="96" alt="Generic Gift Card Gold" title="Generic Gift Card Gold · gift-card-generic-gold">
+<img src="dist/tiles/svg/invoice.svg" width="96" alt="Invoice" title="Invoice · invoice">
+</p>
+
+### Legacy
+
+<p>
+<img src="dist/tiles/svg/maestro.svg" width="96" alt="Maestro" title="Maestro · maestro">
+<img src="dist/tiles/svg/giropay.svg" width="96" alt="giropay" title="giropay · giropay">
+</p>
+
+## Verwenden
+
+```html
+<img src="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg/twint.svg" width="120" alt="TWINT">
+```
+
+<details>
+<summary>Alle IDs</summary>
+
+| Marke | ID | Gruppe |
 |---|---|---|
-| PostFinance Pay | Originalpaket postfinance.ch, SVG (neues CI, April 2026) | Original eingesetzt |
-| PostFinance Card | Originalpaket postfinance.ch, PNG 630 × 396 (kein Vektor angeboten) | Original eingesetzt |
-| Wero | Checkout-Karte aus den Wero Brand Guidelines, SVG | Original eingesetzt, min. 31 px Breite, 15 px Abstand |
-| ep2 | Vektor-Master von ep2 | Original eingesetzt |
-| VOLTOX Smile & Pay, Age Verification | Firmenlogo, von wallee geliefert (PNG 200 × 200) | Vektor-Master bei VOLTOX anfragen |
-| PostFinance e-finance | altes Logo zurückgezogen | Platzhalter, Produktstatus prüfen |
-| TWINT | Logo-SVG von twint.ch (Brand Portal nur mit Login) | Übergangslösung, Merchant-Logo über Brand Portal beziehen |
-| Click to Pay | EMVCo Trademark Centre | Platzhalter, Lizenzvertrag nötig |
-| WeChat Pay | Logo-SVG der WeChat Pay Open Platform (Tencent) | Original der Plattform eingesetzt |
-| Garmin Pay | Anfrageformular Garmin | fehlt, Anfrage durch wallee |
-| SwatchPAY! | Webbild von swatch.com (PNG 678 × 108), kein freigegebenes Original | Übergangslösung, Original bei Swatch anfragen |
-| Samsung Wallet | Toolkit von Samsung (ca. 38 MB) | fehlt, Download ausstehend |
-| Xiaomi Pay, Zepp Pay | keine offizielle Quelle gefunden | fehlt |
-| übrige Marken | Datatrans-Katalog (`assets/source/datatrans/`), kein Original des Markeninhabers | Ersatz durch Originale ausstehend |
+| Mastercard | `mastercard` | Kartenmarken |
+| Visa | `visa` | Kartenmarken |
+| American Express | `american-express` | Kartenmarken |
+| Diners Club | `diners-club` | Kartenmarken |
+| Discover | `discover` | Kartenmarken |
+| JCB | `jcb` | Kartenmarken |
+| UnionPay | `unionpay` | Kartenmarken |
+| V PAY | `v-pay` | Kartenmarken |
+| Cartes Bancaires | `cartes-bancaires` | Kartenmarken |
+| Dankort | `dankort` | Kartenmarken |
+| Elo | `elo` | Kartenmarken |
+| Hipercard | `hipercard` | Kartenmarken |
+| UATP | `uatp` | Kartenmarken |
+| RuPay | `rupay` | Kartenmarken |
+| Apple Pay | `apple-pay` | Wallets |
+| Google Pay | `google-pay` | Wallets |
+| Samsung Pay | `samsung-pay` | Wallets |
+| Samsung Wallet | `samsung-wallet` | Wallets |
+| Garmin Pay | `garmin-pay` | Wallets |
+| SwatchPAY! | `swatchpay` | Wallets |
+| Xiaomi Pay | `xiaomi-pay` | Wallets |
+| Zepp Pay | `zepp-pay` | Wallets |
+| ep2 | `ep2` | Schweiz |
+| TWINT | `twint` | Schweiz |
+| PostFinance Card | `postfinance-card` | Schweiz |
+| PostFinance Pay | `postfinance-pay` | Schweiz |
+| PostFinance | `postfinance` | Schweiz |
+| Reka | `reka` | Schweiz |
+| Lunch-Check | `lunch-check` | Schweiz |
+| boncard | `boncard` | Schweiz |
+| Bonus Card | `bonus-card` | Schweiz |
+| Migros Gift Card | `migros-giftcard` | Schweiz |
+| MediaMarkt | `mediamarkt` | Schweiz |
+| SwissPass | `swisspass` | Schweiz |
+| Half Fare Plus | `half-fare-plus` | Schweiz |
+| Swisscom Pay | `swisscom-pay` | Schweiz |
+| CHW (WIR) | `chw` | Schweiz |
+| Bücherbon | `buecherbon` | Schweiz |
+| POWERCARD | `powercard` | Schweiz |
+| AVIA | `avia` | Schweiz |
+| EKZ | `ekz` | Schweiz |
+| Swiss Pay | `swiss-pay` | Schweiz |
+| Innocard | `innocard` | Schweiz |
+| Click to Pay | `click-to-pay` | Online |
+| PayPal | `paypal` | Online |
+| Alipay+ | `alipay-plus` | Online |
+| Alipay | `alipay` | Online |
+| WeChat Pay | `wechat-pay` | Online |
+| Amazon Pay | `amazon-pay` | Online |
+| Wero | `wero` | Online |
+| iDEAL \| Wero | `ideal-wero` | Online |
+| iDEAL | `ideal` | Online |
+| Bancontact | `bancontact` | Online |
+| BLIK | `blik` | Online |
+| EPS | `eps` | Online |
+| MobilePay | `mobilepay` | Online |
+| Vipps | `vipps` | Online |
+| Swish | `swish` | Online |
+| Przelewy24 | `przelewy24` | Online |
+| SEPA | `sepa` | Online |
+| Skrill | `skrill` | Online |
+| Paysafecard | `paysafecard` | Online |
+| PointsPay | `pointspay` | Online |
+| DIMOCO | `dimoco` | Online |
+| Paycard | `paycard` | Online |
+| Butterfly Card | `butterfly-card` | Online |
+| Kryptowährung | `cryptocurrency` | Online |
+| Trustly | `trustly` | Online |
+| Payconiq | `payconiq` | Online |
+| Paylib | `paylib` | Online |
+| Multibanco | `multibanco` | Online |
+| girocard | `girocard` | Online |
+| Pay by Bank | `pay-by-bank` | Online |
+| Interac Online | `interac` | Online |
+| Boleto Bancário | `boleto` | Online |
+| OXXO | `oxxo` | Online |
+| POLi | `poli` | Online |
+| Tenpay | `tenpay` | Online |
+| BankAxess | `bankaxess` | Online |
+| paybox | `paybox` | Online |
+| Klarna | `klarna` | Rechnung |
+| POWERPAY | `powerpay` | Rechnung |
+| CembraPay | `cembrapay` | Rechnung |
+| Availabill | `availabill` | Rechnung |
+| CRIF | `crif` | Rechnung |
+| eBill | `ebill` | Rechnung |
+| Voltox Smile &amp; Pay | `voltox-smile-pay` | Partner |
+| Voltox Age Verification | `voltox-age-verification` | Partner |
+| Generic Card | `card-generic` | Generisch |
+| Generic Card Alt | `card-generic-alt` | Generisch |
+| Generic Card Gold | `card-generic-gold` | Generisch |
+| Generic Gift Card | `gift-card-generic` | Generisch |
+| Generic Gift Card Alt | `gift-card-generic-alt` | Generisch |
+| Generic Gift Card Gold | `gift-card-generic-gold` | Generisch |
+| Invoice | `invoice` | Generisch |
+| Maestro | `maestro` | Legacy |
+| giropay | `giropay` | Legacy |
+| PostFinance e-finance | `postfinance-efinance` | Legacy |
+| Masterpass | `masterpass` | Legacy |
+| SOFORT | `sofort` | Legacy |
+| paydirekt | `paydirekt` | Legacy |
+| QIWI | `qiwi` | Legacy |
+| CASHU | `cashu` | Legacy |
+| DaoPay | `daopay` | Legacy |
 
-Details zu jeder Quelle stehen in `registry/official-sources.json`.
+</details>
 
-### Hinweise zur Auswahl
-
-- **Alipay und Alipay+:** Für die Akzeptanz beim Händler ist das Zeichen von Alipay+ vorgeschrieben. Ein einzelnes Wallet-Logo wie Alipay darf nur zusammen mit einem Hinweis auf Alipay+ erscheinen ([Alipay+ Brand Guidelines](https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_acq/brand_in_store_acq)). Für Terminals und Checkout daher `alipay-plus` verwenden.
-- **Visa Electron:** Visa hat die Marke am 13.04.2024 eingestellt, Nachfolger ist Visa Debit. Es gibt keine eigene Kachel; bestehende Connectors werden mit `visa` dargestellt und als Legacy gekennzeichnet.
-
-## Cards & schemes
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/american-express.svg" width="112" alt="American Express"> | **American Express** |
-| <img src="dist/tiles/svg/cartes-bancaires.svg" width="112" alt="Cartes Bancaires"> | **Cartes Bancaires** |
-| <img src="dist/tiles/svg/dankort.svg" width="112" alt="Dankort"> | **Dankort** |
-| <img src="dist/tiles/svg/diners-club.svg" width="112" alt="Diners Club"> | **Diners Club** |
-| <img src="dist/tiles/svg/discover.svg" width="112" alt="Discover"> | **Discover** |
-| <img src="dist/tiles/svg/elo.svg" width="112" alt="Elo"> | **Elo** |
-| <img src="dist/tiles/svg/hipercard.svg" width="112" alt="Hipercard"> | **Hipercard** |
-| <img src="dist/tiles/svg/jcb.svg" width="112" alt="JCB"> | **JCB** |
-| <img src="dist/tiles/svg/mastercard.svg" width="112" alt="Mastercard"> | **Mastercard** |
-| <img src="dist/tiles/svg/postfinance-card.svg" width="112" alt="PostFinance Card"> | **PostFinance Card** |
-| <img src="dist/tiles/svg/uatp.svg" width="112" alt="UATP"> | **UATP** |
-| <img src="dist/tiles/svg/unionpay.svg" width="112" alt="UnionPay"> | **UnionPay** |
-| <img src="dist/tiles/svg/v-pay.svg" width="112" alt="V PAY"> | **V PAY** |
-
-## Wallets
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/apple-pay.svg" width="112" alt="Apple Pay"> | **Apple Pay** |
-| — | **Garmin Pay** |
-| <img src="dist/tiles/svg/google-pay.svg" width="112" alt="Google Pay"> | **Google Pay** |
-| <img src="dist/tiles/svg/samsung-pay.svg" width="112" alt="Samsung Pay"> | **Samsung Pay** |
-| — | **Samsung Wallet** |
-| <img src="dist/tiles/svg/swatchpay.svg" width="112" alt="SwatchPAY!"> | **SwatchPAY!** |
-| — | **Xiaomi Pay** |
-| — | **Zepp Pay** |
-
-## Payment methods
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/alipay.svg" width="112" alt="Alipay"> | **Alipay** |
-| <img src="dist/tiles/svg/alipay-plus.svg" width="112" alt="Alipay+"> | **Alipay+** |
-| <img src="dist/tiles/svg/amazon-pay.svg" width="112" alt="Amazon Pay"> | **Amazon Pay** |
-| <img src="dist/tiles/svg/availabill.svg" width="112" alt="Availabill"> | **Availabill** |
-| <img src="dist/tiles/svg/bancontact.svg" width="112" alt="Bancontact"> | **Bancontact** |
-| <img src="dist/tiles/svg/blik.svg" width="112" alt="BLIK"> | **BLIK** |
-| <img src="dist/tiles/svg/boncard.svg" width="112" alt="boncard"> | **boncard** |
-| <img src="dist/tiles/svg/bonus-card.svg" width="112" alt="Bonus Card"> | **Bonus Card** |
-| <img src="dist/tiles/svg/butterfly-card.svg" width="112" alt="Butterfly Card"> | **Butterfly Card** |
-| <img src="dist/tiles/svg/cembrapay.svg" width="112" alt="CembraPay"> | **CembraPay** |
-| <img src="dist/tiles/svg/crif.svg" width="112" alt="CRIF"> | **CRIF** |
-| <img src="dist/tiles/svg/dimoco.svg" width="112" alt="DIMOCO"> | **DIMOCO** |
-| <img src="dist/tiles/svg/ebill.svg" width="112" alt="eBill"> | **eBill** |
-| <img src="dist/tiles/svg/eps.svg" width="112" alt="EPS"> | **EPS** |
-| <img src="dist/tiles/svg/giropay.svg" width="112" alt="giropay"> | **giropay** |
-| <img src="dist/tiles/svg/half-fare-plus.svg" width="112" alt="Half Fare Plus"> | **Half Fare Plus** |
-| <img src="dist/tiles/svg/ideal.svg" width="112" alt="iDEAL"> | **iDEAL** |
-| <img src="dist/tiles/svg/ideal-wero.svg" width="112" alt="iDEAL | Wero"> | **iDEAL | Wero** |
-| <img src="dist/tiles/svg/klarna.svg" width="112" alt="Klarna"> | **Klarna** |
-| <img src="dist/tiles/svg/lunch-check.svg" width="112" alt="Lunch-Check"> | **Lunch-Check** |
-| <img src="dist/tiles/svg/mediamarkt.svg" width="112" alt="MediaMarkt"> | **MediaMarkt** |
-| <img src="dist/tiles/svg/migros-giftcard.svg" width="112" alt="Migros Gift Card"> | **Migros Gift Card** |
-| <img src="dist/tiles/svg/mobilepay.svg" width="112" alt="MobilePay"> | **MobilePay** |
-| <img src="dist/tiles/svg/paycard.svg" width="112" alt="Paycard"> | **Paycard** |
-| <img src="dist/tiles/svg/paypal.svg" width="112" alt="PayPal"> | **PayPal** |
-| <img src="dist/tiles/svg/paysafecard.svg" width="112" alt="Paysafecard"> | **Paysafecard** |
-| <img src="dist/tiles/svg/pointspay.svg" width="112" alt="PointsPay"> | **PointsPay** |
-| — | **PostFinance** |
-| <img src="dist/tiles/svg/postfinance-efinance.svg" width="112" alt="PostFinance e-finance"> | **PostFinance e-finance** |
-| <img src="dist/tiles/svg/postfinance-pay.svg" width="112" alt="PostFinance Pay"> | **PostFinance Pay** |
-| <img src="dist/tiles/svg/powerpay.svg" width="112" alt="POWERPAY"> | **POWERPAY** |
-| <img src="dist/tiles/svg/przelewy24.svg" width="112" alt="Przelewy24"> | **Przelewy24** |
-| <img src="dist/tiles/svg/reka.svg" width="112" alt="Reka"> | **Reka** |
-| <img src="dist/tiles/svg/sepa.svg" width="112" alt="SEPA"> | **SEPA** |
-| <img src="dist/tiles/svg/skrill.svg" width="112" alt="Skrill"> | **Skrill** |
-| <img src="dist/tiles/svg/swish.svg" width="112" alt="Swish"> | **Swish** |
-| <img src="dist/tiles/svg/swisscom-pay.svg" width="112" alt="Swisscom Pay"> | **Swisscom Pay** |
-| <img src="dist/tiles/svg/swisspass.svg" width="112" alt="SwissPass"> | **SwissPass** |
-| <img src="dist/tiles/svg/twint.svg" width="112" alt="TWINT"> | **TWINT** |
-| <img src="dist/tiles/svg/vipps.svg" width="112" alt="Vipps"> | **Vipps** |
-| <img src="dist/tiles/svg/wechat-pay.svg" width="112" alt="WeChat Pay"> | **WeChat Pay** |
-| <img src="dist/tiles/svg/wero.svg" width="112" alt="Wero"> | **Wero** |
-
-## Acceptance & infrastructure
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/click-to-pay.svg" width="112" alt="Click to Pay"> | **Click to Pay** |
-| <img src="dist/tiles/svg/ep2.svg" width="112" alt="ep2"> | **ep2** |
-
-## Biometric & verification
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/voltox-age-verification.svg" width="112" alt="Voltox Age Verification"> | **Voltox Age Verification** |
-| <img src="dist/tiles/svg/voltox-smile-pay.svg" width="112" alt="Voltox Smile & Pay"> | **Voltox Smile & Pay** |
-
-## Generic assets
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/card-generic.svg" width="112" alt="Generic Card"> | **Generic Card** |
-| <img src="dist/tiles/svg/card-generic-alt.svg" width="112" alt="Generic Card Alt"> | **Generic Card Alt** |
-| <img src="dist/tiles/svg/card-generic-gold.svg" width="112" alt="Generic Card Gold"> | **Generic Card Gold** |
-| <img src="dist/tiles/svg/gift-card-generic.svg" width="112" alt="Generic Gift Card"> | **Generic Gift Card** |
-| <img src="dist/tiles/svg/gift-card-generic-alt.svg" width="112" alt="Generic Gift Card Alt"> | **Generic Gift Card Alt** |
-| <img src="dist/tiles/svg/gift-card-generic-gold.svg" width="112" alt="Generic Gift Card Gold"> | **Generic Gift Card Gold** |
-| <img src="dist/tiles/svg/invoice.svg" width="112" alt="Invoice"> | **Invoice** |
-
-## Legacy
-
-| Logo | Brand |
-|:--:|---|
-| <img src="dist/tiles/svg/maestro.svg" width="112" alt="Maestro"> | **Maestro** |
-
----
-
-SVG payment-brand archive for wallee integrations. Source masters and provenance are kept separately under `assets/source/` and `registry/`.
+<br>
+<p align="right"><img src="assets/wallee/corporate/rgb/wallee-logo-turquoise.svg" width="56" alt="wallee"></p>
