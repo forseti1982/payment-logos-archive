@@ -54,11 +54,18 @@ function readSvg(file) {
     if (!w || !h) throw new Error(`no viewBox or size in ${file}`);
     vb = `0 0 ${w} ${h}`;
   }
-  const inner = raw.slice(raw.indexOf(open[0]) + open[0].length, raw.lastIndexOf("</svg>")).trim();
+  // Editor metadata (Inkscape/Sodipodi/RDF) carries no artwork and its namespace
+  // prefixes are declared on the source root only; drop it so the nested copy stays valid.
+  const inner = raw.slice(raw.indexOf(open[0]) + open[0].length, raw.lastIndexOf("</svg>"))
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<metadata\b[\s\S]*?<\/metadata>/g, "")
+    .replace(/<sodipodi:namedview\b[\s\S]*?(\/>|<\/sodipodi:namedview>)/g, "")
+    .replace(/\s(sodipodi|inkscape):[a-zA-Z-]+="[^"]*"/g, "")
+    .trim();
   // Presentation attributes on the source root (e.g. fill="none") are inherited by
   // the artwork and must travel with it, otherwise unfilled shapes turn black.
   const keep = [...open[0].matchAll(/\s([a-zA-Z:-]+)="([^"]*)"/g)]
-    .filter(([, k]) => !/^(xmlns(:.*)?|width|height|viewBox|x|y|version|id|preserveAspectRatio)$/.test(k))
+    .filter(([, k]) => !/^(xmlns(:.*)?|width|height|viewBox|x|y|version|id|preserveAspectRatio|(sodipodi|inkscape):.*)$/.test(k))
     .map(([, k, v]) => ` ${k}="${v}"`).join("");
   return { viewBox: vb, inner, attrs: keep };
 }

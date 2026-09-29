@@ -315,6 +315,93 @@
         108
       ],
       "note": "Web image from swatch.com (no official master download offered). Used on explicit instruction of the repository owner, 28.09.2026."
+    },
+    "postfinance": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/PF_Logo_on_Yellow_RGB.svg",
+      "fieldFill": "#FFCC00",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "rupay": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/RuPay.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "ekz": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/EKZ_logo.svg",
+      "fieldFill": "#0081CF",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "avia": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/AVIA_International_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "girocard": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Girocard_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "interac": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/InteracLogo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "multibanco": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Multibanco.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "oxxo": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Oxxo_Logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "paybox": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Paybox-Logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "paydirekt": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Paydirekt_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "qiwi": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/QIWI_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "samsung-wallet": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Samsung_Wallet.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "sofort": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Sofort-klarna-logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "trustly": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Trustly_Logotype.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "zepp-pay": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Zepp_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "masterpass": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Masterpass_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "cryptocurrency": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Bitcoin_logo.svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
     }
   }
 }

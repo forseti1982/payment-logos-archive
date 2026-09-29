@@ -151,9 +151,19 @@
       "name": "Samsung Wallet",
       "category": "wallet",
       "status": "review",
-      "sourceStatus": "official-toolkit",
+      "sourceStatus": "wikimedia-commons-interim",
       "group": "wallets",
-      "rank": 3
+      "rank": 3,
+      "artwork": {
+        "source": "assets/source/wikimedia/Samsung_Wallet.svg",
+        "format": "svg",
+        "sha256": "e18c3d2d8c0acdd6fb87c7c0612bc837bc7588c451e333654c9cbcf61cbef522",
+        "from": "https://commons.wikimedia.org/wiki/File:Samsung_Wallet.svg",
+        "license": "Public domain",
+        "author": "Samsung",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "swatchpay",
@@ -186,7 +196,18 @@
       "category": "wallet",
       "status": "review",
       "group": "wallets",
-      "rank": 7
+      "rank": 7,
+      "sourceStatus": "wikimedia-commons-interim",
+      "artwork": {
+        "source": "assets/source/wikimedia/Zepp_logo.svg",
+        "format": "svg",
+        "sha256": "fe0f5e08e2b69e5d1233e1b1aac6386d16980be6a105bc3f43592530c7431395",
+        "from": "https://commons.wikimedia.org/wiki/File:Zepp_logo.svg",
+        "license": "Public domain",
+        "author": "Zepp Health Corporation",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "alipay-plus",
@@ -202,9 +223,19 @@
       "name": "PostFinance",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "official-download",
+      "sourceStatus": "wikimedia-commons-interim",
       "group": "switzerland",
-      "rank": 4
+      "rank": 4,
+      "artwork": {
+        "source": "assets/source/wikimedia/PF_Logo_on_Yellow_RGB.svg",
+        "format": "svg",
+        "sha256": "3e2d51299a7c38c13ff1e77046dacbf23fd2a7ba61bf407f1c609697b368d8eb",
+        "from": "https://commons.wikimedia.org/wiki/File:PF_Logo_on_Yellow_RGB.svg",
+        "license": "Public domain",
+        "author": "PostFinance AG",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "postfinance-pay",
@@ -795,8 +826,18 @@
       "status": "review",
       "group": "card-schemes",
       "rank": 20,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/RuPay.svg",
+        "format": "svg",
+        "sha256": "eed4cef49caaa90bca052ad7e48785eacdde208e0263d72df6d4c83b91b9fade",
+        "from": "https://commons.wikimedia.org/wiki/File:RuPay.svg",
+        "license": "Public domain",
+        "author": "National Payments Corporation of India",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "chw",
@@ -835,8 +876,18 @@
       "status": "review",
       "group": "switzerland",
       "rank": 19,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/AVIA_International_logo.svg",
+        "format": "svg",
+        "sha256": "1af125ad94ce018d78aebd31ceafa7a93653c694321b0443b73f9220087c218b",
+        "from": "https://commons.wikimedia.org/wiki/File:AVIA_International_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "ekz",
@@ -845,8 +896,18 @@
       "status": "review",
       "group": "switzerland",
       "rank": 20,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/EKZ_logo.svg",
+        "format": "svg",
+        "sha256": "c3db310c9bab00d54db5a13306f3e82e6212a070d757472d6c3f6130b3c3fd0c",
+        "from": "https://commons.wikimedia.org/wiki/File:Elektrizit%C3%A4tswerke_des_Kantons_Z%C3%BCrich_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "swiss-pay",
@@ -875,8 +936,18 @@
       "status": "review",
       "group": "online",
       "rank": 30,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Bitcoin_logo.svg",
+        "format": "svg",
+        "sha256": "b60ac50316eab86aba77099eb26a5dcb1bff9327c0c848dad616223f1abbee28",
+        "from": "https://commons.wikimedia.org/wiki/File:Bitcoin_logo.svg",
+        "license": "Public domain",
+        "author": "Bitboy",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt. Bitcoin-Logo stellvertretend für Kryptowährungen."
+      }
     },
     {
       "id": "trustly",
@@ -885,8 +956,18 @@
       "status": "review",
       "group": "online",
       "rank": 31,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Trustly_Logotype.svg",
+        "format": "svg",
+        "sha256": "6efae703d8f9718bf1706e026789b07afdce14d599c6a64161c70f9c844fac06",
+        "from": "https://commons.wikimedia.org/wiki/File:Trustly_Logotype.svg",
+        "license": "CC BY 4.0",
+        "author": "Snorlaks",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "payconiq",
@@ -915,8 +996,18 @@
       "status": "review",
       "group": "online",
       "rank": 34,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Multibanco.svg",
+        "format": "svg",
+        "sha256": "20258dc9654c8bdb8cdb3eb5209da23d723c4a35c5a9b0e82a123005636a69c5",
+        "from": "https://commons.wikimedia.org/wiki/File:Multibanco.svg",
+        "license": "Public domain",
+        "author": "SIBS",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "girocard",
@@ -925,8 +1016,18 @@
       "status": "review",
       "group": "online",
       "rank": 35,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Girocard_logo.svg",
+        "format": "svg",
+        "sha256": "f0853543a3904c1cf1cff3a712d9692805e5926640ea104fd5a7f37c5e58bf36",
+        "from": "https://commons.wikimedia.org/wiki/File:Girocard_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "pay-by-bank",
@@ -945,8 +1046,18 @@
       "status": "review",
       "group": "online",
       "rank": 37,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/InteracLogo.svg",
+        "format": "svg",
+        "sha256": "419e494ab7aa38c748bddb0a12948071549db3c5b4d73ccde17cb983931181f9",
+        "from": "https://commons.wikimedia.org/wiki/File:InteracLogo.svg",
+        "license": "Attribution",
+        "author": "Interac",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "boleto",
@@ -965,8 +1076,18 @@
       "status": "review",
       "group": "online",
       "rank": 39,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Oxxo_Logo.svg",
+        "format": "svg",
+        "sha256": "f03c5b9c30c234312ca6309799202f5fed22357a4fa0f1a6923141e7f13e712a",
+        "from": "https://commons.wikimedia.org/wiki/File:Oxxo_Logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "poli",
@@ -1005,8 +1126,18 @@
       "status": "review",
       "group": "online",
       "rank": 43,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Paybox-Logo.svg",
+        "format": "svg",
+        "sha256": "f3d339aaa1a4a2e75ec442d204ade8035b52bbe7e234b0a73db7e1270d785f65",
+        "from": "https://commons.wikimedia.org/wiki/File:Paybox-Logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "masterpass",
@@ -1015,10 +1146,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 5,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/Masterpass_logo.svg",
+        "format": "svg",
+        "sha256": "334b926fcde0b14f99290488e0b02ab8731b05430bc5a0d5c712d2e40932f33f",
+        "from": "https://commons.wikimedia.org/wiki/File:Masterpass_logo.svg",
+        "license": "Public domain",
+        "author": "Mastercard",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "sofort",
@@ -1027,10 +1168,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 6,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/Sofort-klarna-logo.svg",
+        "format": "svg",
+        "sha256": "ff7b54c1d5932719b34aac78b8e26132018dbe562433fbf06833c93d46031944",
+        "from": "https://commons.wikimedia.org/wiki/File:Sofort-klarna-logo.svg",
+        "license": "Public domain",
+        "author": "Sofort GmbH",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "paydirekt",
@@ -1039,10 +1190,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 7,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/Paydirekt_logo.svg",
+        "format": "svg",
+        "sha256": "685d406a9f7da6dcd08cf1d3ddfa527399b6d1a7bdc161e7d4a899580b7cd4c8",
+        "from": "https://commons.wikimedia.org/wiki/File:Paydirekt_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "qiwi",
@@ -1051,10 +1212,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 8,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/QIWI_logo.svg",
+        "format": "svg",
+        "sha256": "058a1e891e5f0b0b55e4e141e0aa56b890cd20f7db75023819385b6f40fd7c97",
+        "from": "https://commons.wikimedia.org/wiki/File:QIWI_logo.svg",
+        "license": "Public domain",
+        "author": "QIWI Bank",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "cashu",

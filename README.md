@@ -18,6 +18,7 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/elo.svg" width="96" alt="Elo" title="Elo · elo">
 <img src="dist/tiles/svg/hipercard.svg" width="96" alt="Hipercard" title="Hipercard · hipercard">
 <img src="dist/tiles/svg/uatp.svg" width="96" alt="UATP" title="UATP · uatp">
+<img src="dist/tiles/svg/rupay.svg" width="96" alt="RuPay" title="RuPay · rupay">
 </p>
 
 ### Wallets
@@ -26,7 +27,9 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/apple-pay.svg" width="96" alt="Apple Pay" title="Apple Pay · apple-pay">
 <img src="dist/tiles/svg/google-pay.svg" width="96" alt="Google Pay" title="Google Pay · google-pay">
 <img src="dist/tiles/svg/samsung-pay.svg" width="96" alt="Samsung Pay" title="Samsung Pay · samsung-pay">
+<img src="dist/tiles/svg/samsung-wallet.svg" width="96" alt="Samsung Wallet" title="Samsung Wallet · samsung-wallet">
 <img src="dist/tiles/svg/swatchpay.svg" width="96" alt="SwatchPAY!" title="SwatchPAY! · swatchpay">
+<img src="dist/tiles/svg/zepp-pay.svg" width="96" alt="Zepp Pay" title="Zepp Pay · zepp-pay">
 </p>
 
 ### Schweiz: ep2, TWINT, PostFinance
@@ -36,6 +39,7 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/twint.svg" width="96" alt="TWINT" title="TWINT · twint">
 <img src="dist/tiles/svg/postfinance-card.svg" width="96" alt="PostFinance Card" title="PostFinance Card · postfinance-card">
 <img src="dist/tiles/svg/postfinance-pay.svg" width="96" alt="PostFinance Pay" title="PostFinance Pay · postfinance-pay">
+<img src="dist/tiles/svg/postfinance.svg" width="96" alt="PostFinance" title="PostFinance · postfinance">
 <img src="dist/tiles/svg/reka.svg" width="96" alt="Reka" title="Reka · reka">
 <img src="dist/tiles/svg/lunch-check.svg" width="96" alt="Lunch-Check" title="Lunch-Check · lunch-check">
 <img src="dist/tiles/svg/boncard.svg" width="96" alt="boncard" title="boncard · boncard">
@@ -45,6 +49,8 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/swisspass.svg" width="96" alt="SwissPass" title="SwissPass · swisspass">
 <img src="dist/tiles/svg/half-fare-plus.svg" width="96" alt="Half Fare Plus" title="Half Fare Plus · half-fare-plus">
 <img src="dist/tiles/svg/swisscom-pay.svg" width="96" alt="Swisscom Pay" title="Swisscom Pay · swisscom-pay">
+<img src="dist/tiles/svg/avia.svg" width="96" alt="AVIA" title="AVIA · avia">
+<img src="dist/tiles/svg/ekz.svg" width="96" alt="EKZ" title="EKZ · ekz">
 </p>
 
 ### Online und international
@@ -73,6 +79,13 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/dimoco.svg" width="96" alt="DIMOCO" title="DIMOCO · dimoco">
 <img src="dist/tiles/svg/paycard.svg" width="96" alt="Paycard" title="Paycard · paycard">
 <img src="dist/tiles/svg/butterfly-card.svg" width="96" alt="Butterfly Card" title="Butterfly Card · butterfly-card">
+<img src="dist/tiles/svg/cryptocurrency.svg" width="96" alt="Kryptowährung" title="Kryptowährung · cryptocurrency">
+<img src="dist/tiles/svg/trustly.svg" width="96" alt="Trustly" title="Trustly · trustly">
+<img src="dist/tiles/svg/multibanco.svg" width="96" alt="Multibanco" title="Multibanco · multibanco">
+<img src="dist/tiles/svg/girocard.svg" width="96" alt="girocard" title="girocard · girocard">
+<img src="dist/tiles/svg/interac.svg" width="96" alt="Interac Online" title="Interac Online · interac">
+<img src="dist/tiles/svg/oxxo.svg" width="96" alt="OXXO" title="OXXO · oxxo">
+<img src="dist/tiles/svg/paybox.svg" width="96" alt="paybox" title="paybox · paybox">
 </p>
 
 ### Rechnung, Ratenkauf und Bonität
@@ -110,6 +123,10 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <p>
 <img src="dist/tiles/svg/maestro.svg" width="96" alt="Maestro" title="Maestro · maestro">
 <img src="dist/tiles/svg/giropay.svg" width="96" alt="giropay" title="giropay · giropay">
+<img src="dist/tiles/svg/masterpass.svg" width="96" alt="Masterpass" title="Masterpass · masterpass">
+<img src="dist/tiles/svg/sofort.svg" width="96" alt="SOFORT" title="SOFORT · sofort">
+<img src="dist/tiles/svg/paydirekt.svg" width="96" alt="paydirekt" title="paydirekt · paydirekt">
+<img src="dist/tiles/svg/qiwi.svg" width="96" alt="QIWI" title="QIWI · qiwi">
 </p>
 
 ## Verwenden

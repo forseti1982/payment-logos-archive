@@ -43,7 +43,14 @@
       "toolkitSizeMB": 11.2,
       "logoAssetVersion": "2025_2.0",
       "logoAssetSizeMB": 37.8,
-      "checked": "2026-09-28"
+      "checked": "2026-09-28",
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Samsung_Wallet.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     "postfinance": {
       "status": "official-download",
@@ -56,7 +63,14 @@
       ],
       "preferred": "eps",
       "checked": "2026-09-28",
-      "note": "Package updated 09.04.2026: PNG/JPG sizes 70x44, 140x88, 210x132 plus PF_Logo_on_Yellow_RGB.eps. Not yet imported (binary download needs owner approval)."
+      "note": "Package updated 09.04.2026: PNG/JPG sizes 70x44, 140x88, 210x132 plus PF_Logo_on_Yellow_RGB.eps. Not yet imported (binary download needs owner approval).",
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:PF_Logo_on_Yellow_RGB.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     "postfinance-card": {
       "status": "official-download",
@@ -162,7 +176,140 @@
     },
     "zepp-pay": {
       "status": "no-first-party-source-found",
-      "checked": "2026-09-28"
+      "checked": "2026-09-28",
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Zepp_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "rupay": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:RuPay.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "ekz": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Elektrizit%C3%A4tswerke_des_Kantons_Z%C3%BCrich_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "avia": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:AVIA_International_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "girocard": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Girocard_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "interac": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:InteracLogo.svg",
+        "license": "Attribution",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "multibanco": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Multibanco.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "oxxo": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Oxxo_Logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "paybox": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Paybox-Logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "paydirekt": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Paydirekt_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "qiwi": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:QIWI_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "sofort": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Sofort-klarna-logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "trustly": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Trustly_Logotype.svg",
+        "license": "CC BY 4.0",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "masterpass": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Masterpass_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
+    },
+    "cryptocurrency": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Bitcoin_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     }
   }
 }
