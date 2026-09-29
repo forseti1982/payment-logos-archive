@@ -136,6 +136,7 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | Elo | `elo` | Kartenmarken |
 | Hipercard | `hipercard` | Kartenmarken |
 | UATP | `uatp` | Kartenmarken |
+| RuPay | `rupay` | Kartenmarken |
 | Apple Pay | `apple-pay` | Wallets |
 | Google Pay | `google-pay` | Wallets |
 | Samsung Pay | `samsung-pay` | Wallets |
@@ -158,6 +159,13 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | SwissPass | `swisspass` | Schweiz |
 | Half Fare Plus | `half-fare-plus` | Schweiz |
 | Swisscom Pay | `swisscom-pay` | Schweiz |
+| CHW (WIR) | `chw` | Schweiz |
+| Bücherbon | `buecherbon` | Schweiz |
+| POWERCARD | `powercard` | Schweiz |
+| AVIA | `avia` | Schweiz |
+| EKZ | `ekz` | Schweiz |
+| Swiss Pay | `swiss-pay` | Schweiz |
+| Innocard | `innocard` | Schweiz |
 | Click to Pay | `click-to-pay` | Online |
 | PayPal | `paypal` | Online |
 | Alipay+ | `alipay-plus` | Online |
@@ -181,6 +189,20 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | DIMOCO | `dimoco` | Online |
 | Paycard | `paycard` | Online |
 | Butterfly Card | `butterfly-card` | Online |
+| Kryptowährung | `cryptocurrency` | Online |
+| Trustly | `trustly` | Online |
+| Payconiq | `payconiq` | Online |
+| Paylib | `paylib` | Online |
+| Multibanco | `multibanco` | Online |
+| girocard | `girocard` | Online |
+| Pay by Bank | `pay-by-bank` | Online |
+| Interac Online | `interac` | Online |
+| Boleto Bancário | `boleto` | Online |
+| OXXO | `oxxo` | Online |
+| POLi | `poli` | Online |
+| Tenpay | `tenpay` | Online |
+| BankAxess | `bankaxess` | Online |
+| paybox | `paybox` | Online |
 | Klarna | `klarna` | Rechnung |
 | POWERPAY | `powerpay` | Rechnung |
 | CembraPay | `cembrapay` | Rechnung |
@@ -199,6 +221,12 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | Maestro | `maestro` | Legacy |
 | giropay | `giropay` | Legacy |
 | PostFinance e-finance | `postfinance-efinance` | Legacy |
+| Masterpass | `masterpass` | Legacy |
+| SOFORT | `sofort` | Legacy |
+| paydirekt | `paydirekt` | Legacy |
+| QIWI | `qiwi` | Legacy |
+| CASHU | `cashu` | Legacy |
+| DaoPay | `daopay` | Legacy |
 
 </details>
 

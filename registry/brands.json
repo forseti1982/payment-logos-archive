@@ -787,6 +787,298 @@
       "coverageSource": "datatrans-benchmark",
       "group": "generic",
       "rank": 6
+    },
+    {
+      "id": "rupay",
+      "name": "RuPay",
+      "category": "scheme",
+      "status": "review",
+      "group": "card-schemes",
+      "rank": 20,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "chw",
+      "name": "CHW (WIR)",
+      "category": "scheme",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 16,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "buecherbon",
+      "name": "Bücherbon",
+      "category": "payment-method",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 17,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "powercard",
+      "name": "POWERCARD",
+      "category": "payment-method",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 18,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "avia",
+      "name": "AVIA",
+      "category": "payment-method",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 19,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "ekz",
+      "name": "EKZ",
+      "category": "payment-method",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 20,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "swiss-pay",
+      "name": "Swiss Pay",
+      "category": "payment-method",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 21,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "innocard",
+      "name": "Innocard",
+      "category": "payment-method",
+      "status": "review",
+      "group": "switzerland",
+      "rank": 22,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "cryptocurrency",
+      "name": "Kryptowährung",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 30,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "trustly",
+      "name": "Trustly",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 31,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "payconiq",
+      "name": "Payconiq",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 32,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "paylib",
+      "name": "Paylib",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 33,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "multibanco",
+      "name": "Multibanco",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 34,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "girocard",
+      "name": "girocard",
+      "category": "scheme",
+      "status": "review",
+      "group": "online",
+      "rank": 35,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "pay-by-bank",
+      "name": "Pay by Bank",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 36,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "interac",
+      "name": "Interac Online",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 37,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "boleto",
+      "name": "Boleto Bancário",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 38,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "oxxo",
+      "name": "OXXO",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 39,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "poli",
+      "name": "POLi",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 40,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "tenpay",
+      "name": "Tenpay",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 41,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "bankaxess",
+      "name": "BankAxess",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 42,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "paybox",
+      "name": "paybox",
+      "category": "payment-method",
+      "status": "review",
+      "group": "online",
+      "rank": 43,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods"
+    },
+    {
+      "id": "masterpass",
+      "name": "Masterpass",
+      "category": "payment-method",
+      "status": "review",
+      "group": "legacy",
+      "rank": 5,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "lifecycle": "check",
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+    },
+    {
+      "id": "sofort",
+      "name": "SOFORT",
+      "category": "payment-method",
+      "status": "review",
+      "group": "legacy",
+      "rank": 6,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "lifecycle": "check",
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+    },
+    {
+      "id": "paydirekt",
+      "name": "paydirekt",
+      "category": "payment-method",
+      "status": "review",
+      "group": "legacy",
+      "rank": 7,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "lifecycle": "check",
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+    },
+    {
+      "id": "qiwi",
+      "name": "QIWI",
+      "category": "payment-method",
+      "status": "review",
+      "group": "legacy",
+      "rank": 8,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "lifecycle": "check",
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+    },
+    {
+      "id": "cashu",
+      "name": "CASHU",
+      "category": "payment-method",
+      "status": "review",
+      "group": "legacy",
+      "rank": 9,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "lifecycle": "check",
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+    },
+    {
+      "id": "daopay",
+      "name": "DaoPay",
+      "category": "payment-method",
+      "status": "review",
+      "group": "legacy",
+      "rank": 10,
+      "sourceStatus": "wallee-supported-logo-missing",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "lifecycle": "check",
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
     }
   ],
   "sorting": {
