@@ -21,49 +21,56 @@
       "name": "American Express",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 2
     },
     {
       "id": "cartes-bancaires",
       "name": "Cartes Bancaires",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 8
     },
     {
       "id": "dankort",
       "name": "Dankort",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 9
     },
     {
       "id": "diners-club",
       "name": "Diners Club",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 3
     },
     {
       "id": "discover",
       "name": "Discover",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 4
     },
     {
       "id": "jcb",
       "name": "JCB",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 5
     },
     {
       "id": "mastercard",
       "name": "Mastercard",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 1
     },
     {
       "id": "postfinance-card",
@@ -80,35 +87,40 @@
         "retrieved": "2026-09-28",
         "note": "New brand identity (package dated April 2026). PNG/JPG only, no vector master offered. Previous Datatrans artwork retired."
       },
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 2
     },
     {
       "id": "unionpay",
       "name": "UnionPay",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 6
     },
     {
       "id": "v-pay",
       "name": "V PAY",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 7
     },
     {
       "id": "visa",
       "name": "Visa",
       "category": "scheme",
       "status": "review",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 0
     },
     {
       "id": "apple-pay",
       "name": "Apple Pay",
       "category": "wallet",
       "status": "review",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 0
     },
     {
       "id": "garmin-pay",
@@ -116,14 +128,16 @@
       "category": "wallet",
       "status": "review",
       "sourceStatus": "request-gated",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 4
     },
     {
       "id": "google-pay",
       "name": "Google Pay",
       "category": "wallet",
       "status": "review",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 1
     },
     {
       "id": "samsung-wallet",
@@ -131,7 +145,8 @@
       "category": "wallet",
       "status": "review",
       "sourceStatus": "official-toolkit",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 3
     },
     {
       "id": "swatchpay",
@@ -147,21 +162,24 @@
         "retrieved": "2026-09-28",
         "note": "Image served on swatch.com, not an authorised master download. Used as interim on the owner's instruction; replace once Swatch provides an official master."
       },
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 5
     },
     {
       "id": "xiaomi-pay",
       "name": "Xiaomi Pay",
       "category": "wallet",
       "status": "review",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 6
     },
     {
       "id": "zepp-pay",
       "name": "Zepp Pay",
       "category": "wallet",
       "status": "review",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 7
     },
     {
       "id": "alipay-plus",
@@ -169,7 +187,8 @@
       "category": "payment-method",
       "status": "review",
       "sourceStatus": "license-gated-official-download",
-      "group": "online"
+      "group": "online",
+      "rank": 2
     },
     {
       "id": "postfinance",
@@ -177,7 +196,8 @@
       "category": "payment-method",
       "status": "review",
       "sourceStatus": "official-download",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 4
     },
     {
       "id": "postfinance-pay",
@@ -192,7 +212,8 @@
         "retrieved": "2026-09-28",
         "from": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-pay-logo.zip (postfinance-pay.svg, package last modified 09.04.2026)"
       },
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 3
     },
     {
       "id": "twint",
@@ -208,7 +229,8 @@
         "retrieved": "2026-09-28",
         "note": "Taken from the brand owner's website; official merchant logo package sits behind the TWINT Brand Portal login. Owner-approved interim."
       },
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 1
     },
     {
       "id": "wechat-pay",
@@ -224,7 +246,8 @@
         "retrieved": "2026-09-28",
         "guidelines": "https://res.wx.qq.com/a/wx_fed/wedesign/res/17f8/WeChat_Pay_Visual_Identity_Guidelines_201703.pdf"
       },
-      "group": "online"
+      "group": "online",
+      "rank": 4
     },
     {
       "id": "wero",
@@ -240,7 +263,8 @@
         "from": "https://wero-wallet.eu/storage/files/Checkout-Card-Radius.svg (Checkout brand guidelines, file dated 16.01.2026)",
         "constraints": "Checkout logo layout: acceptor card minimum 31 px wide, minimum 15 px between logos (https://wero-wallet.eu/brand-guidelines/checkout)."
       },
-      "group": "online"
+      "group": "online",
+      "rank": 6
     },
     {
       "id": "voltox-smile-pay",
@@ -259,7 +283,8 @@
         "supplied": "2026-09-28",
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
       },
-      "group": "partners"
+      "group": "partners",
+      "rank": 0
     },
     {
       "id": "voltox-age-verification",
@@ -278,7 +303,8 @@
         "supplied": "2026-09-28",
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
       },
-      "group": "partners"
+      "group": "partners",
+      "rank": 1
     },
     {
       "id": "click-to-pay",
@@ -294,7 +320,8 @@
         "retrieved": "2026-09-28",
         "note": "Icon in EMVCo's site colour #0E405B. Colour and lockup rules are in the Click to Pay Reproduction Requirements v2.0; licensed master still to be obtained."
       },
-      "group": "online"
+      "group": "online",
+      "rank": 0
     },
     {
       "id": "ep2",
@@ -311,7 +338,8 @@
         "sha256": "998c9db631e54424c6d6b3a6a1db9aaab842ea7912f14de256debaef7fe37ba2",
         "sourceType": "user-supplied-official-master"
       },
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 0
     },
     {
       "id": "maestro",
@@ -319,7 +347,8 @@
       "category": "scheme",
       "status": "legacy",
       "group": "legacy",
-      "lifecycle": "legacy"
+      "lifecycle": "legacy",
+      "rank": 0
     },
     {
       "id": "samsung-pay",
@@ -328,7 +357,8 @@
       "status": "review",
       "lifecycle": "current-service-mark",
       "sourceStatus": "official-toolkit",
-      "group": "wallets"
+      "group": "wallets",
+      "rank": 2
     },
     {
       "id": "elo",
@@ -336,7 +366,8 @@
       "category": "scheme",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 10
     },
     {
       "id": "hipercard",
@@ -344,7 +375,8 @@
       "category": "scheme",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 11
     },
     {
       "id": "uatp",
@@ -352,7 +384,8 @@
       "category": "scheme",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "card-schemes"
+      "group": "card-schemes",
+      "rank": 12
     },
     {
       "id": "alipay",
@@ -360,7 +393,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 3
     },
     {
       "id": "amazon-pay",
@@ -368,7 +402,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 5
     },
     {
       "id": "availabill",
@@ -376,7 +411,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "invoice"
+      "group": "invoice",
+      "rank": 3
     },
     {
       "id": "bancontact",
@@ -384,7 +420,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 9
     },
     {
       "id": "blik",
@@ -392,7 +429,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 10
     },
     {
       "id": "boncard",
@@ -400,7 +438,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 8
     },
     {
       "id": "bonus-card",
@@ -408,7 +447,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 9
     },
     {
       "id": "butterfly-card",
@@ -416,7 +456,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 22
     },
     {
       "id": "cembrapay",
@@ -424,7 +465,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "invoice"
+      "group": "invoice",
+      "rank": 2
     },
     {
       "id": "crif",
@@ -432,7 +474,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "invoice"
+      "group": "invoice",
+      "rank": 4
     },
     {
       "id": "dimoco",
@@ -440,7 +483,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 20
     },
     {
       "id": "ebill",
@@ -448,7 +492,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "invoice"
+      "group": "invoice",
+      "rank": 5
     },
     {
       "id": "eps",
@@ -456,7 +501,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 11
     },
     {
       "id": "giropay",
@@ -466,7 +512,8 @@
       "coverageSource": "datatrans-benchmark",
       "group": "legacy",
       "lifecycle": "retired",
-      "lifecycleNote": "giropay wurde Ende 2024 eingestellt."
+      "lifecycleNote": "giropay wurde Ende 2024 eingestellt.",
+      "rank": 1
     },
     {
       "id": "half-fare-plus",
@@ -474,7 +521,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 13
     },
     {
       "id": "ideal",
@@ -482,7 +530,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 8
     },
     {
       "id": "ideal-wero",
@@ -490,7 +539,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 7
     },
     {
       "id": "klarna",
@@ -498,7 +548,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "invoice"
+      "group": "invoice",
+      "rank": 0
     },
     {
       "id": "lunch-check",
@@ -506,7 +557,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 7
     },
     {
       "id": "mediamarkt",
@@ -514,7 +566,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 11
     },
     {
       "id": "migros-giftcard",
@@ -522,7 +575,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 10
     },
     {
       "id": "mobilepay",
@@ -530,7 +584,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 12
     },
     {
       "id": "paycard",
@@ -538,7 +593,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 21
     },
     {
       "id": "paypal",
@@ -546,7 +602,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 1
     },
     {
       "id": "paysafecard",
@@ -554,7 +611,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 18
     },
     {
       "id": "pointspay",
@@ -562,7 +620,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 19
     },
     {
       "id": "postfinance-efinance",
@@ -572,7 +631,8 @@
       "coverageSource": "datatrans-benchmark",
       "artworkLifecycle": "outdated",
       "artworkNote": "Previous artwork (old PostFinance logo from the Datatrans set) declared outdated by the repository owner on 28.09.2026. Tile shows placeholder until the current official master is imported. Product status itself not yet checked.",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 5
     },
     {
       "id": "powerpay",
@@ -580,7 +640,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "invoice"
+      "group": "invoice",
+      "rank": 1
     },
     {
       "id": "przelewy24",
@@ -588,7 +649,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 15
     },
     {
       "id": "reka",
@@ -596,7 +658,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 6
     },
     {
       "id": "sepa",
@@ -604,7 +667,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 16
     },
     {
       "id": "skrill",
@@ -612,7 +676,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 17
     },
     {
       "id": "swish",
@@ -620,7 +685,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 14
     },
     {
       "id": "swisscom-pay",
@@ -628,7 +694,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 14
     },
     {
       "id": "swisspass",
@@ -636,7 +703,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "switzerland"
+      "group": "switzerland",
+      "rank": 12
     },
     {
       "id": "vipps",
@@ -644,7 +712,8 @@
       "category": "payment-method",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "online"
+      "group": "online",
+      "rank": 13
     },
     {
       "id": "card-generic",
@@ -652,7 +721,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 0
     },
     {
       "id": "card-generic-alt",
@@ -660,7 +730,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 1
     },
     {
       "id": "card-generic-gold",
@@ -668,7 +739,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 2
     },
     {
       "id": "gift-card-generic",
@@ -676,7 +748,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 3
     },
     {
       "id": "gift-card-generic-alt",
@@ -684,7 +757,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 4
     },
     {
       "id": "gift-card-generic-gold",
@@ -692,7 +766,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 5
     },
     {
       "id": "invoice",
@@ -700,7 +775,8 @@
       "category": "generic",
       "status": "review",
       "coverageSource": "datatrans-benchmark",
-      "group": "generic"
+      "group": "generic",
+      "rank": 6
     }
   ],
   "sorting": {
@@ -720,35 +796,43 @@
   "groups": [
     {
       "id": "card-schemes",
-      "title": "Kartenmarken (PayFac und Acquiring)"
+      "title": "Kartenmarken (PayFac und Acquiring)",
+      "short": "Kartenmarken"
     },
     {
       "id": "wallets",
-      "title": "Wallets"
+      "title": "Wallets",
+      "short": "Wallets"
     },
     {
       "id": "switzerland",
-      "title": "Schweiz: ep2, TWINT, PostFinance und Schweizer Karten"
+      "title": "Schweiz: ep2, TWINT, PostFinance",
+      "short": "Schweiz"
     },
     {
       "id": "online",
-      "title": "Online- und internationale Zahlarten"
+      "title": "Online und international",
+      "short": "Online"
     },
     {
       "id": "invoice",
-      "title": "Rechnung, Ratenkauf und Bonität"
+      "title": "Rechnung, Ratenkauf und Bonität",
+      "short": "Rechnung"
     },
     {
       "id": "partners",
-      "title": "wallee-Partner"
+      "title": "wallee-Partner",
+      "short": "Partner"
     },
     {
       "id": "generic",
-      "title": "Generische Symbole"
+      "title": "Generische Symbole",
+      "short": "Generisch"
     },
     {
       "id": "legacy",
-      "title": "Legacy (eingestellt, nur für bestehende Integrationen)"
+      "title": "Legacy",
+      "short": "Legacy"
     }
   ]
 }
