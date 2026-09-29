@@ -6,7 +6,7 @@
 
 </div>
 
-## wallee-Kachel
+## wallee-Kachel 
 
 Jedes Logo wird als Kachel im Kartenformat (120 × 80) ausgeliefert. Der Rahmen ist Pflicht und für alle Kacheln gleich:
 
