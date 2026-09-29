@@ -63,4 +63,4 @@ Jede Kachel trägt `role="img"` und einen `<title>` mit dem Markennamen, damit S
 
 ## Dark-Version
 
-`dist/tiles/svg-dark/` enthält dieselben IDs wie die hellen Kacheln. Rahmen identisch, Logofeld #363636. Logos erscheinen als einfarbig weisse Negativform, in ihrer eigenen Box (z. B. AmEx, TWINT, Klarna, Google Pay) oder, wo keine Dark-Form sinnvoll ist, als helle Kachel (PostFinance, PostFinance Card, SwatchPAY, Rechnung). Das Logo füllt das Feld mit 5 px Rand. Erzeugt mit `npm run build:tiles-dark`; die hellen Kacheln bleiben unverändert.
+`dist/tiles/svg-dark/` enthält dieselben IDs wie die hellen Kacheln. Rahmen identisch, Logofeld #363636. Logos erscheinen als einfarbig weisse Negativform, in ihrer eigenen Box (z. B. AmEx, TWINT, Klarna, Google Pay) oder, wo keine Dark-Form sinnvoll ist, als helle Kachel (PostFinance, PostFinance Card, SwatchPAY, Rechnung). Das Logo sitzt mit 18 px Rand seitlich und 16 px oben und unten, also etwa so gross wie auf den hellen Kacheln. Erzeugt mit `npm run build:tiles-dark`; die hellen Kacheln bleiben unverändert.

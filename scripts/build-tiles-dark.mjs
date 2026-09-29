@@ -28,8 +28,8 @@ const W = 120, H = 80, R = 5;
 const OUT = t.outerWhitePx, FRAME = t.framePx, IN = OUT + FRAME, COLOR = t.frameColor;
 const FIELD = dark.field;
 const field = { x: IN, y: IN, w: W - 2 * IN, h: H - 2 * IN, r: R - IN };
-const M = dark.marginPx;
-const box = { x: field.x + M, y: field.y + M, w: field.w - 2 * M, h: field.h - 2 * M };
+const MX = dark.marginX ?? dark.marginPx, MY = dark.marginY ?? dark.marginPx;
+const box = { x: field.x + MX, y: field.y + MY, w: field.w - 2 * MX, h: field.h - 2 * MY };
 
 const UNSAFE = /<script|\son[a-z]+\s*=|<foreignObject|<image|href\s*=\s*"(?!#)|@import|url\((?!#)/i;
 const names = Object.fromEntries(brands.brands.map((b) => [b.id, b.name]));
@@ -98,7 +98,7 @@ function frame(id) {
   ];
 }
 
-const outDir = path.join(root, "dist/tiles/svg-dark");
+const outDir = process.env.DARK_OUT ? path.resolve(process.env.DARK_OUT) : path.join(root, "dist/tiles/svg-dark");
 fs.rmSync(outDir, { recursive: true, force: true });
 fs.mkdirSync(outDir, { recursive: true });
 const report = { white: [], original: [], light: [] };

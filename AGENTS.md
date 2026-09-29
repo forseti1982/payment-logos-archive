@@ -78,7 +78,7 @@ Generated only by `scripts/build-tiles-dark.mjs` from `registry/tile-sources-dar
 - Narrow exception to "never recolor", valid for the dark variant only: a monochrome white negative (`treatment: white`) derived from the unchanged source (colours to white, white knockouts to the field colour; shapes unchanged). No outlines, strokes, glows or other effects.
 - Prefer an official negative/dark file from the brand owner as soon as one is available; record the brand guideline that permits one-colour reproduction. Until then the dark tile stays `review`.
 - `treatment: original` shows the unchanged source on the dark field (brand's own box or colours); `treatment: light` falls back to the light tile.
-- The logo fills the field with a 5 px margin, fitted to its measured visible extent (`bounds`). Build fails if a white tile keeps a colour below 3:1 against the field.
+- The logo is fitted to its measured visible extent (`bounds`) with a margin of 18 px left/right and 16 px top/bottom, matching the visual size of the light tiles (owner: "nicht so extrem gross"). Build fails if a white tile keeps a colour below 3:1 against the field.
  Brand-owner clearspace/minimum-size rules override optical enlargement. Scale DOWN when required. Never recolor a brand to wallee turquoise.
 
 ## 7. Optical sizing

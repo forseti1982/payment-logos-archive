@@ -281,14 +281,18 @@
       "source": "assets/source/datatrans/cards/visa.svg"
     },
     "voltox-age-verification": {
-      "mode": "mark",
-      "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
-      "note": "VOLTOX-Wortmarke (#1C5257) auf weissem Feld. Das grüne Vollflächenfeld entfällt, weil die Wortmarke selbst grün ist und nicht umgefärbt werden darf."
+      "mode": "badge",
+      "source": "assets/source/voltox/voltox-logo-supplied.png",
+      "fieldFill": "#1C5157",
+      "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png.",
+      "note": "Owner 29.09.2026: VOLTOX-Logo (Smile-o), nicht die Wortmarke. Auf voltox.ai gibt es das Zeichen nur als PNG (256 px); Vektor bei VOLTOX anfragen."
     },
     "voltox-smile-pay": {
-      "mode": "mark",
-      "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
-      "note": "VOLTOX-Wortmarke (#1C5257) auf weissem Feld. Das grüne Vollflächenfeld entfällt, weil die Wortmarke selbst grün ist und nicht umgefärbt werden darf."
+      "mode": "badge",
+      "source": "assets/source/voltox/voltox-logo-supplied.png",
+      "fieldFill": "#1C5157",
+      "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png.",
+      "note": "Owner 29.09.2026: VOLTOX-Logo (Smile-o), nicht die Wortmarke. Auf voltox.ai gibt es das Zeichen nur als PNG (256 px); Vektor bei VOLTOX anfragen."
     },
     "wechat-pay": {
       "mode": "mark",

@@ -4,7 +4,7 @@
 <rect width="120" height="80" rx="5" fill="#FFFFFF"/>
 <rect x="1" y="1" width="118" height="78" rx="4" fill="#11D9CC"/>
 <rect x="3" y="3" width="114" height="74" rx="2" fill="#363636"/>
-<svg fill="none" x="8" y="8" width="104" height="64" viewBox="15.06 19.82 89.88 40.36" preserveAspectRatio="xMidYMid meet">
+<svg fill="none" x="21" y="19" width="78" height="42" viewBox="15.06 19.82 89.88 40.36" preserveAspectRatio="xMidYMid meet">
 <rect width="120" height="80" rx="4" fill="#363636"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M43.7377 51.5057L40.6711 44.0938H37.9622L42.4774 54.5535L40.1631 60.1783H42.7408L49.3063 44.0938H46.6348L43.7377 51.5057Z" fill="#FFFFFF"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M30.8682 43.8679C32.3165 43.8679 33.6147 44.4702 34.4047 45.4108V44.0939H36.9444V55.0991H34.4047V53.6696C33.5959 54.685 32.279 55.3247 30.8305 55.3247C28.1779 55.3247 25.4127 53.199 25.4127 49.6059C25.4127 45.9564 28.0839 43.8679 30.8682 43.8679ZM31.2442 46.1822C29.363 46.1822 27.9147 47.6685 27.9147 49.5685C27.9147 51.487 29.363 52.9919 31.2442 52.9919C33.1253 52.9919 34.5365 51.4682 34.5365 49.5685C34.5365 47.7059 33.1253 46.1822 31.2442 46.1822Z" fill="#FFFFFF"/>

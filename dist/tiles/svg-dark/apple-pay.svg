@@ -4,7 +4,7 @@
 <rect width="120" height="80" rx="5" fill="#FFFFFF"/>
 <rect x="1" y="1" width="118" height="78" rx="4" fill="#11D9CC"/>
 <rect x="3" y="3" width="114" height="74" rx="2" fill="#363636"/>
-<svg fill="none" x="8" y="8" width="104" height="64" viewBox="1.38 1.38 117.25 77.25" preserveAspectRatio="xMidYMid meet">
+<svg fill="none" x="21" y="19" width="78" height="42" viewBox="1.38 1.38 117.25 77.25" preserveAspectRatio="xMidYMid meet">
 <g clip-path="url(#clip0_823_247)">
 <rect x="1.375" y="1.375" width="117.25" height="77.25" rx="6.625" fill="#363636"/>
 <path d="M55.5533 22.9046C61.103 22.9046 64.9675 26.7301 64.9675 32.2997C64.9675 37.8892 61.0235 41.7345 55.4142 41.7345H49.2696V51.5062H44.8301V22.9046L55.5533 22.9046ZM49.2695 38.0081H54.3635C58.2288 38.0081 60.4286 35.9271 60.4286 32.3196C60.4286 28.7124 58.2288 26.6509 54.3834 26.6509H49.2695V38.0081Z" fill="#FFFFFF"/>

@@ -1,7 +1,6 @@
 {
-  "_comment": "Dark variant (dist/tiles/svg-dark). Light tiles are not affected. treatment: white = monochrome negative derived from the source (colours to white, white knockouts to field colour); original = source unchanged on the dark field; light = no dark tile, use the light tile. bounds = measured visible artwork extent (Chromium, 29.09.2026) so the logo fills the field.",
+  "_comment": "Dark variant (dist/tiles/svg-dark). Light tiles are not affected. treatment: white = monochrome negative derived from the source (colours to white, white knockouts to field colour); original = source unchanged on the dark field; light = no dark tile, use the light tile. bounds = measured visible artwork extent (Chromium, 29.09.2026) so the logo sits in the field at the same visual size as on the light tiles (margin 18 px left/right, 16 px top/bottom).",
   "field": "#363636",
-  "marginPx": 5,
   "tiles": {
     "alipay": {
       "treatment": "white",
@@ -339,7 +338,8 @@
     },
     "twint": {
       "treatment": "original",
-      "bounds": "12.54 9.32 175.89 56.35"
+      "bounds": "12.54 9.32 175.89 56.35",
+      "fit": true
     },
     "uatp": {
       "treatment": "white",
@@ -364,10 +364,12 @@
       "bounds": "19.05 27.16 81.9 25.67"
     },
     "voltox-age-verification": {
-      "treatment": "white"
+      "treatment": "light",
+      "note": "Wie die helle Kachel: VOLTOX-Logo auf eigenem Grün."
     },
     "voltox-smile-pay": {
-      "treatment": "white"
+      "treatment": "light",
+      "note": "Wie die helle Kachel: VOLTOX-Logo auf eigenem Grün."
     },
     "wechat-pay": {
       "treatment": "white"
@@ -382,5 +384,7 @@
     "zepp-pay": {
       "treatment": "white"
     }
-  }
+  },
+  "marginX": 18,
+  "marginY": 16
 }

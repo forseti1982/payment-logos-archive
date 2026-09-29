@@ -456,18 +456,8 @@
       "status": "review",
       "vendor": "VOLTOX",
       "product": "Smile & Pay",
-      "sourceStatus": "brand-owner-website",
+      "sourceStatus": "user-supplied-raster",
       "artwork": {
-        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
-        "format": "svg",
-        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
-        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
-        "retrieved": "2026-09-29",
-        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
-      },
-      "group": "partners",
-      "rank": 0,
-      "artworkPrevious": {
         "source": "assets/source/voltox/voltox-logo-supplied.png",
         "format": "png",
         "pixels": "200x200",
@@ -475,6 +465,16 @@
         "suppliedBy": "Martin Bitzer (wallee)",
         "supplied": "2026-09-28",
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
+      },
+      "group": "partners",
+      "rank": 0,
+      "artworkAlternative": {
+        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+        "format": "svg",
+        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
+        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
+        "retrieved": "2026-09-29",
+        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
       }
     },
     {
@@ -484,18 +484,8 @@
       "status": "review",
       "vendor": "VOLTOX",
       "product": "Age Verification",
-      "sourceStatus": "brand-owner-website",
+      "sourceStatus": "user-supplied-raster",
       "artwork": {
-        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
-        "format": "svg",
-        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
-        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
-        "retrieved": "2026-09-29",
-        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
-      },
-      "group": "partners",
-      "rank": 1,
-      "artworkPrevious": {
         "source": "assets/source/voltox/voltox-logo-supplied.png",
         "format": "png",
         "pixels": "200x200",
@@ -503,6 +493,16 @@
         "suppliedBy": "Martin Bitzer (wallee)",
         "supplied": "2026-09-28",
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
+      },
+      "group": "partners",
+      "rank": 1,
+      "artworkAlternative": {
+        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+        "format": "svg",
+        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
+        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
+        "retrieved": "2026-09-29",
+        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
       }
     },
     {
