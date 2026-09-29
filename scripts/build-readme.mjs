@@ -47,8 +47,12 @@ const NEXT = {
 function wall(list) {
   return list.map((b) => {
     const src = has(b.id) ? `dist/tiles/svg/${b.id}.svg` : "docs/img/missing-tile.svg";
-    const label = has(b.id) ? `${b.name} · ${b.id}` : `${b.name} · Logo fehlt`;
-    return `<img src="${src}" width="96" alt="${esc(b.name)}" title="${esc(label)}">`;
+    const aids = (b.ep2Aids ?? []).filter((a) => a.active).map((a) => a.aid);
+    const label = (has(b.id) ? `${b.name} · ${b.id}` : `${b.name} · Logo fehlt`) + (aids.length ? ` · AID ${aids.join(", ")}` : "");
+    const img = `<img src="${src}" width="96" alt="${esc(b.name)}" title="${esc(label)}">`;
+    // GitHub shows the dark tile automatically when the viewer uses dark mode.
+    const dark = `dist/tiles/svg-dark/${b.id}.svg`;
+    return fs.existsSync(path.join(root, dark)) ? `<picture><source media="(prefers-color-scheme: dark)" srcset="${dark}">${img}</picture>` : img;
   }).join("\n");
 }
 
@@ -66,8 +70,10 @@ const sections = brands.groups.map((g) => {
   return `### ${g.title}\n\n<p>\n${wall(list)}\n</p>\n`;
 }).join("\n");
 
+// ep2 AIDs (active only) from the ep2 ID master, one per line.
+const aidCell = (b) => (b.ep2Aids ?? []).filter((a) => a.active).map((a) => `\`${a.aid}\``).join("<br>");
 const ref = brands.groups.flatMap((g) => byGroup(g.id).map((b) =>
-  `| ${cell(b.name)} | \`${b.id}\` | ${g.short ?? g.title} |`)).join("\n");
+  `| ${cell(b.name)} | \`${b.id}\` | ${g.short ?? g.title} | ${aidCell(b)} |`)).join("\n");
 
 const pending = brands.brands.filter((b) => b.group !== "generic" && !["Original", "Katalog"].includes(origin(b)))
   .sort((a, b) => a.name.localeCompare(b.name, "de"))
@@ -84,15 +90,22 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 ${sections}
 ## Verwenden
 
+Hell in \`dist/tiles/svg/\`, dunkel in \`dist/tiles/svg-dark/\`, gleiche Dateinamen. Diese Seite zeigt automatisch die Variante zu deinem GitHub-Farbschema.
+
 \`\`\`html
-<img src="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg/twint.svg" width="120" alt="TWINT">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg-dark/twint.svg">
+  <img src="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg/twint.svg" width="120" alt="TWINT">
+</picture>
 \`\`\`
 
 <details>
-<summary>Alle IDs</summary>
+<summary>Alle IDs und AIDs (Application Identifier)</summary>
 
-| Marke | ID | Gruppe |
-|---|---|---|
+Quellen und Hinweise zu den AIDs: [docs/AID-QUELLEN.md](docs/AID-QUELLEN.md).
+
+| Marke | ID | Gruppe | AID (Application Identifier, ep2, aktiv) |
+|---|---|---|---|
 ${ref}
 
 </details>

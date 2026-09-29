@@ -62,7 +62,7 @@ Generated presentation layer for consistent dynamic display. It is NOT the maste
 ## 6. Mandatory wallee tile
 Unless an explicit brand-owner rule prohibits the container:
 - fixed credit-card-like canvas/aspect ratio;
-- **1 px white at the absolute outer image edge**;
+- **1 px white at the absolute outer image edge** (also kept on dark backgrounds and in any dark variant: owner decision 29.09.2026);
 - immediately inside: **2 px wallee turquoise frame `#11D9CC`** (owner decision 28.09.2026, previously 1 px);
 - white internal logo field starting directly inside the frame;
 - tiles are generated only by `scripts/build-tiles.mjs` from `registry/tile-sources.json`; never hand-edit files in `dist/tiles/`;
@@ -70,7 +70,16 @@ Unless an explicit brand-owner rule prohibits the container:
 - official artwork centered inside usable clearspace;
 - original aspect ratio preserved.
 
-The turquoise frame MUST NOT become part of the brand artwork. Brand-owner clearspace/minimum-size rules override optical enlargement. Scale DOWN when required. Never recolor a brand to wallee turquoise.
+The turquoise frame MUST NOT become part of the brand artwork.
+
+### Dark variant (owner decision 29.09.2026)
+Generated only by `scripts/build-tiles-dark.mjs` from `registry/tile-sources-dark.json` into `dist/tiles/svg-dark/`. It never changes the light tiles, their generator or their registry.
+- Same frame (1 px white outer edge, 2 px `#11D9CC`); logo field `#363636` (wallee Design System).
+- Narrow exception to "never recolor", valid for the dark variant only: a monochrome white negative (`treatment: white`) derived from the unchanged source (colours to white, white knockouts to the field colour; shapes unchanged). No outlines, strokes, glows or other effects.
+- Prefer an official negative/dark file from the brand owner as soon as one is available; record the brand guideline that permits one-colour reproduction. Until then the dark tile stays `review`.
+- `treatment: original` shows the unchanged source on the dark field (brand's own box or colours); `treatment: light` falls back to the light tile.
+- The logo is fitted to its measured visible extent (`bounds`) with a margin of 18 px left/right and 16 px top/bottom, matching the visual size of the light tiles (owner: "nicht so extrem gross"). Build fails if a white tile keeps a colour below 3:1 against the field.
+ Brand-owner clearspace/minimum-size rules override optical enlargement. Scale DOWN when required. Never recolor a brand to wallee turquoise.
 
 ## 7. Optical sizing
 Equal bounding boxes do not imply equal perceived size. Optical sizing MAY be metadata-driven, but MUST preserve aspect ratio, mandatory clearspace and deterministic rendering. Never stretch narrow wordmarks or crop symbols to force uniformity.

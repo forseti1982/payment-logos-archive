@@ -1,0 +1,388 @@
+{
+  "_comment": "Dark variant (dist/tiles/svg-dark). Light tiles are not affected. treatment: white = monochrome negative derived from the source (colours to white, white knockouts to field colour); original = source unchanged on the dark field; light = no dark tile, use the light tile. bounds = measured visible artwork extent (Chromium, 29.09.2026) so the logo sits in the field at the same visual size as on the light tiles (margin 18 px left/right, 16 px top/bottom).",
+  "field": "#363636",
+  "tiles": {
+    "alipay": {
+      "treatment": "white",
+      "bounds": "12.3 26.63 95.4 26.73"
+    },
+    "alipay-plus": {
+      "treatment": "white",
+      "bounds": "10 28.5 100 23"
+    },
+    "amazon-pay": {
+      "treatment": "original",
+      "bounds": "0 17 120 63"
+    },
+    "american-express": {
+      "treatment": "light",
+      "note": "Owner 29.09.2026: AmEx darf im Dark Mode ausfüllend sein, blaues Feld wie hell."
+    },
+    "apple-pay": {
+      "treatment": "white",
+      "bounds": "1.38 1.38 117.25 77.25",
+      "note": "Negativ ergibt die Apple-Pay-Marke für dunklen Grund: weisse Kontur, weisser Schriftzug."
+    },
+    "availabill": {
+      "treatment": "white",
+      "bounds": "12 28 96 24"
+    },
+    "avia": {
+      "treatment": "white"
+    },
+    "bancontact": {
+      "treatment": "white",
+      "bounds": "15.5 12 89 56"
+    },
+    "bankaxess": {
+      "treatment": "original",
+      "bounds": "2.82 2.82 154.42 94.35"
+    },
+    "blik": {
+      "treatment": "original",
+      "bounds": "22.09 21 75.82 38.04"
+    },
+    "boncard": {
+      "treatment": "white",
+      "bounds": "15 24.84 90 30.32"
+    },
+    "bonus-card": {
+      "treatment": "white",
+      "bounds": "15.03 25.97 89.95 28.05"
+    },
+    "buecherbon": {
+      "treatment": "white"
+    },
+    "butterfly-card": {
+      "treatment": "white",
+      "bounds": "11.86 27.94 96.27 24.11"
+    },
+    "card-generic": {
+      "treatment": "original"
+    },
+    "card-generic-alt": {
+      "treatment": "original"
+    },
+    "card-generic-gold": {
+      "treatment": "original"
+    },
+    "cartes-bancaires": {
+      "treatment": "original",
+      "bounds": "16 18 88 44",
+      "dropBackground": true
+    },
+    "cashu": {
+      "treatment": "white"
+    },
+    "cembrapay": {
+      "treatment": "white",
+      "bounds": "15 18.64 90 42.71"
+    },
+    "chw": {
+      "treatment": "white"
+    },
+    "click-to-pay": {
+      "treatment": "white"
+    },
+    "crif": {
+      "treatment": "white",
+      "bounds": "13.79 24.92 92.42 30.17"
+    },
+    "cryptocurrency": {
+      "treatment": "white"
+    },
+    "dankort": {
+      "treatment": "original",
+      "bounds": "14.58 12.81 90.85 54.37",
+      "dropBackground": true
+    },
+    "daopay": {
+      "treatment": "white"
+    },
+    "dimoco": {
+      "treatment": "white",
+      "bounds": "7.74 21.03 104.52 37.94"
+    },
+    "diners-club": {
+      "treatment": "original",
+      "bounds": "28.55 15.17 62.91 49.67"
+    },
+    "discover": {
+      "treatment": "original",
+      "bounds": "8.24 28.51 111.76 51.49"
+    },
+    "ebill": {
+      "treatment": "original",
+      "bounds": "19.95 24.73 80.1 30.55"
+    },
+    "elo": {
+      "treatment": "original",
+      "bounds": "14.01 22.98 91.99 34.04"
+    },
+    "ep2": {
+      "treatment": "white"
+    },
+    "eps": {
+      "treatment": "white",
+      "bounds": "23.01 17.07 73.98 45.85"
+    },
+    "garmin-pay": {
+      "treatment": "white"
+    },
+    "gift-card-generic": {
+      "treatment": "original"
+    },
+    "gift-card-generic-alt": {
+      "treatment": "original"
+    },
+    "gift-card-generic-gold": {
+      "treatment": "original"
+    },
+    "girocard": {
+      "treatment": "original",
+      "bounds": "0 0 177.02 177.02"
+    },
+    "giropay": {
+      "treatment": "white",
+      "bounds": "15.56 21.05 88.88 37.89"
+    },
+    "google-pay": {
+      "treatment": "original",
+      "bounds": "15.16 21.78 89.61 35.55",
+      "note": "Google empfiehlt auf dunklem Grund den weissen Google-Pay-Button; Original bleibt."
+    },
+    "half-fare-plus": {
+      "treatment": "original",
+      "bounds": "10 10 100 60"
+    },
+    "hipercard": {
+      "treatment": "original",
+      "bounds": "12.34 19.11 95.32 41.79",
+      "dropBackground": true
+    },
+    "ideal": {
+      "treatment": "original",
+      "bounds": "23.6 8 72.8 64"
+    },
+    "ideal-wero": {
+      "treatment": "original"
+    },
+    "innocard": {
+      "treatment": "white"
+    },
+    "interac": {
+      "treatment": "original",
+      "bounds": "2.97 2.97 168.33 168.34"
+    },
+    "invoice": {
+      "treatment": "light"
+    },
+    "jcb": {
+      "treatment": "original",
+      "bounds": "19.1 8.5 81.8 63",
+      "dropBackground": true
+    },
+    "klarna": {
+      "treatment": "original",
+      "bounds": "20.02 30.21 79.96 19.58"
+    },
+    "lunch-check": {
+      "treatment": "original",
+      "bounds": "31.14 9.91 57.72 60.19"
+    },
+    "maestro": {
+      "treatment": "original",
+      "bounds": "21.73 16.35 76.54 47.3",
+      "dropBackground": true
+    },
+    "mastercard": {
+      "treatment": "original",
+      "bounds": "21.73 16.35 76.54 47.3",
+      "dropBackground": true
+    },
+    "masterpass": {
+      "treatment": "white"
+    },
+    "mediamarkt": {
+      "treatment": "original",
+      "bounds": "0 6.08 120 73.92"
+    },
+    "migros-giftcard": {
+      "treatment": "white",
+      "bounds": "15.27 25.8 89.47 28.4"
+    },
+    "mobilepay": {
+      "treatment": "white",
+      "bounds": "11.9 24.5 96.21 31"
+    },
+    "multibanco": {
+      "treatment": "white"
+    },
+    "oxxo": {
+      "treatment": "original"
+    },
+    "paybox": {
+      "treatment": "original"
+    },
+    "paycard": {
+      "treatment": "white",
+      "bounds": "15.21 33.13 89.58 13.75"
+    },
+    "payconiq": {
+      "treatment": "white",
+      "bounds": "22.3 22.6 96.79 54.79"
+    },
+    "paydirekt": {
+      "treatment": "white",
+      "bounds": "0 0 407.31 139.31"
+    },
+    "paylib": {
+      "treatment": "white"
+    },
+    "paypal": {
+      "treatment": "white",
+      "bounds": "15.84 28.24 88.33 23.52"
+    },
+    "paysafecard": {
+      "treatment": "original",
+      "bounds": "8.05 31.03 103.9 17.94"
+    },
+    "pointspay": {
+      "treatment": "white",
+      "bounds": "11 31.5 98 17"
+    },
+    "poli": {
+      "treatment": "white",
+      "bounds": "2.44 4.21 265.26 93.67"
+    },
+    "postfinance": {
+      "treatment": "light",
+      "note": "Wie die helle Kachel: volle gelbe Fläche (Owner-Entscheid 29.09.2026)."
+    },
+    "postfinance-card": {
+      "treatment": "light",
+      "note": "Wie die helle Kachel: volle gelbe Fläche (Owner-Entscheid 29.09.2026)."
+    },
+    "postfinance-pay": {
+      "treatment": "original",
+      "bounds": "6 27 84 42"
+    },
+    "powercard": {
+      "treatment": "white"
+    },
+    "powerpay": {
+      "treatment": "white",
+      "bounds": "10.14 33.47 99.72 13.05"
+    },
+    "przelewy24": {
+      "treatment": "white",
+      "bounds": "12.63 24.02 94.74 31.95"
+    },
+    "qiwi": {
+      "treatment": "white"
+    },
+    "reka": {
+      "treatment": "white",
+      "bounds": "23.28 27.04 73.44 25.92"
+    },
+    "rupay": {
+      "treatment": "white"
+    },
+    "samsung-pay": {
+      "treatment": "white",
+      "bounds": "15.06 19.82 89.88 40.36"
+    },
+    "samsung-wallet": {
+      "treatment": "white",
+      "bounds": "61.1 17.4 212.8 27.8"
+    },
+    "sepa": {
+      "treatment": "white",
+      "bounds": "15.66 23.31 88.68 33.38"
+    },
+    "skrill": {
+      "treatment": "white",
+      "bounds": "19.77 26.39 80.46 27.22"
+    },
+    "sofort": {
+      "treatment": "white",
+      "bounds": "7.1 7.1 731.9 272.1"
+    },
+    "swatchpay": {
+      "treatment": "light"
+    },
+    "swish": {
+      "treatment": "white",
+      "bounds": "13 26 94 28"
+    },
+    "swiss-pay": {
+      "treatment": "white"
+    },
+    "swisscom-pay": {
+      "treatment": "original",
+      "bounds": "33.05 13.35 53.9 53.3"
+    },
+    "swisspass": {
+      "treatment": "original",
+      "bounds": "25 11.05 70 57.9"
+    },
+    "tenpay": {
+      "treatment": "white",
+      "bounds": "3.3 3.03 276.99 94.38"
+    },
+    "trustly": {
+      "treatment": "white",
+      "bounds": "166.67 166.22 1333.33 280.89"
+    },
+    "twint": {
+      "treatment": "original",
+      "bounds": "12.54 9.32 175.89 56.35",
+      "fit": true
+    },
+    "uatp": {
+      "treatment": "white",
+      "bounds": "19.34 28.08 81.33 23.85"
+    },
+    "unionpay": {
+      "treatment": "original",
+      "bounds": "19.57 14.17 80.86 51.66",
+      "dropBackground": true
+    },
+    "v-pay": {
+      "treatment": "original",
+      "bounds": "33 11.2 54 57.6",
+      "dropBackground": true
+    },
+    "vipps": {
+      "treatment": "white",
+      "bounds": "21.52 30.2 76.95 19.59"
+    },
+    "visa": {
+      "treatment": "white",
+      "bounds": "19.05 27.16 81.9 25.67"
+    },
+    "voltox-age-verification": {
+      "treatment": "light",
+      "note": "Wie die helle Kachel: VOLTOX-Logo auf eigenem Grün."
+    },
+    "voltox-smile-pay": {
+      "treatment": "light",
+      "note": "Wie die helle Kachel: VOLTOX-Logo auf eigenem Grün."
+    },
+    "wechat-pay": {
+      "treatment": "white"
+    },
+    "wero": {
+      "treatment": "original",
+      "bounds": "6.5 27.42 110.01 25.35"
+    },
+    "xiaomi-pay": {
+      "treatment": "original"
+    },
+    "zepp-pay": {
+      "treatment": "white"
+    }
+  },
+  "marginX": 18,
+  "marginY": 16
+}

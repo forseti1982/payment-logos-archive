@@ -29,7 +29,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 2
+      "rank": 2,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 10",
+          "interface": "MagStripe",
+          "description": "American Express Magstripe",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 58",
+          "interface": "MagStripe",
+          "description": "American Express",
+          "active": true
+        }
+      ]
     },
     {
       "id": "cartes-bancaires",
@@ -53,7 +67,15 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 3
+      "rank": 3,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 43",
+          "interface": "MagStripe",
+          "description": "Diners Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "discover",
@@ -69,7 +91,15 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 5
+      "rank": 5,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 40",
+          "interface": "MagStripe",
+          "description": "JCB Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "mastercard",
@@ -77,15 +107,39 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 0
+      "rank": 0,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 20",
+          "interface": "MagStripe",
+          "description": "MasterCard Magstripe",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 9B",
+          "interface": "MagStripe",
+          "description": "Debit MasterCard CH (nur Brand ID)",
+          "active": true
+        }
+      ]
     },
     {
       "id": "postfinance-card",
       "name": "PostFinance Card",
       "category": "scheme",
       "status": "review",
-      "sourceStatus": "official-retrieved",
+      "sourceStatus": "wallee-portal-interim",
       "artwork": {
+        "source": "assets/source/wallee-portal/postfinance-card.svg",
+        "format": "svg",
+        "sha256": "dc406a9f99e396beb9ea273fcd9b9f59afa1bc74064818ce52fd7ee162fad971",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/postfinance-card.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Vektorversion der aktuellen PostFinance-Card (neues CI); ersetzt das PNG-Paket von PostFinance als Kachelquelle, das PNG bleibt als Referenz im Repo."
+      },
+      "group": "switzerland",
+      "rank": 2,
+      "artworkPrevious": {
         "source": "assets/source/postfinance/postfinance-card/210x132_PFCD_logo.png",
         "format": "png 630x396 (RGBA)",
         "sha256": "6b0fefcb8498aa3b2d7092552ef9c5fb952a5936de4c00fd74bb52d95f3a9aa7",
@@ -94,8 +148,20 @@
         "retrieved": "2026-09-28",
         "note": "New brand identity (package dated April 2026). PNG/JPG only, no vector master offered. Previous Datatrans artwork retired."
       },
-      "group": "switzerland",
-      "rank": 2
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 50",
+          "interface": "MagStripe",
+          "description": "Postcard B0",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 00 51",
+          "interface": "MagStripe",
+          "description": "PostFinance Card Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "unionpay",
@@ -103,7 +169,15 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 6
+      "rank": 6,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 60",
+          "interface": "MagStripe",
+          "description": "Union Pay  (UP)",
+          "active": true
+        }
+      ]
     },
     {
       "id": "v-pay",
@@ -111,7 +185,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 7
+      "rank": 7,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 52",
+          "interface": "MagStripe",
+          "description": "V PAY",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 7C",
+          "interface": "MagStripe",
+          "description": "V PAY CH",
+          "active": true
+        }
+      ]
     },
     {
       "id": "visa",
@@ -119,7 +207,21 @@
       "category": "scheme",
       "status": "review",
       "group": "card-schemes",
-      "rank": 1
+      "rank": 1,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 30",
+          "interface": "MagStripe",
+          "description": "Visa Magstripe",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 00 31",
+          "interface": "MagStripe",
+          "description": "Visa Electron Magstripe",
+          "active": true
+        }
+      ]
     },
     {
       "id": "apple-pay",
@@ -134,9 +236,17 @@
       "name": "Garmin Pay",
       "category": "wallet",
       "status": "review",
-      "sourceStatus": "request-gated",
+      "sourceStatus": "brand-owner-website",
       "group": "wallets",
-      "rank": 4
+      "rank": 4,
+      "artwork": {
+        "source": "assets/source/garmin/garmin-logo-garmin-com.svg",
+        "format": "svg",
+        "sha256": "b8472c9046163b26e8fab6d780cdb5f1b8a69b723ce353f91437a6c53ccc0c07",
+        "from": "https://www.garmin.com/en-US/c/garmin-pay/ (Header-Logo, Inline-SVG)",
+        "retrieved": "2026-09-29",
+        "note": "Garmin-Firmenlogo als Übergang. Das eigene Garmin-Pay-Zeichen gibt es nur über das Formular «Request Assets» (Vertraulichkeitsvereinbarung)."
+      }
     },
     {
       "id": "google-pay",
@@ -151,9 +261,19 @@
       "name": "Samsung Wallet",
       "category": "wallet",
       "status": "review",
-      "sourceStatus": "official-toolkit",
+      "sourceStatus": "wikimedia-commons-interim",
       "group": "wallets",
-      "rank": 3
+      "rank": 3,
+      "artwork": {
+        "source": "assets/source/wikimedia/Samsung_Wallet.svg",
+        "format": "svg",
+        "sha256": "e18c3d2d8c0acdd6fb87c7c0612bc837bc7588c451e333654c9cbcf61cbef522",
+        "from": "https://commons.wikimedia.org/wiki/File:Samsung_Wallet.svg",
+        "license": "Public domain",
+        "author": "Samsung",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "swatchpay",
@@ -178,7 +298,18 @@
       "category": "wallet",
       "status": "review",
       "group": "wallets",
-      "rank": 6
+      "rank": 6,
+      "sourceStatus": "wikimedia-commons-interim",
+      "artwork": {
+        "source": "assets/source/wikimedia/Xiaomi_logo_(2021-).svg",
+        "format": "svg",
+        "sha256": "9fb3df7fd72f7fa925cc6b10da843dc473a9f2074ffa39f0e98d0082512d270c",
+        "from": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg",
+        "license": "Public domain",
+        "author": "Xiaomi",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Xiaomi-Firmenlogo (2021) als Übergang; kein eigenes Xiaomi-Pay-Zeichen veröffentlicht. Das Inline-SVG von mi.com enthielt zusätzlich ein Home-Icon und wurde verworfen."
+      }
     },
     {
       "id": "zepp-pay",
@@ -186,7 +317,18 @@
       "category": "wallet",
       "status": "review",
       "group": "wallets",
-      "rank": 7
+      "rank": 7,
+      "sourceStatus": "wikimedia-commons-interim",
+      "artwork": {
+        "source": "assets/source/wikimedia/Zepp_logo.svg",
+        "format": "svg",
+        "sha256": "fe0f5e08e2b69e5d1233e1b1aac6386d16980be6a105bc3f43592530c7431395",
+        "from": "https://commons.wikimedia.org/wiki/File:Zepp_logo.svg",
+        "license": "Public domain",
+        "author": "Zepp Health Corporation",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "alipay-plus",
@@ -202,9 +344,19 @@
       "name": "PostFinance",
       "category": "payment-method",
       "status": "review",
-      "sourceStatus": "official-download",
+      "sourceStatus": "wikimedia-commons-interim",
       "group": "switzerland",
-      "rank": 4
+      "rank": 4,
+      "artwork": {
+        "source": "assets/source/wikimedia/PF_Logo_on_Yellow_RGB.svg",
+        "format": "svg",
+        "sha256": "3e2d51299a7c38c13ff1e77046dacbf23fd2a7ba61bf407f1c609697b368d8eb",
+        "from": "https://commons.wikimedia.org/wiki/File:PF_Logo_on_Yellow_RGB.svg",
+        "license": "Public domain",
+        "author": "PostFinance AG",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "postfinance-pay",
@@ -220,7 +372,15 @@
         "from": "https://www.postfinance.ch/content/dam/pfch/image/eserv/postfinance-pay-logo.zip (postfinance-pay.svg, package last modified 09.04.2026)"
       },
       "group": "switzerland",
-      "rank": 3
+      "rank": 3,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 FB",
+          "interface": "MagStripe",
+          "description": "PF Pay",
+          "active": true
+        }
+      ]
     },
     {
       "id": "twint",
@@ -237,7 +397,15 @@
         "note": "Taken from the brand owner's website; official merchant logo package sits behind the TWINT Brand Portal login. Owner-approved interim."
       },
       "group": "switzerland",
-      "rank": 1
+      "rank": 1,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 9E",
+          "interface": "MagStripe",
+          "description": "TWINT",
+          "active": true
+        }
+      ]
     },
     {
       "id": "wechat-pay",
@@ -254,7 +422,15 @@
         "guidelines": "https://res.wx.qq.com/a/wx_fed/wedesign/res/17f8/WeChat_Pay_Visual_Identity_Guidelines_201703.pdf"
       },
       "group": "online",
-      "rank": 4
+      "rank": 4,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 C6",
+          "interface": "MagStripe",
+          "description": "WeChatPay",
+          "active": true
+        }
+      ]
     },
     {
       "id": "wero",
@@ -291,7 +467,15 @@
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
       },
       "group": "partners",
-      "rank": 0
+      "rank": 0,
+      "artworkAlternative": {
+        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+        "format": "svg",
+        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
+        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
+        "retrieved": "2026-09-29",
+        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
+      }
     },
     {
       "id": "voltox-age-verification",
@@ -311,7 +495,15 @@
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
       },
       "group": "partners",
-      "rank": 1
+      "rank": 1,
+      "artworkAlternative": {
+        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+        "format": "svg",
+        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
+        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
+        "retrieved": "2026-09-29",
+        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
+      }
     },
     {
       "id": "click-to-pay",
@@ -355,7 +547,21 @@
       "status": "legacy",
       "group": "legacy",
       "lifecycle": "legacy",
-      "rank": 0
+      "rank": 0,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 00 21",
+          "interface": "MagStripe",
+          "description": "Maestro Magstripe (International)",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 00 22",
+          "interface": "MagStripe",
+          "description": "Maestro-CH",
+          "active": true
+        }
+      ]
     },
     {
       "id": "samsung-pay",
@@ -401,7 +607,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 3
+      "rank": 3,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A0",
+          "interface": "MagStripe",
+          "description": "Alipay",
+          "active": true
+        }
+      ]
     },
     {
       "id": "amazon-pay",
@@ -437,7 +651,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 10
+      "rank": 10,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 F9",
+          "interface": "MagStripe",
+          "description": "BLIK",
+          "active": true
+        }
+      ]
     },
     {
       "id": "boncard",
@@ -446,7 +668,33 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 8
+      "rank": 8,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 55",
+          "interface": "MagStripe",
+          "description": "boncard POINTS",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 5B",
+          "interface": "MagStripe",
+          "description": "boncard PAY",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 84",
+          "interface": "MagStripe",
+          "description": "boncard PAY M",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 44 85",
+          "interface": "MagStripe",
+          "description": "boncard PAY V",
+          "active": false
+        }
+      ]
     },
     {
       "id": "bonus-card",
@@ -455,7 +703,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 9
+      "rank": 9,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0B",
+          "interface": "MagStripe",
+          "description": "Bonuscard",
+          "active": true
+        }
+      ]
     },
     {
       "id": "butterfly-card",
@@ -464,7 +720,21 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 22
+      "rank": 22,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 12",
+          "interface": "MagStripe",
+          "description": "Accarda Butterfly",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 90",
+          "interface": "MagStripe",
+          "description": "Disabled - Accarda Butterfly",
+          "active": false
+        }
+      ]
     },
     {
       "id": "cembrapay",
@@ -565,7 +835,21 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 7
+      "rank": 7,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 7D",
+          "interface": "MagStripe",
+          "description": "Lunch-Check II",
+          "active": true
+        },
+        {
+          "aid": "D7 56 00 01 15 00 01",
+          "interface": "Domestic",
+          "description": "Lunch-Check I",
+          "active": true
+        }
+      ]
     },
     {
       "id": "mediamarkt",
@@ -574,7 +858,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 11
+      "rank": 11,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 09",
+          "interface": "MagStripe",
+          "description": "Mediamarkt Card",
+          "active": true
+        }
+      ]
     },
     {
       "id": "migros-giftcard",
@@ -601,7 +893,27 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 21
+      "rank": 21,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 8D",
+          "interface": "MagStripe",
+          "description": "paycard App",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8E",
+          "interface": "MagStripe",
+          "description": "paycard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8F",
+          "interface": "MagStripe",
+          "description": "paycard F",
+          "active": true
+        }
+      ]
     },
     {
       "id": "paypal",
@@ -610,7 +922,15 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "online",
-      "rank": 1
+      "rank": 1,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 EE",
+          "interface": "MagStripe",
+          "description": "PayPal",
+          "active": true
+        }
+      ]
     },
     {
       "id": "paysafecard",
@@ -669,7 +989,45 @@
       "status": "review",
       "coverageSource": "datatrans-benchmark",
       "group": "switzerland",
-      "rank": 6
+      "rank": 6,
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0E",
+          "interface": "MagStripe",
+          "description": "Reka-Check",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 44 64",
+          "interface": "MagStripe",
+          "description": "Reka-Card e-Commerce (till 2018)",
+          "active": false
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8C",
+          "interface": "MagStripe",
+          "description": "Reka E-Commerce",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 95",
+          "interface": "MagStripe",
+          "description": "Reka Rail",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 96",
+          "interface": "MagStripe",
+          "description": "Reka-Check",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 97",
+          "interface": "MagStripe",
+          "description": "Reka-Lunch",
+          "active": true
+        }
+      ]
     },
     {
       "id": "sepa",
@@ -795,8 +1153,18 @@
       "status": "review",
       "group": "card-schemes",
       "rank": 20,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/RuPay.svg",
+        "format": "svg",
+        "sha256": "eed4cef49caaa90bca052ad7e48785eacdde208e0263d72df6d4c83b91b9fade",
+        "from": "https://commons.wikimedia.org/wiki/File:RuPay.svg",
+        "license": "Public domain",
+        "author": "National Payments Corporation of India",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "chw",
@@ -805,8 +1173,36 @@
       "status": "review",
       "group": "switzerland",
       "rank": 16,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "brand-owner-website",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wir/bank-wir-logo-wir-ch.svg",
+        "format": "svg",
+        "sha256": "0bafab82571c4631c2392d7458efc3214f9f25b89f5666a68bd85453fc878de6",
+        "from": "https://www.wir.ch/de/chw-netzwerk/chw-zahlungsverkehr/chwcard/ (Header-Logo, Inline-SVG)",
+        "retrieved": "2026-09-29",
+        "note": "Firmenlogo der Bank WIR von der Website des Herausgebers; ein eigenes CHWcard-Zeichen ist dort nicht veröffentlicht."
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0C",
+          "interface": "MagStripe",
+          "description": "WIR Card",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 62 00 03 10",
+          "interface": "International",
+          "description": "WIR Card Plus (VPAY)",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 62 00 03 11",
+          "interface": "International",
+          "description": "WIR Card Plus (DMC)",
+          "active": true
+        }
+      ]
     },
     {
       "id": "buecherbon",
@@ -815,8 +1211,16 @@
       "status": "review",
       "group": "switzerland",
       "rank": 17,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/buecherbon.svg",
+        "format": "svg",
+        "sha256": "a524a6c0919b05d11a0bcd12f14b45a588073bbd45449cd5063944bd1aeb0049",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/buecherbon.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "powercard",
@@ -825,8 +1229,42 @@
       "status": "review",
       "group": "switzerland",
       "rank": 18,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/powercard.svg",
+        "format": "svg",
+        "sha256": "b2614d361a0e2b107be747fb9ec89ed9e1b9fd3fa21d33ff615a1b24cc312c50",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/powercard.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 01 0D",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 76",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 78",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 79",
+          "interface": "MagStripe",
+          "description": "PowerCard",
+          "active": true
+        }
+      ]
     },
     {
       "id": "avia",
@@ -835,8 +1273,26 @@
       "status": "review",
       "group": "switzerland",
       "rank": 19,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/AVIA_International_logo.svg",
+        "format": "svg",
+        "sha256": "1af125ad94ce018d78aebd31ceafa7a93653c694321b0443b73f9220087c218b",
+        "from": "https://commons.wikimedia.org/wiki/File:AVIA_International_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 C3",
+          "interface": "MagStripe",
+          "description": "AVIA",
+          "active": true
+        }
+      ]
     },
     {
       "id": "ekz",
@@ -846,7 +1302,16 @@
       "group": "switzerland",
       "rank": 20,
       "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "note": "EKZ = Einkaufszentrum-Karte von boncard (ep2-AID «EKZ card», boncard), nicht Elektrizitätswerke des Kantons Zürich. Kein eigenes Logo gefunden; das wallee-Portal zeigt nur Text «EKZ» plus boncard.",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 7F",
+          "interface": "MagStripe",
+          "description": "EKZ card",
+          "active": true
+        }
+      ]
     },
     {
       "id": "swiss-pay",
@@ -855,8 +1320,30 @@
       "status": "review",
       "group": "switzerland",
       "rank": 21,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/swiss-pay.svg",
+        "format": "svg",
+        "sha256": "248b4f2b12a65acc7bf17991e95f468f10cc03430a8ccb92e035af078383512b",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/swiss-pay.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Das wallee-Portal zeigt für Swiss Pay das boncard-Logo (Herausgeber); ein eigenes Swiss-Pay-Zeichen fehlt."
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 BD",
+          "interface": "MagStripe",
+          "description": "Swiss PAY II",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 08 01 00 01",
+          "interface": "International",
+          "description": "Swiss PAY",
+          "active": true
+        }
+      ]
     },
     {
       "id": "innocard",
@@ -865,8 +1352,84 @@
       "status": "review",
       "group": "switzerland",
       "rank": 22,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/innocard.svg",
+        "format": "svg",
+        "sha256": "d717304c2064a0528b65c8c100664841c11cf765c3e9a79c314d78b53d72f9d7",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/innocard.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Firmenlogo innocard / Loyalty AG."
+      },
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 49",
+          "interface": "MagStripe",
+          "description": "SwissBonusCard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 5A",
+          "interface": "MagStripe",
+          "description": "SwissCadeau",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 63",
+          "interface": "MagStripe",
+          "description": "SwissBonus+",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 6E",
+          "interface": "MagStripe",
+          "description": "SwissCredit",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 6F",
+          "interface": "MagStripe",
+          "description": "SwissVoucher",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 75",
+          "interface": "MagStripe",
+          "description": "Innofriends",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 7A",
+          "interface": "MagStripe",
+          "description": "loyalty.Marketing",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 87",
+          "interface": "MagStripe",
+          "description": "Prepaid.Innocard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 88",
+          "interface": "MagStripe",
+          "description": "Loyalty.Innocard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 89",
+          "interface": "MagStripe",
+          "description": "Bonus.Innocard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 8A",
+          "interface": "MagStripe",
+          "description": "Gift.Innocard",
+          "active": true
+        }
+      ]
     },
     {
       "id": "cryptocurrency",
@@ -875,8 +1438,18 @@
       "status": "review",
       "group": "online",
       "rank": 30,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Bitcoin_logo.svg",
+        "format": "svg",
+        "sha256": "b60ac50316eab86aba77099eb26a5dcb1bff9327c0c848dad616223f1abbee28",
+        "from": "https://commons.wikimedia.org/wiki/File:Bitcoin_logo.svg",
+        "license": "Public domain",
+        "author": "Bitboy",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt. Bitcoin-Logo stellvertretend für Kryptowährungen."
+      }
     },
     {
       "id": "trustly",
@@ -885,28 +1458,66 @@
       "status": "review",
       "group": "online",
       "rank": 31,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Trustly_Logotype.svg",
+        "format": "svg",
+        "sha256": "6efae703d8f9718bf1706e026789b07afdce14d599c6a64161c70f9c844fac06",
+        "from": "https://commons.wikimedia.org/wiki/File:Trustly_Logotype.svg",
+        "license": "CC BY 4.0",
+        "author": "Snorlaks",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "payconiq",
       "name": "Payconiq",
       "category": "payment-method",
       "status": "review",
-      "group": "online",
+      "group": "legacy",
       "rank": 32,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/payconiq.svg",
+        "format": "svg",
+        "sha256": "08df2b4906b22e4ccd555b57ed223134f45588d4c5077910d8ec3240e44240cc",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/payconiq.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Payconiq wird durch Wero abgelöst (payconiq.lu: «new wero»)."
+      },
+      "lifecycle": "retired",
+      "successor": "wero",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 E0",
+          "interface": "MagStripe",
+          "description": "Payconiq",
+          "active": true
+        }
+      ]
     },
     {
       "id": "paylib",
       "name": "Paylib",
       "category": "payment-method",
       "status": "review",
-      "group": "online",
+      "group": "legacy",
       "rank": 33,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/paylib.svg",
+        "format": "svg",
+        "sha256": "120fb36cbba2e500f546de042171bcccdef10fb112ac75e9faf52dbea651f954",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/paylib.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Paylib wurde in Frankreich durch Wero ersetzt."
+      },
+      "lifecycle": "retired",
+      "successor": "wero"
     },
     {
       "id": "multibanco",
@@ -915,8 +1526,18 @@
       "status": "review",
       "group": "online",
       "rank": 34,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Multibanco.svg",
+        "format": "svg",
+        "sha256": "20258dc9654c8bdb8cdb3eb5209da23d723c4a35c5a9b0e82a123005636a69c5",
+        "from": "https://commons.wikimedia.org/wiki/File:Multibanco.svg",
+        "license": "Public domain",
+        "author": "SIBS",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "girocard",
@@ -925,8 +1546,18 @@
       "status": "review",
       "group": "online",
       "rank": 35,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Girocard_logo.svg",
+        "format": "svg",
+        "sha256": "f0853543a3904c1cf1cff3a712d9692805e5926640ea104fd5a7f37c5e58bf36",
+        "from": "https://commons.wikimedia.org/wiki/File:Girocard_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "pay-by-bank",
@@ -945,8 +1576,18 @@
       "status": "review",
       "group": "online",
       "rank": 37,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/InteracLogo.svg",
+        "format": "svg",
+        "sha256": "419e494ab7aa38c748bddb0a12948071549db3c5b4d73ccde17cb983931181f9",
+        "from": "https://commons.wikimedia.org/wiki/File:InteracLogo.svg",
+        "license": "Attribution",
+        "author": "Interac",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "boleto",
@@ -965,8 +1606,18 @@
       "status": "review",
       "group": "online",
       "rank": 39,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Oxxo_Logo.svg",
+        "format": "svg",
+        "sha256": "f03c5b9c30c234312ca6309799202f5fed22357a4fa0f1a6923141e7f13e712a",
+        "from": "https://commons.wikimedia.org/wiki/File:Oxxo_Logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "poli",
@@ -975,8 +1626,16 @@
       "status": "review",
       "group": "online",
       "rank": 40,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/poli.svg",
+        "format": "svg",
+        "sha256": "1c21b16d2b7025be5434d48ad87a4e368119689dce4f1c17c3130fbaa67904ea",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/poli.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "tenpay",
@@ -985,8 +1644,16 @@
       "status": "review",
       "group": "online",
       "rank": 41,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/tenpay.svg",
+        "format": "svg",
+        "sha256": "f61bbc696d070397425480239d49abc16065232c07e7691889b59c1bb281d9c3",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/tenpay.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "bankaxess",
@@ -995,8 +1662,16 @@
       "status": "review",
       "group": "online",
       "rank": 42,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/bankaxess.svg",
+        "format": "svg",
+        "sha256": "7b2f0cef02af0e9730196d7355f812b1d212e891b9100b0645c9072cbb456e33",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/bankaxess.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "paybox",
@@ -1005,8 +1680,18 @@
       "status": "review",
       "group": "online",
       "rank": 43,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wikimedia-commons-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wikimedia/Paybox-Logo.svg",
+        "format": "svg",
+        "sha256": "f3d339aaa1a4a2e75ec442d204ade8035b52bbe7e234b0a73db7e1270d785f65",
+        "from": "https://commons.wikimedia.org/wiki/File:Paybox-Logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "masterpass",
@@ -1015,10 +1700,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 5,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/Masterpass_logo.svg",
+        "format": "svg",
+        "sha256": "334b926fcde0b14f99290488e0b02ab8731b05430bc5a0d5c712d2e40932f33f",
+        "from": "https://commons.wikimedia.org/wiki/File:Masterpass_logo.svg",
+        "license": "Public domain",
+        "author": "Mastercard",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "sofort",
@@ -1027,10 +1722,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 6,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/Sofort-klarna-logo.svg",
+        "format": "svg",
+        "sha256": "ff7b54c1d5932719b34aac78b8e26132018dbe562433fbf06833c93d46031944",
+        "from": "https://commons.wikimedia.org/wiki/File:Sofort-klarna-logo.svg",
+        "license": "Public domain",
+        "author": "Sofort GmbH",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "paydirekt",
@@ -1039,10 +1744,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 7,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/Paydirekt_logo.svg",
+        "format": "svg",
+        "sha256": "685d406a9f7da6dcd08cf1d3ddfa527399b6d1a7bdc161e7d4a899580b7cd4c8",
+        "from": "https://commons.wikimedia.org/wiki/File:Paydirekt_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "qiwi",
@@ -1051,10 +1766,20 @@
       "status": "review",
       "group": "legacy",
       "rank": 8,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wikimedia/QIWI_logo.svg",
+        "format": "svg",
+        "sha256": "058a1e891e5f0b0b55e4e141e0aa56b890cd20f7db75023819385b6f40fd7c97",
+        "from": "https://commons.wikimedia.org/wiki/File:QIWI_logo.svg",
+        "license": "Public domain",
+        "author": "QIWI Bank",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
+      }
     },
     {
       "id": "cashu",
@@ -1063,10 +1788,18 @@
       "status": "review",
       "group": "legacy",
       "rank": 9,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wallee-portal-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wallee-portal/cashu.svg",
+        "format": "svg",
+        "sha256": "16861cc61f813ed0198948314d9fcf434b93b7139ff0b4cbf4b292fba38c8944",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/cashu.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "daopay",
@@ -1075,10 +1808,18 @@
       "status": "review",
       "group": "legacy",
       "rank": 10,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wallee-portal-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wallee-portal/daopay.svg",
+        "format": "svg",
+        "sha256": "9b5305924727bbe970a2468ddef52d4a1d35fb5a6b2140d820a3455c14c218fe",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/daopay.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     }
   ],
   "sorting": {
@@ -1136,5 +1877,10 @@
       "title": "Legacy",
       "short": "Legacy"
     }
-  ]
+  ],
+  "ep2AidSource": {
+    "file": "ep2 ID-Master (id_master.xlsx, Tabelle AID)",
+    "received": "2026-09-29",
+    "note": "Nur AID, Schnittstelle, Bezeichnung und Status übernommen; Kontaktpersonen und E-Mails bewusst weggelassen. RID A0 00 00 01 57 = ep2."
+  }
 }

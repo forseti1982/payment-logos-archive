@@ -7,6 +7,7 @@
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build.mjs",
     "build:tiles": "node scripts/build-tiles.mjs",
-    "build:readme": "node scripts/build-readme.mjs"
+    "build:readme": "node scripts/build-readme.mjs",
+    "build:tiles-dark": "node scripts/build-tiles-dark.mjs"
   }
 }

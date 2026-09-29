@@ -1,0 +1,136 @@
+// Generates the dark variant of the wallee tiles in dist/tiles/svg-dark from the
+// same untouched sources as the light tiles. The light tiles are not affected.
+//
+// Tile geometry: identical frame (1 px white outer edge, 2 px #11D9CC), then a
+// dark logo field (#363636, wallee Design System) instead of the white one.
+//
+// Per brand (registry/tile-sources-dark.json):
+//   white    monochrome negative: every colour becomes white, white parts become
+//            the field colour, so knockouts stay knockouts. Shapes are unchanged.
+//   original source unchanged on the dark field (the brand's own box or colours).
+//   light    no dark tile; the light tile is copied so every ID resolves.
+// bounds    measured visible extent of the artwork, so the logo fills the field
+//           with a uniform margin (only empty canvas is dropped).
+//
+// Identical inputs give byte-identical output.
+
+import fs from "node:fs";
+import path from "node:path";
+
+const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const read = (p) => JSON.parse(fs.readFileSync(path.join(root, p), "utf8"));
+const brands = read("registry/brands.json");
+const light = read("registry/tile-sources.json").tiles;
+const dark = read("registry/tile-sources-dark.json");
+const t = brands.presentation.tile;
+
+const W = 120, H = 80, R = 5;
+const OUT = t.outerWhitePx, FRAME = t.framePx, IN = OUT + FRAME, COLOR = t.frameColor;
+const FIELD = dark.field;
+const field = { x: IN, y: IN, w: W - 2 * IN, h: H - 2 * IN, r: R - IN };
+const MX = dark.marginX ?? dark.marginPx, MY = dark.marginY ?? dark.marginPx;
+const box = { x: field.x + MX, y: field.y + MY, w: field.w - 2 * MX, h: field.h - 2 * MY };
+
+const UNSAFE = /<script|\son[a-z]+\s*=|<foreignObject|<image|href\s*=\s*"(?!#)|@import|url\((?!#)/i;
+const names = Object.fromEntries(brands.brands.map((b) => [b.id, b.name]));
+const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+function readSvg(file) {
+  const raw = fs.readFileSync(path.join(root, file), "utf8");
+  if (UNSAFE.test(raw)) throw new Error(`unsafe SVG content in ${file}`);
+  const open = raw.match(/<svg\b[^>]*>/)[0];
+  let vb = open.match(/viewBox="([^"]+)"/)?.[1];
+  if (!vb) vb = `0 0 ${open.match(/\swidth="([\d.]+)/)[1]} ${open.match(/\sheight="([\d.]+)/)[1]}`;
+  const inner = raw.slice(raw.indexOf(open) + open.length, raw.lastIndexOf("</svg>"))
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<metadata\b[\s\S]*?<\/metadata>/g, "")
+    .replace(/<sodipodi:namedview\b[\s\S]*?(\/>|<\/sodipodi:namedview>)/g, "")
+    .replace(/\s(sodipodi|inkscape):[a-zA-Z-]+="[^"]*"/g, "")
+    .trim();
+  const attrs = [...open.matchAll(/\s([a-zA-Z:-]+)="([^"]*)"/g)]
+    .filter(([, k]) => !/^(xmlns(:.*)?|width|height|viewBox|x|y|version|id|preserveAspectRatio|(sodipodi|inkscape):.*)$/.test(k));
+  return { vb, inner, attrs };
+}
+
+// Colour helpers
+const NAMED = { white: "#ffffff", black: "#000000", red: "#ff0000", none: "none", transparent: "none" };
+function hex(c) {
+  c = c.trim().toLowerCase();
+  if (NAMED[c]) return NAMED[c];
+  let m = c.match(/^#([0-9a-f]{3})$/); if (m) return "#" + [...m[1]].map((x) => x + x).join("");
+  m = c.match(/^#([0-9a-f]{6})/); if (m) return "#" + m[1];
+  m = c.match(/^rgba?\((\d+)[ ,]+(\d+)[ ,]+(\d+)/); if (m) return "#" + m.slice(1, 4).map((n) => (+n).toString(16).padStart(2, "0")).join("");
+  return null;
+}
+function lum(h) {
+  const v = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255).map((c) => (c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4));
+  return 0.2126 * v[0] + 0.7152 * v[1] + 0.0722 * v[2];
+}
+const contrast = (a, b) => { const [x, y] = [lum(a), lum(b)].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
+
+// Negative: near-white becomes the field colour (knockout), everything else white.
+function negate(value) {
+  if (/^\s*(none|url\(|inherit|currentcolor)/i.test(value)) return /currentcolor/i.test(value) ? "#FFFFFF" : value;
+  const h = hex(value);
+  if (!h || h === "none") return value;
+  return lum(h) > 0.7 ? FIELD : "#FFFFFF";
+}
+function toWhite(s) {
+  return s
+    .replace(/\b(fill|stroke|stop-color|color)="([^"]*)"/g, (m, k, v) => `${k}="${negate(v)}"`)
+    .replace(/\b(fill|stroke|stop-color|color)\s*:\s*([^;"}]+)/g, (m, k, v) => `${k}:${negate(v)}`);
+}
+
+function colours(s) {
+  const set = new Set();
+  for (const m of s.matchAll(/\b(?:fill|stroke|stop-color)\s*[:=]\s*"?\s*(#[0-9a-fA-F]{3,6}|white|black|rgb\([^)]*\))/g)) { const h = hex(m[1]); if (h && h !== "none") set.add(h); }
+  return set;
+}
+
+function frame(id) {
+  return [
+    `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="t-${id}">`,
+    `<title id="t-${id}">${esc(names[id] ?? id)}</title>`,
+    `<!-- wallee dark tile for "${id}". Generated by scripts/build-tiles-dark.mjs from the untouched source. -->`,
+    `<rect width="${W}" height="${H}" rx="${R}" fill="#FFFFFF"/>`,
+    `<rect x="${OUT}" y="${OUT}" width="${W - 2 * OUT}" height="${H - 2 * OUT}" rx="${R - OUT}" fill="${COLOR}"/>`,
+    `<rect x="${field.x}" y="${field.y}" width="${field.w}" height="${field.h}" rx="${field.r}" fill="${FIELD}"/>`,
+  ];
+}
+
+const outDir = process.env.DARK_OUT ? path.resolve(process.env.DARK_OUT) : path.join(root, "dist/tiles/svg-dark");
+fs.rmSync(outDir, { recursive: true, force: true });
+fs.mkdirSync(outDir, { recursive: true });
+const report = { white: [], original: [], light: [] };
+
+for (const id of Object.keys(dark.tiles).sort()) {
+  const cfg = dark.tiles[id];
+  const spec = light[id];
+  if (cfg.treatment === "light") {
+    fs.copyFileSync(path.join(root, "dist/tiles/svg", `${id}.svg`), path.join(outDir, `${id}.svg`));
+    report.light.push(id);
+    continue;
+  }
+  const s = readSvg(spec.source);
+  let inner = s.inner;
+  let attrs = s.attrs;
+  const useBounds = cfg.bounds && (cfg.treatment === "white" || cfg.dropBackground || cfg.fit);
+  if (cfg.dropBackground) inner = inner.replace(/^<rect width="120" height="80" rx="4" fill="white"\/>/, "");
+  if (cfg.treatment === "white") {
+    inner = toWhite(inner);
+    attrs = attrs.map(([m, k, v]) => [m, k, /^(fill|stroke|color|style)$/.test(k) ? (k === "style" ? toWhite(v) : negate(v)) : v]);
+    if (!attrs.some(([, k]) => k === "fill")) attrs.push(["", "fill", "#FFFFFF"]);
+  }
+  const attrStr = attrs.map(([, k, v]) => ` ${k}="${v}"`).join("");
+  const vb = useBounds ? cfg.bounds : (spec.artworkBounds ?? s.vb);
+  const target = cfg.treatment === "white" || useBounds ? box : field;
+  const out = frame(id);
+  out.push(`<svg${attrStr} x="${target.x}" y="${target.y}" width="${target.w}" height="${target.h}" viewBox="${vb}" preserveAspectRatio="xMidYMid meet">`, inner, `</svg>`, `</svg>`);
+  fs.writeFileSync(path.join(outDir, `${id}.svg`), out.join("\n") + "\n");
+  const low = [...colours(inner)].filter((c) => c !== FIELD.toLowerCase() && contrast(c, FIELD) < 3);
+  report[cfg.treatment].push(low.length && cfg.treatment === "white" ? `${id}(!)` : id);
+}
+
+console.log(`Built ${Object.values(report).flat().length} dark tiles (field ${FIELD}): ${report.white.length} white, ${report.original.length} original, ${report.light.length} light fallback.`);
+const bad = report.white.filter((x) => x.endsWith("(!)"));
+if (bad.length) { console.error(`Contrast below 3:1 in white tiles: ${bad.join(", ")}`); process.exit(1); }
