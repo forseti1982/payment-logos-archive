@@ -15,10 +15,8 @@
       "bounds": "0 17 120 63"
     },
     "american-express": {
-      "treatment": "original",
-      "bounds": "40 0 80 80",
-      "fit": true,
-      "note": "AmEx Blue Box als Quadrat, das die Feldhöhe nutzt."
+      "treatment": "light",
+      "note": "Owner 29.09.2026: AmEx darf im Dark Mode ausfüllend sein, blaues Feld wie hell."
     },
     "apple-pay": {
       "treatment": "white",
