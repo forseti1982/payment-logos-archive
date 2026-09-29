@@ -67,7 +67,7 @@ Unless an explicit brand-owner rule prohibits the container:
 - white internal logo field starting directly inside the frame;
 - tiles are generated only by `scripts/build-tiles.mjs` from `registry/tile-sources.json`; never hand-edit files in `dist/tiles/`;
 - rounded container corners;
-- official artwork centered inside usable clearspace;
+- official artwork centered inside usable clearspace; owner decision 29.09.2026: the logo uses the whole field with a uniform 5 px margin, fitted to its measured visible extent (`artworkBounds`), the turquoise frame acts as the clearspace boundary;
 - original aspect ratio preserved.
 
 The turquoise frame MUST NOT become part of the brand artwork. Brand-owner clearspace/minimum-size rules override optical enlargement. Scale DOWN when required. Never recolor a brand to wallee turquoise.

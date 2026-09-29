@@ -4,7 +4,7 @@
 <rect width="120" height="80" rx="5" fill="#FFFFFF"/>
 <rect x="1" y="1" width="118" height="78" rx="4" fill="#11D9CC"/>
 <rect x="3" y="3" width="114" height="74" rx="2" fill="#333E48"/>
-<svg fill="none" x="3" y="3" width="114" height="74" viewBox="0 0 120 80" preserveAspectRatio="xMidYMid meet">
+<svg fill="none" x="8" y="8" width="104" height="64" viewBox="0 17 120 63" preserveAspectRatio="xMidYMid meet">
 <g clip-path="url(#clip0_823_535)">
 <rect width="120" height="80" rx="4" fill="#333E48"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 76H120C120 78.2091 118.209 80 116 80H4C1.79086 80 0 78.2091 0 76Z" fill="#FF9900"/>

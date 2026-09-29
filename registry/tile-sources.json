@@ -4,17 +4,23 @@
   "tiles": {
     "alipay-plus": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/alipay-plus.svg"
+      "source": "assets/source/datatrans/apm/alipay-plus.svg",
+      "artworkBounds": "10 28.5 100 23",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "alipay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/alipay.svg"
+      "source": "assets/source/datatrans/apm/alipay.svg",
+      "artworkBounds": "12.3 26.63 95.4 26.73",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "amazon-pay": {
       "mode": "card",
       "source": "assets/source/datatrans/apm/amazon-pay.svg",
       "fieldFill": "#333E48",
-      "fieldFillNote": "Solid background colour of the source card, measured at its edges."
+      "fieldFillNote": "Solid background colour of the source card, measured at its edges.",
+      "artworkBounds": "0 17 120 63",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "american-express": {
       "mode": "card",
@@ -28,27 +34,39 @@
     },
     "availabill": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/availabill.svg"
+      "source": "assets/source/datatrans/apm/availabill.svg",
+      "artworkBounds": "12 28 96 24",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "bancontact": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/bancontact.svg"
+      "source": "assets/source/datatrans/apm/bancontact.svg",
+      "artworkBounds": "15.5 12 89 56",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "blik": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/blik.svg"
+      "source": "assets/source/datatrans/apm/blik.svg",
+      "artworkBounds": "22.09 21 75.82 38.04",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "boncard": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/boncard.svg"
+      "source": "assets/source/datatrans/apm/boncard.svg",
+      "artworkBounds": "15 24.84 90 30.32",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "bonus-card": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/bonus-card.svg"
+      "source": "assets/source/datatrans/apm/bonus-card.svg",
+      "artworkBounds": "15.03 25.97 89.95 28.05",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "butterfly-card": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/butterfly-card.svg"
+      "source": "assets/source/datatrans/apm/butterfly-card.svg",
+      "artworkBounds": "11.86 27.94 96.27 24.11",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "card-generic-alt": {
       "mode": "card",
@@ -64,11 +82,15 @@
     },
     "cartes-bancaires": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/cartes-bancaires.svg"
+      "source": "assets/source/datatrans/cards/cartes-bancaires.svg",
+      "artworkBounds": "16 18 88 44",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "cembrapay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/cembrapay.svg"
+      "source": "assets/source/datatrans/apm/cembrapay.svg",
+      "artworkBounds": "15 18.64 90 42.71",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "click-to-pay": {
       "mode": "mark",
@@ -77,31 +99,45 @@
     },
     "crif": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/crif.svg"
+      "source": "assets/source/datatrans/apm/crif.svg",
+      "artworkBounds": "13.79 24.92 92.42 30.17",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "dankort": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/dankort.svg"
+      "source": "assets/source/datatrans/cards/dankort.svg",
+      "artworkBounds": "14.58 12.81 90.85 54.37",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "dimoco": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/dimoco.svg"
+      "source": "assets/source/datatrans/apm/dimoco.svg",
+      "artworkBounds": "7.74 21.03 104.52 37.94",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "diners-club": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/diners.svg"
+      "source": "assets/source/datatrans/cards/diners.svg",
+      "artworkBounds": "28.55 15.17 62.91 49.67",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "discover": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/discover.svg"
+      "source": "assets/source/datatrans/cards/discover.svg",
+      "artworkBounds": "8.24 28.51 111.76 51.49",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "ebill": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/ebill.svg"
+      "source": "assets/source/datatrans/apm/ebill.svg",
+      "artworkBounds": "19.95 24.73 80.1 30.55",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "elo": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/elo.svg"
+      "source": "assets/source/datatrans/cards/elo.svg",
+      "artworkBounds": "14.01 22.98 91.99 34.04",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "ep2": {
       "mode": "mark",
@@ -109,7 +145,9 @@
     },
     "eps": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/eps.svg"
+      "source": "assets/source/datatrans/apm/eps.svg",
+      "artworkBounds": "23.01 17.07 73.98 45.85",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "gift-card-generic-alt": {
       "mode": "card",
@@ -125,19 +163,27 @@
     },
     "giropay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/giropay.svg"
+      "source": "assets/source/datatrans/apm/giropay.svg",
+      "artworkBounds": "15.56 21.05 88.88 37.89",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "google-pay": {
       "mode": "card",
-      "source": "assets/source/datatrans/wallets/google-pay.svg"
+      "source": "assets/source/datatrans/wallets/google-pay.svg",
+      "artworkBounds": "15.16 21.78 89.61 35.55",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "half-fare-plus": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/half-fare-plus.svg"
+      "source": "assets/source/datatrans/apm/half-fare-plus.svg",
+      "artworkBounds": "10 10 100 60",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "hipercard": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/hipercard.svg"
+      "source": "assets/source/datatrans/cards/hipercard.svg",
+      "artworkBounds": "12.34 19.11 95.32 41.79",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "ideal-wero": {
       "mode": "card",
@@ -147,7 +193,9 @@
     },
     "ideal": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/ideal.svg"
+      "source": "assets/source/datatrans/apm/ideal.svg",
+      "artworkBounds": "23.6 8 72.8 64",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "invoice": {
       "mode": "card",
@@ -155,23 +203,33 @@
     },
     "jcb": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/jcb.svg"
+      "source": "assets/source/datatrans/cards/jcb.svg",
+      "artworkBounds": "19.1 8.5 81.8 63",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "klarna": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/klarna.svg"
+      "source": "assets/source/datatrans/apm/klarna.svg",
+      "artworkBounds": "20.02 30.21 79.96 19.58",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "lunch-check": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/lunch-check.svg"
+      "source": "assets/source/datatrans/apm/lunch-check.svg",
+      "artworkBounds": "31.14 9.91 57.72 60.19",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "maestro": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/maestro.svg"
+      "source": "assets/source/datatrans/cards/maestro.svg",
+      "artworkBounds": "21.73 16.35 76.54 47.3",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "mastercard": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/mastercard.svg"
+      "source": "assets/source/datatrans/cards/mastercard.svg",
+      "artworkBounds": "21.73 16.35 76.54 47.3",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "mediamarkt": {
       "mode": "card",
@@ -179,27 +237,39 @@
     },
     "migros-giftcard": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/migros-giftcard.svg"
+      "source": "assets/source/datatrans/apm/migros-giftcard.svg",
+      "artworkBounds": "15.27 25.8 89.47 28.4",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "mobilepay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/mobilepay.svg"
+      "source": "assets/source/datatrans/apm/mobilepay.svg",
+      "artworkBounds": "11.9 24.5 96.21 31",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "paycard": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/paycard.svg"
+      "source": "assets/source/datatrans/apm/paycard.svg",
+      "artworkBounds": "15.21 33.13 89.58 13.75",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "paypal": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/paypal.svg"
+      "source": "assets/source/datatrans/apm/paypal.svg",
+      "artworkBounds": "15.84 28.24 88.33 23.52",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "paysafecard": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/paysafecard.svg"
+      "source": "assets/source/datatrans/apm/paysafecard.svg",
+      "artworkBounds": "8.05 31.03 103.9 17.94",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "pointspay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/pointspay.svg"
+      "source": "assets/source/datatrans/apm/pointspay.svg",
+      "artworkBounds": "11 31.5 98 17",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "postfinance-card": {
       "mode": "card",
@@ -220,65 +290,95 @@
     },
     "powerpay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/powerpay.svg"
+      "source": "assets/source/datatrans/apm/powerpay.svg",
+      "artworkBounds": "10.14 33.47 99.72 13.05",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "przelewy24": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/przelewy24.svg"
+      "source": "assets/source/datatrans/apm/przelewy24.svg",
+      "artworkBounds": "12.63 24.02 94.74 31.95",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "reka": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/reka.svg"
+      "source": "assets/source/datatrans/apm/reka.svg",
+      "artworkBounds": "23.28 27.04 73.44 25.92",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "samsung-pay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/samsung-pay.svg"
+      "source": "assets/source/datatrans/apm/samsung-pay.svg",
+      "artworkBounds": "15.06 19.82 89.88 40.36",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "sepa": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/sepa.svg"
+      "source": "assets/source/datatrans/apm/sepa.svg",
+      "artworkBounds": "15.66 23.31 88.68 33.38",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "skrill": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/skrill.svg"
+      "source": "assets/source/datatrans/apm/skrill.svg",
+      "artworkBounds": "19.77 26.39 80.46 27.22",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "swish": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/swish.svg"
+      "source": "assets/source/datatrans/apm/swish.svg",
+      "artworkBounds": "13 26 94 28",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "swisscom-pay": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/swisscom-pay.svg"
+      "source": "assets/source/datatrans/apm/swisscom-pay.svg",
+      "artworkBounds": "33.05 13.35 53.9 53.3",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "swisspass": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/swisspass.svg"
+      "source": "assets/source/datatrans/apm/swisspass.svg",
+      "artworkBounds": "25 11.05 70 57.9",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "twint": {
       "mode": "card",
       "source": "assets/source/twint/twint-logo-twint-ch.svg",
       "fieldFill": "#000000",
-      "note": "Black TWINT logo badge as used in the header of twint.ch (inline SVG, sha256 verified). Brand portal logo downloads require login. Used on the owner's instruction, 28.09.2026."
+      "note": "Black TWINT logo badge as used in the header of twint.ch (inline SVG, sha256 verified). Brand portal logo downloads require login. Used on the owner's instruction, 28.09.2026.",
+      "artworkBounds": "12.54 9.32 175.89 56.35",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "uatp": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/uatp.svg"
+      "source": "assets/source/datatrans/cards/uatp.svg",
+      "artworkBounds": "19.34 28.08 81.33 23.85",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "unionpay": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/unionpay.svg"
+      "source": "assets/source/datatrans/cards/unionpay.svg",
+      "artworkBounds": "19.57 14.17 80.86 51.66",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "v-pay": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/vpay.svg"
+      "source": "assets/source/datatrans/cards/vpay.svg",
+      "artworkBounds": "33 11.2 54 57.6",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "vipps": {
       "mode": "card",
-      "source": "assets/source/datatrans/apm/vipps.svg"
+      "source": "assets/source/datatrans/apm/vipps.svg",
+      "artworkBounds": "21.52 30.2 76.95 19.59",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "visa": {
       "mode": "card",
-      "source": "assets/source/datatrans/cards/visa.svg"
+      "source": "assets/source/datatrans/cards/visa.svg",
+      "artworkBounds": "19.05 27.16 81.9 25.67",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "voltox-age-verification": {
       "mode": "mark",
@@ -297,7 +397,9 @@
     },
     "wero": {
       "mode": "card",
-      "source": "assets/source/wero/wero-checkout-card.svg"
+      "source": "assets/source/wero/wero-checkout-card.svg",
+      "artworkBounds": "6.5 27.42 110.01 25.35",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "swatchpay": {
       "mode": "raster-mark",
@@ -312,7 +414,9 @@
       "mode": "mark",
       "source": "assets/source/wikimedia/PF_Logo_on_Yellow_RGB.svg",
       "fieldFill": "#FFCC00",
-      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review).",
+      "artworkBounds": "133.33 133.33 1333.33 196",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "rupay": {
       "mode": "mark",
@@ -362,7 +466,9 @@
     "samsung-wallet": {
       "mode": "mark",
       "source": "assets/source/wikimedia/Samsung_Wallet.svg",
-      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review).",
+      "artworkBounds": "61.1 17.4 212.8 27.8",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "sofort": {
       "mode": "mark",
@@ -372,7 +478,9 @@
     "trustly": {
       "mode": "mark",
       "source": "assets/source/wikimedia/Trustly_Logotype.svg",
-      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review).",
+      "artworkBounds": "166.67 166.22 1333.33 280.89",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "zepp-pay": {
       "mode": "mark",
@@ -412,7 +520,9 @@
     "payconiq": {
       "mode": "mark",
       "source": "assets/source/wallee-portal/payconiq.svg",
-      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Payconiq wird durch Wero abgelöst (payconiq.lu: «new wero»)."
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Payconiq wird durch Wero abgelöst (payconiq.lu: «new wero»).",
+      "artworkBounds": "22.3 22.6 96.79 54.79",
+      "artworkBoundsNote": "Sichtbare Ausdehnung des Logos, in Chromium gemessen (29.09.2026); nur leere Fläche der Quelle wird weggelassen, Pfade und Farben bleiben unverändert."
     },
     "paylib": {
       "mode": "mark",

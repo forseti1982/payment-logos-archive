@@ -25,6 +25,10 @@ const IN = OUT + FRAME;              // logo field starts here (3)
 const COLOR = t.frameColor;          // #11D9CC
 const R = 5;                         // outer corner radius
 const field = { x: IN, y: IN, w: W - 2 * IN, h: H - 2 * IN, r: R - IN };
+// Logo area: the field minus a small uniform margin, so every logo uses the tile
+// as fully as possible and stays legible at terminal sizes (32 px field height).
+const PAD = 5;
+const logoBox = { x: field.x + PAD, y: field.y + PAD, w: field.w - 2 * PAD, h: field.h - 2 * PAD };
 
 const UNSAFE = /<script|\son[a-z]+\s*=|<foreignObject|<image|href\s*=\s*"(?!#)|@import|url\((?!#)/i;
 
@@ -102,12 +106,13 @@ function build(id, spec) {
     const s = readSvg(spec.source);
     // artworkBounds: the artwork's own extent inside a padded source canvas.
     // Only the empty canvas is dropped; paths and colours stay untouched.
-    body.push(nested(field, spec.artworkBounds ?? s.viewBox, s.inner, s.attrs));
+    // With artworkBounds the logo is fitted to its own visible extent and uses the
+    // whole logo field (owner decision 29.09.2026: use the tile, minimal margin).
+    body.push(nested(spec.artworkBounds ? logoBox : field, spec.artworkBounds ?? s.viewBox, s.inner, s.attrs));
   } else if (spec.mode === "mark") {
     // Free-standing wordmark: centred in the field with clearspace.
     const s = readSvg(spec.source);
-    const pad = 9;
-    body.push(nested({ x: field.x + pad, y: field.y + pad, w: field.w - 2 * pad, h: field.h - 2 * pad }, s.viewBox, s.inner, s.attrs));
+    body.push(nested(logoBox, spec.artworkBounds ?? s.viewBox, s.inner, s.attrs));
   } else if (spec.mode === "raster-card") {
     // Official card image that only exists as raster: embedded byte-for-byte,
     // shown at its own card bounds (transparent canvas margin dropped), aspect kept.
