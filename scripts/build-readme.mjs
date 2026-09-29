@@ -61,13 +61,13 @@ const firstParty = brands.brands.filter((b) => ["Original", "Website Markeninhab
 const toc = brands.groups.map((g) => `[${g.title}](#${g.id})`).join(" · ");
 
 const sections = brands.groups.map((g) => {
-  const list = byGroup(g.id);
+  const list = byGroup(g.id).filter((b) => has(b.id));
   if (!list.length) return "";
   return `### ${g.title}\n\n<p>\n${wall(list)}\n</p>\n`;
 }).join("\n");
 
 const ref = brands.groups.flatMap((g) => byGroup(g.id).map((b) =>
-  `| ${cell(b.name)} | \`${b.id}\` | ${g.short ?? g.title} | ${origin(b)} |`)).join("\n");
+  `| ${cell(b.name)} | \`${b.id}\` | ${g.short ?? g.title} |`)).join("\n");
 
 const pending = brands.brands.filter((b) => b.group !== "generic" && !["Original", "Katalog"].includes(origin(b)))
   .sort((a, b) => a.name.localeCompare(b.name, "de"))
@@ -77,64 +77,28 @@ const catalog = brands.brands.filter((b) => origin(b) === "Katalog")
 const enc = (t) => encodeURIComponent(t).replace(/-/g, "--");
 const badge = (l, v, c = "11D9CC") => `<img src="https://img.shields.io/badge/${enc(l)}-${enc(v)}-${c}?style=flat-square" alt="${esc(l)}: ${esc(v)}">`;
 
-const out = `<p align="center">
-<img src="assets/wallee/corporate/rgb/wallee-logo-turquoise.svg" width="160" alt="wallee">
-</p>
+const out = `# Payment Logos
 
-<h1 align="center">Payment Logos</h1>
-
-<p align="center">Zahlungslogos im wallee-Rahmen für Terminal, Checkout, Portal und Doku.</p>
-
-<p align="center">
-${badge("Kacheln", `${withTile}/${total}`)}
-${badge("vom Markeninhaber", String(firstParty), "0B8F86")}
-${badge("Rahmen", `${tile.framePx} px ${tile.frameColor}`)}
-${badge("Status", "review", "8A9096")}
-</p>
+Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 
 ${sections}
-<sub>Name und ID erscheinen beim Überfahren einer Kachel. Gestrichelte Kacheln: Logo fehlt noch.</sub>
-
 ## Verwenden
 
 \`\`\`html
 <img src="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg/twint.svg" width="120" alt="TWINT">
 \`\`\`
 
-Kacheln unter \`dist/tiles/svg/<id>.svg\`, IDs sind stabil. Jede Kachel: 120 × 80, ${tile.outerWhitePx} px Weiss, ${tile.framePx} px \`${tile.frameColor}\`, Logo des Markeninhabers unverändert auf seiner eigenen Hintergrundfarbe. Neue Logos: Original nach \`assets/source/\`, Eintrag in \`registry/\`, dann \`npm run build:tiles && npm run build:readme\`. Regeln in [AGENTS.md](AGENTS.md).
-
-## Hinweise
-
-- **Alipay+** ist beim Händler Pflicht; Alipay einzeln nur mit Alipay+-Hinweis ([Richtlinien](https://docs.alipayplus.com/alipayplus/alipayplus/brand_guidelines_acq/brand_in_store_acq)).
-- **Visa Electron** seit 13.04.2024 eingestellt: mit \`visa\` darstellen, als Legacy kennzeichnen.
-- **giropay** Ende 2024 eingestellt, nur für bestehende Integrationen.
-- **PostFinance** seit April 2026 im neuen Markenauftritt; in Onlineshops nur für Kunden in der Schweiz zeigen.
-
 <details>
-<summary><b>Alle Marken: ID, Gruppe, Herkunft</b></summary>
+<summary>Alle IDs</summary>
 
-| Marke | ID | Gruppe | Herkunft |
-|---|---|---|---|
+| Marke | ID | Gruppe |
+|---|---|---|
 ${ref}
 
-*Original* = Paket des Markeninhabers · *Website Markeninhaber* · *Übergang* = ohne Freigabe · *von wallee geliefert* · *Katalog* = Datatrans-Katalog, Ersatz ausstehend · *fehlt*
-
 </details>
 
-<details>
-<summary><b>Offene Punkte (${brands.brands.filter((b) => b.group !== "generic" && origin(b) !== "Original").length})</b></summary>
-
-| Marke | Herkunft | Nächster Schritt |
-|---|---|---|
-${pending}
-
-**Noch aus dem Datatrans-Katalog:** ${catalog}.
-
-Details je Quelle: [\`registry/official-sources.json\`](registry/official-sources.json)
-
-</details>
-
-<sub>Generiert von \`scripts/build-readme.mjs\` aus \`registry/\`. Nicht von Hand ändern.</sub>
+<br>
+<p align="right"><img src="assets/wallee/corporate/rgb/wallee-logo-turquoise.svg" width="56" alt="wallee"></p>
 `;
 
 fs.writeFileSync(path.join(root, "README.md"), out);
