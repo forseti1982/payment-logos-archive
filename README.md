@@ -156,6 +156,8 @@ Hell in `dist/tiles/svg/`, dunkel in `dist/tiles/svg-dark/`, gleiche Dateinamen.
 <details>
 <summary>Alle IDs und AIDs (Application Identifier)</summary>
 
+Quellen und Hinweise zu den AIDs: [docs/AID-QUELLEN.md](docs/AID-QUELLEN.md).
+
 | Marke | ID | Gruppe | AID (Application Identifier, ep2, aktiv) |
 |---|---|---|---|
 | Mastercard | `mastercard` | Kartenmarken | `A0 00 00 01 57 00 20`<br>`A0 00 00 01 57 44 9B` |

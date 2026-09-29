@@ -102,6 +102,8 @@ Hell in \`dist/tiles/svg/\`, dunkel in \`dist/tiles/svg-dark/\`, gleiche Dateina
 <details>
 <summary>Alle IDs und AIDs (Application Identifier)</summary>
 
+Quellen und Hinweise zu den AIDs: [docs/AID-QUELLEN.md](docs/AID-QUELLEN.md).
+
 | Marke | ID | Gruppe | AID (Application Identifier, ep2, aktiv) |
 |---|---|---|---|
 ${ref}
