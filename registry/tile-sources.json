@@ -281,18 +281,16 @@
       "source": "assets/source/datatrans/cards/visa.svg"
     },
     "voltox-age-verification": {
-      "mode": "card",
-      "source": "assets/source/voltox/voltox-smile-pay-button.svg",
-      "artworkBounds": "40 40 1396 905",
+      "mode": "mark",
+      "source": "assets/source/voltox/voltox-icon.svg",
       "fieldFill": "#1C5257",
-      "note": "Vektor-Original von VOLTOX (Smile & Pay Button, per Mail von Shefket Robelli an Martin Bitzer, 29.09.2026). Ausschnitt innerhalb des mintfarbenen Button-Rands, damit kein doppelter Rahmen entsteht; Formen und Farben unverändert."
+      "note": "Offizielles VOLTOX-«O»-Icon (SVG von VOLTOX, Mail «Fw: Voltox SVG Assets», 29.09.2026) auf VOLTOX-Grün #1C5257 wie im Smile & Pay Button."
     },
     "voltox-smile-pay": {
-      "mode": "card",
-      "source": "assets/source/voltox/voltox-smile-pay-button.svg",
-      "artworkBounds": "40 40 1396 905",
+      "mode": "mark",
+      "source": "assets/source/voltox/voltox-icon.svg",
       "fieldFill": "#1C5257",
-      "note": "Vektor-Original von VOLTOX (Smile & Pay Button, per Mail von Shefket Robelli an Martin Bitzer, 29.09.2026). Ausschnitt innerhalb des mintfarbenen Button-Rands, damit kein doppelter Rahmen entsteht; Formen und Farben unverändert."
+      "note": "Offizielles VOLTOX-«O»-Icon (SVG von VOLTOX, Mail «Fw: Voltox SVG Assets», 29.09.2026) auf VOLTOX-Grün #1C5257 wie im Smile & Pay Button."
     },
     "wechat-pay": {
       "mode": "mark",

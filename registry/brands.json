@@ -458,12 +458,12 @@
       "product": "Smile & Pay",
       "sourceStatus": "verified-supplied-master",
       "artwork": {
-        "source": "assets/source/voltox/voltox-smile-pay-button.svg",
+        "source": "assets/source/voltox/voltox-icon.svg",
         "format": "svg",
-        "sha256": "34d75e7a3001cbc15311a60955b701b1b54d2da17a92df9ee57abf208895895f",
-        "from": "E-Mail «Fw: Smile & Pay SVG» von sr@voltox.ch an martin.bitzer@wallee.com, 29.09.2026 (erstellt von dea@voltox.ch)",
+        "sha256": "481ec76f401aac15e4284c27315119851db05f64c1ab7a4018e4310c5e1e7574",
+        "from": "E-Mail «Fw: Voltox SVG Assets» von sr@voltox.ch an martin.bitzer@wallee.com, 29.09.2026 (Datei «Voltox Icon.svg», erstellt von dea@voltox.ch)",
         "retrieved": "2026-09-29",
-        "note": "Vom Markeninhaber VOLTOX geliefertes Vektor-Original (Smile & Pay Button). Für Age Verification ist kein eigenes Zeichen geliefert; vorerst dasselbe Smile-o."
+        "note": "Vom Markeninhaber geliefertes Icon. Im selben Paket: Smile & Pay Button (assets/source/voltox/voltox-smile-pay-button.svg) und Wortmarke."
       },
       "group": "partners",
       "rank": 0,
@@ -486,12 +486,12 @@
       "product": "Age Verification",
       "sourceStatus": "verified-supplied-master",
       "artwork": {
-        "source": "assets/source/voltox/voltox-smile-pay-button.svg",
+        "source": "assets/source/voltox/voltox-icon.svg",
         "format": "svg",
-        "sha256": "34d75e7a3001cbc15311a60955b701b1b54d2da17a92df9ee57abf208895895f",
-        "from": "E-Mail «Fw: Smile & Pay SVG» von sr@voltox.ch an martin.bitzer@wallee.com, 29.09.2026 (erstellt von dea@voltox.ch)",
+        "sha256": "481ec76f401aac15e4284c27315119851db05f64c1ab7a4018e4310c5e1e7574",
+        "from": "E-Mail «Fw: Voltox SVG Assets» von sr@voltox.ch an martin.bitzer@wallee.com, 29.09.2026 (Datei «Voltox Icon.svg», erstellt von dea@voltox.ch)",
         "retrieved": "2026-09-29",
-        "note": "Vom Markeninhaber VOLTOX geliefertes Vektor-Original (Smile & Pay Button). Für Age Verification ist kein eigenes Zeichen geliefert; vorerst dasselbe Smile-o."
+        "note": "Vom Markeninhaber geliefertes Icon. Im selben Paket: Smile & Pay Button (assets/source/voltox/voltox-smile-pay-button.svg) und Wortmarke."
       },
       "group": "partners",
       "rank": 1,
