@@ -142,9 +142,17 @@
       "name": "Garmin Pay",
       "category": "wallet",
       "status": "review",
-      "sourceStatus": "request-gated",
+      "sourceStatus": "brand-owner-website",
       "group": "wallets",
-      "rank": 4
+      "rank": 4,
+      "artwork": {
+        "source": "assets/source/garmin/garmin-logo-garmin-com.svg",
+        "format": "svg",
+        "sha256": "b8472c9046163b26e8fab6d780cdb5f1b8a69b723ce353f91437a6c53ccc0c07",
+        "from": "https://www.garmin.com/en-US/c/garmin-pay/ (Header-Logo, Inline-SVG)",
+        "retrieved": "2026-09-29",
+        "note": "Garmin-Firmenlogo als Übergang. Das eigene Garmin-Pay-Zeichen gibt es nur über das Formular «Request Assets» (Vertraulichkeitsvereinbarung)."
+      }
     },
     {
       "id": "google-pay",
@@ -196,7 +204,18 @@
       "category": "wallet",
       "status": "review",
       "group": "wallets",
-      "rank": 6
+      "rank": 6,
+      "sourceStatus": "wikimedia-commons-interim",
+      "artwork": {
+        "source": "assets/source/wikimedia/Xiaomi_logo_(2021-).svg",
+        "format": "svg",
+        "sha256": "9fb3df7fd72f7fa925cc6b10da843dc473a9f2074ffa39f0e98d0082512d270c",
+        "from": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg",
+        "license": "Public domain",
+        "author": "Xiaomi",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Xiaomi-Firmenlogo (2021) als Übergang; kein eigenes Xiaomi-Pay-Zeichen veröffentlicht. Das Inline-SVG von mi.com enthielt zusätzlich ein Home-Icon und wurde verworfen."
+      }
     },
     {
       "id": "zepp-pay",
@@ -319,8 +338,18 @@
       "status": "review",
       "vendor": "VOLTOX",
       "product": "Smile & Pay",
-      "sourceStatus": "user-supplied-raster",
+      "sourceStatus": "brand-owner-website",
       "artwork": {
+        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+        "format": "svg",
+        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
+        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
+        "retrieved": "2026-09-29",
+        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
+      },
+      "group": "partners",
+      "rank": 0,
+      "artworkPrevious": {
         "source": "assets/source/voltox/voltox-logo-supplied.png",
         "format": "png",
         "pixels": "200x200",
@@ -328,9 +357,7 @@
         "suppliedBy": "Martin Bitzer (wallee)",
         "supplied": "2026-09-28",
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
-      },
-      "group": "partners",
-      "rank": 0
+      }
     },
     {
       "id": "voltox-age-verification",
@@ -339,8 +366,18 @@
       "status": "review",
       "vendor": "VOLTOX",
       "product": "Age Verification",
-      "sourceStatus": "user-supplied-raster",
+      "sourceStatus": "brand-owner-website",
       "artwork": {
+        "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+        "format": "svg",
+        "sha256": "24be2e3debb5945bb92684c7ae96c539ed740c7196973d60489cf0449c2b9bb4",
+        "from": "https://www.voltox.ai/ (Header-Logo, cdn.prod.website-files.com/…_lolo.svg)",
+        "retrieved": "2026-09-29",
+        "note": "VOLTOX-Wortmarke als Vektor von voltox.ai; ersetzt das gelieferte PNG (200×200) als Kachelquelle. Das PNG bleibt als Referenz im Repo. Eigene Produktlogos für Smile & Pay bzw. Age Verification liegen nicht vor."
+      },
+      "group": "partners",
+      "rank": 1,
+      "artworkPrevious": {
         "source": "assets/source/voltox/voltox-logo-supplied.png",
         "format": "png",
         "pixels": "200x200",
@@ -348,9 +385,7 @@
         "suppliedBy": "Martin Bitzer (wallee)",
         "supplied": "2026-09-28",
         "note": "VOLTOX company logo, used for both VOLTOX product tiles on request. First-party origin and vector master still to be confirmed with VOLTOX; product-specific marks not available."
-      },
-      "group": "partners",
-      "rank": 1
+      }
     },
     {
       "id": "click-to-pay",

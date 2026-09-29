@@ -28,7 +28,9 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/google-pay.svg" width="96" alt="Google Pay" title="Google Pay · google-pay">
 <img src="dist/tiles/svg/samsung-pay.svg" width="96" alt="Samsung Pay" title="Samsung Pay · samsung-pay">
 <img src="dist/tiles/svg/samsung-wallet.svg" width="96" alt="Samsung Wallet" title="Samsung Wallet · samsung-wallet">
+<img src="dist/tiles/svg/garmin-pay.svg" width="96" alt="Garmin Pay" title="Garmin Pay · garmin-pay">
 <img src="dist/tiles/svg/swatchpay.svg" width="96" alt="SwatchPAY!" title="SwatchPAY! · swatchpay">
+<img src="dist/tiles/svg/xiaomi-pay.svg" width="96" alt="Xiaomi Pay" title="Xiaomi Pay · xiaomi-pay">
 <img src="dist/tiles/svg/zepp-pay.svg" width="96" alt="Zepp Pay" title="Zepp Pay · zepp-pay">
 </p>
 

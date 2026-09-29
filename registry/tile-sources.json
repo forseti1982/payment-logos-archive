@@ -281,16 +281,14 @@
       "source": "assets/source/datatrans/cards/visa.svg"
     },
     "voltox-age-verification": {
-      "mode": "badge",
-      "source": "assets/source/voltox/voltox-logo-supplied.png",
-      "fieldFill": "#1C5157",
-      "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png."
+      "mode": "mark",
+      "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+      "note": "VOLTOX-Wortmarke (#1C5257) auf weissem Feld. Das grüne Vollflächenfeld entfällt, weil die Wortmarke selbst grün ist und nicht umgefärbt werden darf."
     },
     "voltox-smile-pay": {
-      "mode": "badge",
-      "source": "assets/source/voltox/voltox-logo-supplied.png",
-      "fieldFill": "#1C5157",
-      "fieldFillNote": "Background colour of the supplied VOLTOX logo, measured at all edge pixels of assets/source/voltox/voltox-logo-supplied.png."
+      "mode": "mark",
+      "source": "assets/source/voltox/voltox-logo-voltox-ai.svg",
+      "note": "VOLTOX-Wortmarke (#1C5257) auf weissem Feld. Das grüne Vollflächenfeld entfällt, weil die Wortmarke selbst grün ist und nicht umgefärbt werden darf."
     },
     "wechat-pay": {
       "mode": "mark",
@@ -450,6 +448,16 @@
       "mode": "mark",
       "source": "assets/source/wir/bank-wir-logo-wir-ch.svg",
       "note": "Bank-WIR-Logo von wir.ch (Header, Inline-SVG, sha256 geprüft)."
+    },
+    "garmin-pay": {
+      "mode": "mark",
+      "source": "assets/source/garmin/garmin-logo-garmin-com.svg",
+      "note": "Garmin-Firmenlogo von garmin.com, Übergang bis zum Garmin-Pay-Asset."
+    },
+    "xiaomi-pay": {
+      "mode": "mark",
+      "source": "assets/source/wikimedia/Xiaomi_logo_(2021-).svg",
+      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
     }
   }
 }
