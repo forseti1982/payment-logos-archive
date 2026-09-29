@@ -202,15 +202,9 @@
       "source": "assets/source/datatrans/apm/pointspay.svg"
     },
     "postfinance-card": {
-      "mode": "raster-card",
-      "source": "assets/source/postfinance/postfinance-card/210x132_PFCD_logo.png",
-      "pixelSize": [
-        630,
-        396
-      ],
-      "artworkBounds": "15 9 600 378",
-      "fieldFill": "#FECF0F",
-      "note": "Official package has no vector master; largest PNG (630x396 px) used unchanged. artworkBounds = the card inside the transparent canvas; fieldFill = the card's own yellow."
+      "mode": "card",
+      "source": "assets/source/wallee-portal/postfinance-card.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Vektorversion der aktuellen PostFinance-Card (neues CI); ersetzt das PNG-Paket von PostFinance als Kachelquelle, das PNG bleibt als Referenz im Repo."
     },
     "postfinance-efinance": {
       "mode": "placeholder",
@@ -327,12 +321,6 @@
       "source": "assets/source/wikimedia/RuPay.svg",
       "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
     },
-    "ekz": {
-      "mode": "mark",
-      "source": "assets/source/wikimedia/EKZ_logo.svg",
-      "fieldFill": "#0081CF",
-      "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
-    },
     "avia": {
       "mode": "mark",
       "source": "assets/source/wikimedia/AVIA_International_logo.svg",
@@ -402,6 +390,66 @@
       "mode": "mark",
       "source": "assets/source/wikimedia/Bitcoin_logo.svg",
       "note": "Wikimedia Commons, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "buecherbon": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/buecherbon.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "powercard": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/powercard.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "swiss-pay": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/swiss-pay.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Das wallee-Portal zeigt für Swiss Pay das boncard-Logo (Herausgeber); ein eigenes Swiss-Pay-Zeichen fehlt."
+    },
+    "innocard": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/innocard.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Firmenlogo innocard / Loyalty AG."
+    },
+    "payconiq": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/payconiq.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Payconiq wird durch Wero abgelöst (payconiq.lu: «new wero»)."
+    },
+    "paylib": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/paylib.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review). Paylib wurde in Frankreich durch Wero ersetzt."
+    },
+    "bankaxess": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/bankaxess.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "tenpay": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/tenpay.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "poli": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/poli.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "cashu": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/cashu.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "daopay": {
+      "mode": "mark",
+      "source": "assets/source/wallee-portal/daopay.svg",
+      "note": "wallee-Portal-Icon, temporäre Ausnahme 29.09.2026 (status review)."
+    },
+    "chw": {
+      "mode": "mark",
+      "source": "assets/source/wir/bank-wir-logo-wir-ch.svg",
+      "note": "Bank-WIR-Logo von wir.ch (Header, Inline-SVG, sha256 geprüft)."
     }
   }
 }

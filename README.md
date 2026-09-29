@@ -49,8 +49,12 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/swisspass.svg" width="96" alt="SwissPass" title="SwissPass · swisspass">
 <img src="dist/tiles/svg/half-fare-plus.svg" width="96" alt="Half Fare Plus" title="Half Fare Plus · half-fare-plus">
 <img src="dist/tiles/svg/swisscom-pay.svg" width="96" alt="Swisscom Pay" title="Swisscom Pay · swisscom-pay">
+<img src="dist/tiles/svg/chw.svg" width="96" alt="CHW (WIR)" title="CHW (WIR) · chw">
+<img src="dist/tiles/svg/buecherbon.svg" width="96" alt="Bücherbon" title="Bücherbon · buecherbon">
+<img src="dist/tiles/svg/powercard.svg" width="96" alt="POWERCARD" title="POWERCARD · powercard">
 <img src="dist/tiles/svg/avia.svg" width="96" alt="AVIA" title="AVIA · avia">
-<img src="dist/tiles/svg/ekz.svg" width="96" alt="EKZ" title="EKZ · ekz">
+<img src="dist/tiles/svg/swiss-pay.svg" width="96" alt="Swiss Pay" title="Swiss Pay · swiss-pay">
+<img src="dist/tiles/svg/innocard.svg" width="96" alt="Innocard" title="Innocard · innocard">
 </p>
 
 ### Online und international
@@ -85,6 +89,9 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/girocard.svg" width="96" alt="girocard" title="girocard · girocard">
 <img src="dist/tiles/svg/interac.svg" width="96" alt="Interac Online" title="Interac Online · interac">
 <img src="dist/tiles/svg/oxxo.svg" width="96" alt="OXXO" title="OXXO · oxxo">
+<img src="dist/tiles/svg/poli.svg" width="96" alt="POLi" title="POLi · poli">
+<img src="dist/tiles/svg/tenpay.svg" width="96" alt="Tenpay" title="Tenpay · tenpay">
+<img src="dist/tiles/svg/bankaxess.svg" width="96" alt="BankAxess" title="BankAxess · bankaxess">
 <img src="dist/tiles/svg/paybox.svg" width="96" alt="paybox" title="paybox · paybox">
 </p>
 
@@ -127,6 +134,10 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/sofort.svg" width="96" alt="SOFORT" title="SOFORT · sofort">
 <img src="dist/tiles/svg/paydirekt.svg" width="96" alt="paydirekt" title="paydirekt · paydirekt">
 <img src="dist/tiles/svg/qiwi.svg" width="96" alt="QIWI" title="QIWI · qiwi">
+<img src="dist/tiles/svg/cashu.svg" width="96" alt="CASHU" title="CASHU · cashu">
+<img src="dist/tiles/svg/daopay.svg" width="96" alt="DaoPay" title="DaoPay · daopay">
+<img src="dist/tiles/svg/payconiq.svg" width="96" alt="Payconiq" title="Payconiq · payconiq">
+<img src="dist/tiles/svg/paylib.svg" width="96" alt="Paylib" title="Paylib · paylib">
 </p>
 
 ## Verwenden
@@ -208,8 +219,6 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | Butterfly Card | `butterfly-card` | Online |
 | Kryptowährung | `cryptocurrency` | Online |
 | Trustly | `trustly` | Online |
-| Payconiq | `payconiq` | Online |
-| Paylib | `paylib` | Online |
 | Multibanco | `multibanco` | Online |
 | girocard | `girocard` | Online |
 | Pay by Bank | `pay-by-bank` | Online |
@@ -244,6 +253,8 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 | QIWI | `qiwi` | Legacy |
 | CASHU | `cashu` | Legacy |
 | DaoPay | `daopay` | Legacy |
+| Payconiq | `payconiq` | Legacy |
+| Paylib | `paylib` | Legacy |
 
 </details>
 

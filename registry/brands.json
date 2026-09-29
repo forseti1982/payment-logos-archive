@@ -84,8 +84,18 @@
       "name": "PostFinance Card",
       "category": "scheme",
       "status": "review",
-      "sourceStatus": "official-retrieved",
+      "sourceStatus": "wallee-portal-interim",
       "artwork": {
+        "source": "assets/source/wallee-portal/postfinance-card.svg",
+        "format": "svg",
+        "sha256": "dc406a9f99e396beb9ea273fcd9b9f59afa1bc74064818ce52fd7ee162fad971",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/postfinance-card.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Vektorversion der aktuellen PostFinance-Card (neues CI); ersetzt das PNG-Paket von PostFinance als Kachelquelle, das PNG bleibt als Referenz im Repo."
+      },
+      "group": "switzerland",
+      "rank": 2,
+      "artworkPrevious": {
         "source": "assets/source/postfinance/postfinance-card/210x132_PFCD_logo.png",
         "format": "png 630x396 (RGBA)",
         "sha256": "6b0fefcb8498aa3b2d7092552ef9c5fb952a5936de4c00fd74bb52d95f3a9aa7",
@@ -93,9 +103,7 @@
         "packageSha256": "f447daa9192e570df5b5524997e477c767ea3b46b8b7994926764d1aefdce5ab",
         "retrieved": "2026-09-28",
         "note": "New brand identity (package dated April 2026). PNG/JPG only, no vector master offered. Previous Datatrans artwork retired."
-      },
-      "group": "switzerland",
-      "rank": 2
+      }
     },
     {
       "id": "unionpay",
@@ -846,8 +854,16 @@
       "status": "review",
       "group": "switzerland",
       "rank": 16,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "brand-owner-website",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wir/bank-wir-logo-wir-ch.svg",
+        "format": "svg",
+        "sha256": "0bafab82571c4631c2392d7458efc3214f9f25b89f5666a68bd85453fc878de6",
+        "from": "https://www.wir.ch/de/chw-netzwerk/chw-zahlungsverkehr/chwcard/ (Header-Logo, Inline-SVG)",
+        "retrieved": "2026-09-29",
+        "note": "Firmenlogo der Bank WIR von der Website des Herausgebers; ein eigenes CHWcard-Zeichen ist dort nicht veröffentlicht."
+      }
     },
     {
       "id": "buecherbon",
@@ -856,8 +872,16 @@
       "status": "review",
       "group": "switzerland",
       "rank": 17,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/buecherbon.svg",
+        "format": "svg",
+        "sha256": "a524a6c0919b05d11a0bcd12f14b45a588073bbd45449cd5063944bd1aeb0049",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/buecherbon.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "powercard",
@@ -866,8 +890,16 @@
       "status": "review",
       "group": "switzerland",
       "rank": 18,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/powercard.svg",
+        "format": "svg",
+        "sha256": "b2614d361a0e2b107be747fb9ec89ed9e1b9fd3fa21d33ff615a1b24cc312c50",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/powercard.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "avia",
@@ -896,18 +928,9 @@
       "status": "review",
       "group": "switzerland",
       "rank": 20,
-      "sourceStatus": "wikimedia-commons-interim",
+      "sourceStatus": "wallee-supported-logo-missing",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
-      "artwork": {
-        "source": "assets/source/wikimedia/EKZ_logo.svg",
-        "format": "svg",
-        "sha256": "c3db310c9bab00d54db5a13306f3e82e6212a070d757472d6c3f6130b3c3fd0c",
-        "from": "https://commons.wikimedia.org/wiki/File:Elektrizit%C3%A4tswerke_des_Kantons_Z%C3%BCrich_logo.svg",
-        "license": "Public domain",
-        "author": "unbekannt",
-        "retrieved": "2026-09-29",
-        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert übernommen; ersetzen, sobald ein Original des Markeninhabers vorliegt."
-      }
+      "note": "EKZ = Einkaufszentrum-Karte von boncard (ep2-AID «EKZ card», boncard), nicht Elektrizitätswerke des Kantons Zürich. Kein eigenes Logo gefunden; das wallee-Portal zeigt nur Text «EKZ» plus boncard."
     },
     {
       "id": "swiss-pay",
@@ -916,8 +939,16 @@
       "status": "review",
       "group": "switzerland",
       "rank": 21,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/swiss-pay.svg",
+        "format": "svg",
+        "sha256": "248b4f2b12a65acc7bf17991e95f468f10cc03430a8ccb92e035af078383512b",
+        "from": "https://app-wallee.com/resource//web/image/payment/card-brand/swiss-pay.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Das wallee-Portal zeigt für Swiss Pay das boncard-Logo (Herausgeber); ein eigenes Swiss-Pay-Zeichen fehlt."
+      }
     },
     {
       "id": "innocard",
@@ -926,8 +957,16 @@
       "status": "review",
       "group": "switzerland",
       "rank": 22,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/innocard.svg",
+        "format": "svg",
+        "sha256": "d717304c2064a0528b65c8c100664841c11cf765c3e9a79c314d78b53d72f9d7",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/innocard.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Firmenlogo innocard / Loyalty AG."
+      }
     },
     {
       "id": "cryptocurrency",
@@ -974,20 +1013,40 @@
       "name": "Payconiq",
       "category": "payment-method",
       "status": "review",
-      "group": "online",
+      "group": "legacy",
       "rank": 32,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/payconiq.svg",
+        "format": "svg",
+        "sha256": "08df2b4906b22e4ccd555b57ed223134f45588d4c5077910d8ec3240e44240cc",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/payconiq.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Payconiq wird durch Wero abgelöst (payconiq.lu: «new wero»)."
+      },
+      "lifecycle": "retired",
+      "successor": "wero"
     },
     {
       "id": "paylib",
       "name": "Paylib",
       "category": "payment-method",
       "status": "review",
-      "group": "online",
+      "group": "legacy",
       "rank": 33,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/paylib.svg",
+        "format": "svg",
+        "sha256": "120fb36cbba2e500f546de042171bcccdef10fb112ac75e9faf52dbea651f954",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/paylib.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt. Paylib wurde in Frankreich durch Wero ersetzt."
+      },
+      "lifecycle": "retired",
+      "successor": "wero"
     },
     {
       "id": "multibanco",
@@ -1096,8 +1155,16 @@
       "status": "review",
       "group": "online",
       "rank": 40,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/poli.svg",
+        "format": "svg",
+        "sha256": "1c21b16d2b7025be5434d48ad87a4e368119689dce4f1c17c3130fbaa67904ea",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/poli.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "tenpay",
@@ -1106,8 +1173,16 @@
       "status": "review",
       "group": "online",
       "rank": 41,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/tenpay.svg",
+        "format": "svg",
+        "sha256": "f61bbc696d070397425480239d49abc16065232c07e7691889b59c1bb281d9c3",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/tenpay.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "bankaxess",
@@ -1116,8 +1191,16 @@
       "status": "review",
       "group": "online",
       "rank": 42,
-      "sourceStatus": "wallee-supported-logo-missing",
-      "walleeSource": "https://app-wallee.com/en/payment-methods"
+      "sourceStatus": "wallee-portal-interim",
+      "walleeSource": "https://app-wallee.com/en/payment-methods",
+      "artwork": {
+        "source": "assets/source/wallee-portal/bankaxess.svg",
+        "format": "svg",
+        "sha256": "7b2f0cef02af0e9730196d7355f812b1d212e891b9100b0645c9072cbb456e33",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/bankaxess.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "paybox",
@@ -1234,10 +1317,18 @@
       "status": "review",
       "group": "legacy",
       "rank": 9,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wallee-portal-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wallee-portal/cashu.svg",
+        "format": "svg",
+        "sha256": "16861cc61f813ed0198948314d9fcf434b93b7139ff0b4cbf4b292fba38c8944",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/cashu.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     },
     {
       "id": "daopay",
@@ -1246,10 +1337,18 @@
       "status": "review",
       "group": "legacy",
       "rank": 10,
-      "sourceStatus": "wallee-supported-logo-missing",
+      "sourceStatus": "wallee-portal-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "lifecycle": "check",
-      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen."
+      "lifecycleNote": "In der wallee-Liste noch aufgeführt; Status beim Anbieter prüfen.",
+      "artwork": {
+        "source": "assets/source/wallee-portal/daopay.svg",
+        "format": "svg",
+        "sha256": "9b5305924727bbe970a2468ddef52d4a1d35fb5a6b2140d820a3455c14c218fe",
+        "from": "https://app-wallee.com/resource//web/image/payment/method/daopay.svg",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
+      }
     }
   ],
   "sorting": {
