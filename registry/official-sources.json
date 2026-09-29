@@ -412,6 +412,118 @@
       "status": "verified-supplied-master",
       "official": "supplied by VOLTOX (sr@voltox.ch), 29.09.2026",
       "checked": "2026-09-29"
+    },
+    "esso": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Esso_textlogo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "aral": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Aral_Logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "omv": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:OMV_Logo_2024.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "eni": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Eni_wordmark.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "jet": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Jet_logo_2020.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "q8": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Q8_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "texaco": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Texaco_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "lukoil": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Lukoil_company_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "agrola": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Agrola_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "migrol": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Logo_Migrol.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "tamoil": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Tamoil.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "socar": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Logo_of_SOCAR.svg",
+        "license": "CC BY-SA 4.0",
+        "checked": "2026-09-29"
+      }
+    },
+    "uta": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Union_Tank_Eckstein_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
+    },
+    "hoyer": {
+      "interimSource": {
+        "status": "wikimedia-commons-interim",
+        "url": "https://commons.wikimedia.org/wiki/File:Hoyer-Gruppe_logo.svg",
+        "license": "Public domain",
+        "checked": "2026-09-29"
+      }
     }
   }
 }

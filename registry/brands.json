@@ -1271,8 +1271,8 @@
       "name": "AVIA",
       "category": "payment-method",
       "status": "review",
-      "group": "switzerland",
-      "rank": 19,
+      "group": "fuel",
+      "rank": 0,
       "sourceStatus": "wikimedia-commons-interim",
       "walleeSource": "https://app-wallee.com/en/payment-methods",
       "artwork": {
@@ -1820,6 +1820,797 @@
         "retrieved": "2026-09-29",
         "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Icon aus dem wallee-Portal (app-wallee.com/resource/web/image/payment/…), keine First-Party-Quelle des Markeninhabers. Datei unverändert; ersetzen, sobald ein Original vorliegt."
       }
+    },
+    {
+      "id": "shell",
+      "name": "Shell (euroShell)",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 1,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 6A",
+          "interface": "MagStripe",
+          "description": "euroShell CRT (Commercial Road Transport)",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 6B",
+          "interface": "MagStripe",
+          "description": "euroShell Fleet",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 6C",
+          "interface": "MagStripe",
+          "description": "euroShell Private",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 9F",
+          "interface": "MagStripe",
+          "description": "euroShell Prepaid",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 D8",
+          "interface": "MagStripe",
+          "description": "Shell-BE",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "esso",
+      "name": "Esso",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 2,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 68",
+          "interface": "MagStripe",
+          "description": "Esso CRT (Commercial Road Transport)",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 69",
+          "interface": "MagStripe",
+          "description": "Esso Fleet",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Esso_textlogo.svg",
+        "format": "svg",
+        "sha256": "980c40440046cdaa32707a70a3129dfa9fb96dd3061798c8801edc386281f286",
+        "from": "https://commons.wikimedia.org/wiki/File:Esso_textlogo.svg",
+        "license": "Public domain",
+        "author": "ExxonMobil",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "bp",
+      "name": "BP",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 3,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 AA",
+          "interface": "MagStripe",
+          "description": "BP Routex",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "aral",
+      "name": "Aral",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 4,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 B0",
+          "interface": "MagStripe",
+          "description": "ARAL Routex",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Aral_Logo.svg",
+        "format": "svg",
+        "sha256": "ff3b3ed2611819ac1bcfb6f3a7a35481c354e1c9dd274aae87ce0b9f0c241991",
+        "from": "https://commons.wikimedia.org/wiki/File:Aral_Logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "omv",
+      "name": "OMV",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 5,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 AF",
+          "interface": "MagStripe",
+          "description": "OMV Routex",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/OMV_Logo_2024.svg",
+        "format": "svg",
+        "sha256": "b91065f2b7b49d5d423dbb23c9c615706197773500ea0d3b5260b3d354a64c0f",
+        "from": "https://commons.wikimedia.org/wiki/File:OMV_Logo_2024.svg",
+        "license": "Public domain",
+        "author": "OMV AG",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "eni",
+      "name": "Eni",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 6,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A8",
+          "interface": "MagStripe",
+          "description": "ENI Routex",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 C2",
+          "interface": "MagStripe",
+          "description": "ENI Plus",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Eni_wordmark.svg",
+        "format": "svg",
+        "sha256": "657c0179ae046bb90848f30b5aff9cbe78386170d10b49c37f613e6630feda4b",
+        "from": "https://commons.wikimedia.org/wiki/File:Eni_wordmark.svg",
+        "license": "Public domain",
+        "author": "Eni SpA",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "routex",
+      "name": "Routex",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 7,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 B4",
+          "interface": "MagStripe",
+          "description": "Statoil Routex",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 B5",
+          "interface": "MagStripe",
+          "description": "IP Routex",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 D5",
+          "interface": "MagStripe",
+          "description": "Routex-Tex",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "jet",
+      "name": "JET",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 8,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 DD",
+          "interface": "MagStripe",
+          "description": "Jet",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Jet_logo_2020.svg",
+        "format": "svg",
+        "sha256": "6d8de33f1679ac591e3d88311bf4532b92777a6554c801fad76b97089bb9f177",
+        "from": "https://commons.wikimedia.org/wiki/File:Jet_logo_2020.svg",
+        "license": "Public domain",
+        "author": "Phillips 66 Limited",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "q8",
+      "name": "Q8",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 9,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 D2",
+          "interface": "MagStripe",
+          "description": "Q8",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Q8_logo.svg",
+        "format": "svg",
+        "sha256": "9ad536a54d1469a17cb06cab0a4583d69182e8b3009690185055e7c38cc0b7d7",
+        "from": "https://commons.wikimedia.org/wiki/File:Q8_logo.svg",
+        "license": "Public domain",
+        "author": "Kuwait Petroleum International",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "texaco",
+      "name": "Texaco",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 10,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 D3",
+          "interface": "MagStripe",
+          "description": "TEXACO",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Texaco_logo.svg",
+        "format": "svg",
+        "sha256": "2a6a8fe2f09758a31414f32972c7fcea9ebda09423d89e6adb57bb2fc4be9b27",
+        "from": "https://commons.wikimedia.org/wiki/File:Texaco_logo.svg",
+        "license": "Public domain",
+        "author": "Texaco",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "lukoil",
+      "name": "Lukoil",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 11,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 D1",
+          "interface": "MagStripe",
+          "description": "LUKOIL",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Lukoil_company_logo.svg",
+        "format": "svg",
+        "sha256": "6e78b7e5b04c5b362740f31e35b2a2ca0f00db396f8c476379b1708ff1e1821f",
+        "from": "https://commons.wikimedia.org/wiki/File:Lukoil_company_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "agrola",
+      "name": "Agrola",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 12,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A4",
+          "interface": "MagStripe",
+          "description": "Agrola",
+          "active": true
+        },
+        {
+          "aid": "D7 56 00 01 18 01 01",
+          "interface": "Domestic",
+          "description": "AGROLA energy card",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Agrola_logo.svg",
+        "format": "svg",
+        "sha256": "598832436ec01e7cde4ca8f95d4dfe0a7979531711cb338b0876e8e75856064e",
+        "from": "https://commons.wikimedia.org/wiki/File:Agrola_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "migrol",
+      "name": "Migrol",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 13,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 8B",
+          "interface": "MagStripe",
+          "description": "Migrolcard",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Logo_Migrol.svg",
+        "format": "svg",
+        "sha256": "dea6b454e1bc6075b4f60f63c2c0add2ac2614d684f8316f402817aa9f82dfbf",
+        "from": "https://commons.wikimedia.org/wiki/File:Logo_Migrol.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "tamoil",
+      "name": "Tamoil",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 14,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A1",
+          "interface": "MagStripe",
+          "description": "Tamoil Card",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Tamoil.svg",
+        "format": "svg",
+        "sha256": "c8a4fb71543ae02573c64319bc6a53f2cd15b7b49bd17ea7d2388fdb4731e6e8",
+        "from": "https://commons.wikimedia.org/wiki/File:Tamoil.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "socar",
+      "name": "SOCAR",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 15,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 B6",
+          "interface": "MagStripe",
+          "description": "SOCAR J-C",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 B8",
+          "interface": "MagStripe",
+          "description": "SOCAR Classic",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 C8",
+          "interface": "MagStripe",
+          "description": "SOCAR AT",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 EC",
+          "interface": "MagStripe",
+          "description": "SOCAR CO-BRA Retail",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 ED",
+          "interface": "MagStripe",
+          "description": "SOCAR Retail",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Logo_of_SOCAR.svg",
+        "format": "svg",
+        "sha256": "d390bf63c3f686dbf2cc678fec30cb0192056445fd97241c8249f42f32020b5d",
+        "from": "https://commons.wikimedia.org/wiki/File:Logo_of_SOCAR.svg",
+        "license": "CC BY-SA 4.0",
+        "author": "SOCAR",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "dkv",
+      "name": "DKV",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 16,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 6D",
+          "interface": "MagStripe",
+          "description": "DKV Fleetcard",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 A6",
+          "interface": "MagStripe",
+          "description": "DKV",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 AD",
+          "interface": "MagStripe",
+          "description": "DKV",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 FF",
+          "interface": "MagStripe",
+          "description": "DKV Austria",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "uta",
+      "name": "UTA",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 17,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A5",
+          "interface": "MagStripe",
+          "description": "UTA",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 AC",
+          "interface": "MagStripe",
+          "description": "UTA select card",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 AE",
+          "interface": "MagStripe",
+          "description": "UTA Full Service Card",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 FE",
+          "interface": "MagStripe",
+          "description": "UTA Austria",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Union_Tank_Eckstein_logo.svg",
+        "format": "svg",
+        "sha256": "a4a48b4fe7d785ec3ab03af3fba7aa2b37f53a953b3687d043d5f37bb3023c32",
+        "from": "https://commons.wikimedia.org/wiki/File:Union_Tank_Eckstein_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "eurowag",
+      "name": "Eurowag",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 18,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 DE",
+          "interface": "MagStripe",
+          "description": "Eurowag",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "novofleet",
+      "name": "Novofleet",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 19,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 AB",
+          "interface": "MagStripe",
+          "description": "Novofleet",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "logpay",
+      "name": "LogPay",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 20,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 B1",
+          "interface": "MagStripe",
+          "description": "Logpay 2",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 B2",
+          "interface": "MagStripe",
+          "description": "Logpay 1",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 B3",
+          "interface": "MagStripe",
+          "description": "Logpay 3",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "transcard",
+      "name": "Transcard",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 21,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A2",
+          "interface": "MagStripe",
+          "description": "Transcard",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "oel-pool",
+      "name": "Oel-Pool",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 22,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 A3",
+          "interface": "MagStripe",
+          "description": "Oel-Pool Card",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "Oil!",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 23,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 C7",
+          "interface": "MagStripe",
+          "description": "Oil! F+F Flottenkarte",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "hoyer",
+      "name": "HOYER",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 24,
+      "lifecycle": "current",
+      "sourceStatus": "wikimedia-commons-interim",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 45 00",
+          "interface": "MagStripe",
+          "description": "HoyerCard",
+          "active": true
+        }
+      ],
+      "artwork": {
+        "source": "assets/source/wikimedia/Hoyer-Gruppe_logo.svg",
+        "format": "svg",
+        "sha256": "717d50261ee88b8c7944b5dff31ccb837c307502bcc839e86f3f938aeefde9bb",
+        "from": "https://commons.wikimedia.org/wiki/File:Hoyer-Gruppe_logo.svg",
+        "license": "Public domain",
+        "author": "unbekannt",
+        "retrieved": "2026-09-29",
+        "note": "Temporäre Ausnahme vom 29.09.2026 auf Anweisung des Owners: Wikimedia Commons ist keine First-Party-Quelle. Datei unverändert; ersetzen, sobald ein Original des Markeninhabers vorliegt. Firmenlogo des Markeninhabers; eigenes Kartenzeichen nicht veröffentlicht."
+      }
+    },
+    {
+      "id": "jubin",
+      "name": "Jubin",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 25,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 5F",
+          "interface": "MagStripe",
+          "description": "Jubin Card / Petrol",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "voegtlin-meyer",
+      "name": "Voegtlin-Meyer",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 26,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 C4",
+          "interface": "MagStripe",
+          "description": "Voegtlin-Meyer",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 CE",
+          "interface": "MagStripe",
+          "description": "Voegtlin-Meyer",
+          "active": true
+        },
+        {
+          "aid": "A0 00 00 01 57 44 CF",
+          "interface": "MagStripe",
+          "description": "Voegtlin-Meyer",
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "moveri",
+      "name": "Moveri",
+      "category": "payment-method",
+      "status": "review",
+      "group": "fuel",
+      "rank": 27,
+      "lifecycle": "current",
+      "sourceStatus": "ep2-brand-logo-missing",
+      "note": "Tank-/Flottenkarte mit aktiver ep2-AID (ep2 ID-Master).",
+      "ep2Aids": [
+        {
+          "aid": "A0 00 00 01 57 44 BE",
+          "interface": "MagStripe",
+          "description": "Moveri",
+          "active": true
+        }
+      ]
     }
   ],
   "sorting": {
@@ -1851,6 +2642,11 @@
       "id": "switzerland",
       "title": "Schweiz: ep2, TWINT, PostFinance",
       "short": "Schweiz"
+    },
+    {
+      "id": "fuel",
+      "title": "Tank- und Flottenkarten",
+      "short": "Tank/Flotte"
     },
     {
       "id": "online",
