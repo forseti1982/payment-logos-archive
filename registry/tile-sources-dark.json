@@ -381,6 +381,48 @@
     },
     "zepp-pay": {
       "treatment": "white"
+    },
+    "esso": {
+      "treatment": "white"
+    },
+    "aral": {
+      "treatment": "white"
+    },
+    "omv": {
+      "treatment": "white"
+    },
+    "eni": {
+      "treatment": "white"
+    },
+    "jet": {
+      "treatment": "white"
+    },
+    "q8": {
+      "treatment": "white"
+    },
+    "texaco": {
+      "treatment": "white"
+    },
+    "lukoil": {
+      "treatment": "white"
+    },
+    "agrola": {
+      "treatment": "white"
+    },
+    "migrol": {
+      "treatment": "white"
+    },
+    "tamoil": {
+      "treatment": "white"
+    },
+    "socar": {
+      "treatment": "white"
+    },
+    "uta": {
+      "treatment": "white"
+    },
+    "hoyer": {
+      "treatment": "white"
     }
   },
   "marginX": 18,

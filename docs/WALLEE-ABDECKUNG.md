@@ -34,3 +34,9 @@ Alle fehlenden Marken sind in `registry/brands.json` mit `sourceStatus: wallee-s
 ## Übergangsquellen vom 29.09.2026
 
 Auf Anweisung des Owners gilt am 29.09.2026 einmalig eine Ausnahme von der First-Party-Regel. Logos stammen aus Wikimedia Commons, aus den Icons des wallee-Portals (app-wallee.com) oder von Websites der Markeninhaber (Firmenlogo). Alle diese Einträge bleiben `review`, sind mit Quelle und sha256 in `registry/brands.json` erfasst und werden ersetzt, sobald ein Original des Markeninhabers vorliegt.
+
+## Tank- und Flottenkarten (ep2)
+
+Aus dem ep2 ID-Master (aktive AIDs) erfasst, Gruppe `fuel`: AVIA, Shell (euroShell), Esso, BP, Aral, OMV, Eni, Routex, JET, Q8, Texaco, Lukoil, Agrola, Migrol, Tamoil, SOCAR, DKV, UTA, Eurowag, Novofleet, LogPay, Transcard, Oel-Pool, Oil!, HOYER, Jubin, Voegtlin-Meyer, Moveri. Die wallee-Liste «Credit / Debit Card» führt davon nur AVIA; die übrigen laufen über ep2-Acquirer.
+
+Logo vorhanden (Firmenlogo, Übergangsquelle Wikimedia Commons): AVIA, Esso, Tamoil, UTA, Agrola, Aral, HOYER, Texaco, SOCAR, Lukoil, OMV, Eni, Q8, JET, Migrol. Noch ohne Logo: Shell, BP, DKV, Routex, Eurowag, Novofleet, LogPay, Transcard, Oel-Pool, Oil!, Jubin, Voegtlin-Meyer, Moveri.

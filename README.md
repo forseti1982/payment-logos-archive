@@ -56,9 +56,28 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg/chw.svg" width="96" alt="CHW (WIR)" title="CHW (WIR) · chw · AID A0 00 00 01 57 01 0C, A0 00 00 01 62 00 03 10, A0 00 00 01 62 00 03 11">
 <img src="dist/tiles/svg/buecherbon.svg" width="96" alt="Bücherbon" title="Bücherbon · buecherbon">
 <img src="dist/tiles/svg/powercard.svg" width="96" alt="POWERCARD" title="POWERCARD · powercard · AID A0 00 00 01 57 01 0D, A0 00 00 01 57 44 76, A0 00 00 01 57 44 78, A0 00 00 01 57 44 79">
-<img src="dist/tiles/svg/avia.svg" width="96" alt="AVIA" title="AVIA · avia · AID A0 00 00 01 57 44 C3">
 <img src="dist/tiles/svg/swiss-pay.svg" width="96" alt="Swiss Pay" title="Swiss Pay · swiss-pay · AID A0 00 00 01 57 44 BD, A0 00 00 08 01 00 01">
 <img src="dist/tiles/svg/innocard.svg" width="96" alt="Innocard" title="Innocard · innocard · AID A0 00 00 01 57 44 49, A0 00 00 01 57 44 5A, A0 00 00 01 57 44 63, A0 00 00 01 57 44 6E, A0 00 00 01 57 44 6F, A0 00 00 01 57 44 75, A0 00 00 01 57 44 7A, A0 00 00 01 57 44 87, A0 00 00 01 57 44 88, A0 00 00 01 57 44 89, A0 00 00 01 57 44 8A">
+</p>
+
+#### Tank- und Flottenkarten
+
+<p>
+<img src="dist/tiles/svg/avia.svg" width="96" alt="AVIA" title="AVIA · avia · AID A0 00 00 01 57 44 C3">
+<img src="dist/tiles/svg/esso.svg" width="96" alt="Esso" title="Esso · esso · AID A0 00 00 01 57 44 68, A0 00 00 01 57 44 69">
+<img src="dist/tiles/svg/aral.svg" width="96" alt="Aral" title="Aral · aral · AID A0 00 00 01 57 44 B0">
+<img src="dist/tiles/svg/omv.svg" width="96" alt="OMV" title="OMV · omv · AID A0 00 00 01 57 44 AF">
+<img src="dist/tiles/svg/eni.svg" width="96" alt="Eni" title="Eni · eni · AID A0 00 00 01 57 44 A8, A0 00 00 01 57 44 C2">
+<img src="dist/tiles/svg/jet.svg" width="96" alt="JET" title="JET · jet · AID A0 00 00 01 57 44 DD">
+<img src="dist/tiles/svg/q8.svg" width="96" alt="Q8" title="Q8 · q8 · AID A0 00 00 01 57 44 D2">
+<img src="dist/tiles/svg/texaco.svg" width="96" alt="Texaco" title="Texaco · texaco · AID A0 00 00 01 57 44 D3">
+<img src="dist/tiles/svg/lukoil.svg" width="96" alt="Lukoil" title="Lukoil · lukoil · AID A0 00 00 01 57 44 D1">
+<img src="dist/tiles/svg/agrola.svg" width="96" alt="Agrola" title="Agrola · agrola · AID A0 00 00 01 57 44 A4, D7 56 00 01 18 01 01">
+<img src="dist/tiles/svg/migrol.svg" width="96" alt="Migrol" title="Migrol · migrol · AID A0 00 00 01 57 44 8B">
+<img src="dist/tiles/svg/tamoil.svg" width="96" alt="Tamoil" title="Tamoil · tamoil · AID A0 00 00 01 57 44 A1">
+<img src="dist/tiles/svg/socar.svg" width="96" alt="SOCAR" title="SOCAR · socar · AID A0 00 00 01 57 44 B6, A0 00 00 01 57 44 B8, A0 00 00 01 57 44 C8, A0 00 00 01 57 44 EC, A0 00 00 01 57 44 ED">
+<img src="dist/tiles/svg/uta.svg" width="96" alt="UTA" title="UTA · uta · AID A0 00 00 01 57 44 A5, A0 00 00 01 57 44 AC, A0 00 00 01 57 44 AE, A0 00 00 01 57 44 FE">
+<img src="dist/tiles/svg/hoyer.svg" width="96" alt="HOYER" title="HOYER · hoyer · AID A0 00 00 01 57 45 00">
 </p>
 
 #### Online und international
@@ -198,9 +217,28 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 <img src="dist/tiles/svg-dark/chw.svg" width="96" alt="CHW (WIR)" title="CHW (WIR) · chw · AID A0 00 00 01 57 01 0C, A0 00 00 01 62 00 03 10, A0 00 00 01 62 00 03 11">
 <img src="dist/tiles/svg-dark/buecherbon.svg" width="96" alt="Bücherbon" title="Bücherbon · buecherbon">
 <img src="dist/tiles/svg-dark/powercard.svg" width="96" alt="POWERCARD" title="POWERCARD · powercard · AID A0 00 00 01 57 01 0D, A0 00 00 01 57 44 76, A0 00 00 01 57 44 78, A0 00 00 01 57 44 79">
-<img src="dist/tiles/svg-dark/avia.svg" width="96" alt="AVIA" title="AVIA · avia · AID A0 00 00 01 57 44 C3">
 <img src="dist/tiles/svg-dark/swiss-pay.svg" width="96" alt="Swiss Pay" title="Swiss Pay · swiss-pay · AID A0 00 00 01 57 44 BD, A0 00 00 08 01 00 01">
 <img src="dist/tiles/svg-dark/innocard.svg" width="96" alt="Innocard" title="Innocard · innocard · AID A0 00 00 01 57 44 49, A0 00 00 01 57 44 5A, A0 00 00 01 57 44 63, A0 00 00 01 57 44 6E, A0 00 00 01 57 44 6F, A0 00 00 01 57 44 75, A0 00 00 01 57 44 7A, A0 00 00 01 57 44 87, A0 00 00 01 57 44 88, A0 00 00 01 57 44 89, A0 00 00 01 57 44 8A">
+</p>
+
+#### Tank- und Flottenkarten
+
+<p>
+<img src="dist/tiles/svg-dark/avia.svg" width="96" alt="AVIA" title="AVIA · avia · AID A0 00 00 01 57 44 C3">
+<img src="dist/tiles/svg-dark/esso.svg" width="96" alt="Esso" title="Esso · esso · AID A0 00 00 01 57 44 68, A0 00 00 01 57 44 69">
+<img src="dist/tiles/svg-dark/aral.svg" width="96" alt="Aral" title="Aral · aral · AID A0 00 00 01 57 44 B0">
+<img src="dist/tiles/svg-dark/omv.svg" width="96" alt="OMV" title="OMV · omv · AID A0 00 00 01 57 44 AF">
+<img src="dist/tiles/svg-dark/eni.svg" width="96" alt="Eni" title="Eni · eni · AID A0 00 00 01 57 44 A8, A0 00 00 01 57 44 C2">
+<img src="dist/tiles/svg-dark/jet.svg" width="96" alt="JET" title="JET · jet · AID A0 00 00 01 57 44 DD">
+<img src="dist/tiles/svg-dark/q8.svg" width="96" alt="Q8" title="Q8 · q8 · AID A0 00 00 01 57 44 D2">
+<img src="dist/tiles/svg-dark/texaco.svg" width="96" alt="Texaco" title="Texaco · texaco · AID A0 00 00 01 57 44 D3">
+<img src="dist/tiles/svg-dark/lukoil.svg" width="96" alt="Lukoil" title="Lukoil · lukoil · AID A0 00 00 01 57 44 D1">
+<img src="dist/tiles/svg-dark/agrola.svg" width="96" alt="Agrola" title="Agrola · agrola · AID A0 00 00 01 57 44 A4, D7 56 00 01 18 01 01">
+<img src="dist/tiles/svg-dark/migrol.svg" width="96" alt="Migrol" title="Migrol · migrol · AID A0 00 00 01 57 44 8B">
+<img src="dist/tiles/svg-dark/tamoil.svg" width="96" alt="Tamoil" title="Tamoil · tamoil · AID A0 00 00 01 57 44 A1">
+<img src="dist/tiles/svg-dark/socar.svg" width="96" alt="SOCAR" title="SOCAR · socar · AID A0 00 00 01 57 44 B6, A0 00 00 01 57 44 B8, A0 00 00 01 57 44 C8, A0 00 00 01 57 44 EC, A0 00 00 01 57 44 ED">
+<img src="dist/tiles/svg-dark/uta.svg" width="96" alt="UTA" title="UTA · uta · AID A0 00 00 01 57 44 A5, A0 00 00 01 57 44 AC, A0 00 00 01 57 44 AE, A0 00 00 01 57 44 FE">
+<img src="dist/tiles/svg-dark/hoyer.svg" width="96" alt="HOYER" title="HOYER · hoyer · AID A0 00 00 01 57 45 00">
 </p>
 
 #### Online und international
@@ -309,9 +347,37 @@ Zuordnung der aktiven ep2-AIDs zu Marke und Kachel. Maschinenlesbar in `registry
 | <img src="dist/tiles/svg/mediamarkt.svg" width="60" alt="MediaMarkt"> | <img src="dist/tiles/svg-dark/mediamarkt.svg" width="60" alt="MediaMarkt dunkel"> | MediaMarkt<br>`mediamarkt` | `A0 00 00 01 57 01 09` | Mediamarkt Card |
 | <img src="dist/tiles/svg/chw.svg" width="60" alt="CHW (WIR)"> | <img src="dist/tiles/svg-dark/chw.svg" width="60" alt="CHW (WIR) dunkel"> | CHW (WIR)<br>`chw` | `A0 00 00 01 57 01 0C`<br>`A0 00 00 01 62 00 03 10`<br>`A0 00 00 01 62 00 03 11` | WIR Card<br>WIR Card Plus (VPAY)<br>WIR Card Plus (DMC) |
 | <img src="dist/tiles/svg/powercard.svg" width="60" alt="POWERCARD"> | <img src="dist/tiles/svg-dark/powercard.svg" width="60" alt="POWERCARD dunkel"> | POWERCARD<br>`powercard` | `A0 00 00 01 57 01 0D`<br>`A0 00 00 01 57 44 76`<br>`A0 00 00 01 57 44 78`<br>`A0 00 00 01 57 44 79` | PowerCard<br>PowerCard<br>PowerCard<br>PowerCard |
-| <img src="dist/tiles/svg/avia.svg" width="60" alt="AVIA"> | <img src="dist/tiles/svg-dark/avia.svg" width="60" alt="AVIA dunkel"> | AVIA<br>`avia` | `A0 00 00 01 57 44 C3` | AVIA |
+| Logo fehlt |  | EKZ<br>`ekz` | `A0 00 00 01 57 44 7F` | EKZ card |
 | <img src="dist/tiles/svg/swiss-pay.svg" width="60" alt="Swiss Pay"> | <img src="dist/tiles/svg-dark/swiss-pay.svg" width="60" alt="Swiss Pay dunkel"> | Swiss Pay<br>`swiss-pay` | `A0 00 00 01 57 44 BD`<br>`A0 00 00 08 01 00 01` | Swiss PAY II<br>Swiss PAY |
 | <img src="dist/tiles/svg/innocard.svg" width="60" alt="Innocard"> | <img src="dist/tiles/svg-dark/innocard.svg" width="60" alt="Innocard dunkel"> | Innocard<br>`innocard` | `A0 00 00 01 57 44 49`<br>`A0 00 00 01 57 44 5A`<br>`A0 00 00 01 57 44 63`<br>`A0 00 00 01 57 44 6E`<br>`A0 00 00 01 57 44 6F`<br>`A0 00 00 01 57 44 75`<br>`A0 00 00 01 57 44 7A`<br>`A0 00 00 01 57 44 87`<br>`A0 00 00 01 57 44 88`<br>`A0 00 00 01 57 44 89`<br>`A0 00 00 01 57 44 8A` | SwissBonusCard<br>SwissCadeau<br>SwissBonus+<br>SwissCredit<br>SwissVoucher<br>Innofriends<br>loyalty.Marketing<br>Prepaid.Innocard<br>Loyalty.Innocard<br>Bonus.Innocard<br>Gift.Innocard |
+| <img src="dist/tiles/svg/avia.svg" width="60" alt="AVIA"> | <img src="dist/tiles/svg-dark/avia.svg" width="60" alt="AVIA dunkel"> | AVIA<br>`avia` | `A0 00 00 01 57 44 C3` | AVIA |
+| Logo fehlt |  | Shell (euroShell)<br>`shell` | `A0 00 00 01 57 44 6A`<br>`A0 00 00 01 57 44 6B`<br>`A0 00 00 01 57 44 6C`<br>`A0 00 00 01 57 44 9F`<br>`A0 00 00 01 57 44 D8` | euroShell CRT (Commercial Road Transport)<br>euroShell Fleet<br>euroShell Private<br>euroShell Prepaid<br>Shell-BE |
+| <img src="dist/tiles/svg/esso.svg" width="60" alt="Esso"> | <img src="dist/tiles/svg-dark/esso.svg" width="60" alt="Esso dunkel"> | Esso<br>`esso` | `A0 00 00 01 57 44 68`<br>`A0 00 00 01 57 44 69` | Esso CRT (Commercial Road Transport)<br>Esso Fleet |
+| Logo fehlt |  | BP<br>`bp` | `A0 00 00 01 57 44 AA` | BP Routex |
+| <img src="dist/tiles/svg/aral.svg" width="60" alt="Aral"> | <img src="dist/tiles/svg-dark/aral.svg" width="60" alt="Aral dunkel"> | Aral<br>`aral` | `A0 00 00 01 57 44 B0` | ARAL Routex |
+| <img src="dist/tiles/svg/omv.svg" width="60" alt="OMV"> | <img src="dist/tiles/svg-dark/omv.svg" width="60" alt="OMV dunkel"> | OMV<br>`omv` | `A0 00 00 01 57 44 AF` | OMV Routex |
+| <img src="dist/tiles/svg/eni.svg" width="60" alt="Eni"> | <img src="dist/tiles/svg-dark/eni.svg" width="60" alt="Eni dunkel"> | Eni<br>`eni` | `A0 00 00 01 57 44 A8`<br>`A0 00 00 01 57 44 C2` | ENI Routex<br>ENI Plus |
+| Logo fehlt |  | Routex<br>`routex` | `A0 00 00 01 57 44 B4`<br>`A0 00 00 01 57 44 B5`<br>`A0 00 00 01 57 44 D5` | Statoil Routex<br>IP Routex<br>Routex-Tex |
+| <img src="dist/tiles/svg/jet.svg" width="60" alt="JET"> | <img src="dist/tiles/svg-dark/jet.svg" width="60" alt="JET dunkel"> | JET<br>`jet` | `A0 00 00 01 57 44 DD` | Jet |
+| <img src="dist/tiles/svg/q8.svg" width="60" alt="Q8"> | <img src="dist/tiles/svg-dark/q8.svg" width="60" alt="Q8 dunkel"> | Q8<br>`q8` | `A0 00 00 01 57 44 D2` | Q8 |
+| <img src="dist/tiles/svg/texaco.svg" width="60" alt="Texaco"> | <img src="dist/tiles/svg-dark/texaco.svg" width="60" alt="Texaco dunkel"> | Texaco<br>`texaco` | `A0 00 00 01 57 44 D3` | TEXACO |
+| <img src="dist/tiles/svg/lukoil.svg" width="60" alt="Lukoil"> | <img src="dist/tiles/svg-dark/lukoil.svg" width="60" alt="Lukoil dunkel"> | Lukoil<br>`lukoil` | `A0 00 00 01 57 44 D1` | LUKOIL |
+| <img src="dist/tiles/svg/agrola.svg" width="60" alt="Agrola"> | <img src="dist/tiles/svg-dark/agrola.svg" width="60" alt="Agrola dunkel"> | Agrola<br>`agrola` | `A0 00 00 01 57 44 A4`<br>`D7 56 00 01 18 01 01` | Agrola<br>AGROLA energy card |
+| <img src="dist/tiles/svg/migrol.svg" width="60" alt="Migrol"> | <img src="dist/tiles/svg-dark/migrol.svg" width="60" alt="Migrol dunkel"> | Migrol<br>`migrol` | `A0 00 00 01 57 44 8B` | Migrolcard |
+| <img src="dist/tiles/svg/tamoil.svg" width="60" alt="Tamoil"> | <img src="dist/tiles/svg-dark/tamoil.svg" width="60" alt="Tamoil dunkel"> | Tamoil<br>`tamoil` | `A0 00 00 01 57 44 A1` | Tamoil Card |
+| <img src="dist/tiles/svg/socar.svg" width="60" alt="SOCAR"> | <img src="dist/tiles/svg-dark/socar.svg" width="60" alt="SOCAR dunkel"> | SOCAR<br>`socar` | `A0 00 00 01 57 44 B6`<br>`A0 00 00 01 57 44 B8`<br>`A0 00 00 01 57 44 C8`<br>`A0 00 00 01 57 44 EC`<br>`A0 00 00 01 57 44 ED` | SOCAR J-C<br>SOCAR Classic<br>SOCAR AT<br>SOCAR CO-BRA Retail<br>SOCAR Retail |
+| Logo fehlt |  | DKV<br>`dkv` | `A0 00 00 01 57 44 6D`<br>`A0 00 00 01 57 44 A6`<br>`A0 00 00 01 57 44 AD`<br>`A0 00 00 01 57 44 FF` | DKV Fleetcard<br>DKV<br>DKV<br>DKV Austria |
+| <img src="dist/tiles/svg/uta.svg" width="60" alt="UTA"> | <img src="dist/tiles/svg-dark/uta.svg" width="60" alt="UTA dunkel"> | UTA<br>`uta` | `A0 00 00 01 57 44 A5`<br>`A0 00 00 01 57 44 AC`<br>`A0 00 00 01 57 44 AE`<br>`A0 00 00 01 57 44 FE` | UTA<br>UTA select card<br>UTA Full Service Card<br>UTA Austria |
+| Logo fehlt |  | Eurowag<br>`eurowag` | `A0 00 00 01 57 44 DE` | Eurowag |
+| Logo fehlt |  | Novofleet<br>`novofleet` | `A0 00 00 01 57 44 AB` | Novofleet |
+| Logo fehlt |  | LogPay<br>`logpay` | `A0 00 00 01 57 44 B1`<br>`A0 00 00 01 57 44 B2`<br>`A0 00 00 01 57 44 B3` | Logpay 2<br>Logpay 1<br>Logpay 3 |
+| Logo fehlt |  | Transcard<br>`transcard` | `A0 00 00 01 57 44 A2` | Transcard |
+| Logo fehlt |  | Oel-Pool<br>`oel-pool` | `A0 00 00 01 57 44 A3` | Oel-Pool Card |
+| Logo fehlt |  | Oil!<br>`oil` | `A0 00 00 01 57 44 C7` | Oil! F+F Flottenkarte |
+| <img src="dist/tiles/svg/hoyer.svg" width="60" alt="HOYER"> | <img src="dist/tiles/svg-dark/hoyer.svg" width="60" alt="HOYER dunkel"> | HOYER<br>`hoyer` | `A0 00 00 01 57 45 00` | HoyerCard |
+| Logo fehlt |  | Jubin<br>`jubin` | `A0 00 00 01 57 44 5F` | Jubin Card / Petrol |
+| Logo fehlt |  | Voegtlin-Meyer<br>`voegtlin-meyer` | `A0 00 00 01 57 44 C4`<br>`A0 00 00 01 57 44 CE`<br>`A0 00 00 01 57 44 CF` | Voegtlin-Meyer<br>Voegtlin-Meyer<br>Voegtlin-Meyer |
+| Logo fehlt |  | Moveri<br>`moveri` | `A0 00 00 01 57 44 BE` | Moveri |
 | <img src="dist/tiles/svg/paypal.svg" width="60" alt="PayPal"> | <img src="dist/tiles/svg-dark/paypal.svg" width="60" alt="PayPal dunkel"> | PayPal<br>`paypal` | `A0 00 00 01 57 44 EE` | PayPal |
 | <img src="dist/tiles/svg/alipay.svg" width="60" alt="Alipay"> | <img src="dist/tiles/svg-dark/alipay.svg" width="60" alt="Alipay dunkel"> | Alipay<br>`alipay` | `A0 00 00 01 57 44 A0` | Alipay |
 | <img src="dist/tiles/svg/wechat-pay.svg" width="60" alt="WeChat Pay"> | <img src="dist/tiles/svg-dark/wechat-pay.svg" width="60" alt="WeChat Pay dunkel"> | WeChat Pay<br>`wechat-pay` | `A0 00 00 01 57 44 C6` | WeChatPay |
@@ -378,10 +444,37 @@ Quellen und Hinweise zu den AIDs: [docs/AID-QUELLEN.md](docs/AID-QUELLEN.md).
 | CHW (WIR) | `chw` | Schweiz | `A0 00 00 01 57 01 0C`<br>`A0 00 00 01 62 00 03 10`<br>`A0 00 00 01 62 00 03 11` |
 | Bücherbon | `buecherbon` | Schweiz |  |
 | POWERCARD | `powercard` | Schweiz | `A0 00 00 01 57 01 0D`<br>`A0 00 00 01 57 44 76`<br>`A0 00 00 01 57 44 78`<br>`A0 00 00 01 57 44 79` |
-| AVIA | `avia` | Schweiz | `A0 00 00 01 57 44 C3` |
 | EKZ | `ekz` | Schweiz | `A0 00 00 01 57 44 7F` |
 | Swiss Pay | `swiss-pay` | Schweiz | `A0 00 00 01 57 44 BD`<br>`A0 00 00 08 01 00 01` |
 | Innocard | `innocard` | Schweiz | `A0 00 00 01 57 44 49`<br>`A0 00 00 01 57 44 5A`<br>`A0 00 00 01 57 44 63`<br>`A0 00 00 01 57 44 6E`<br>`A0 00 00 01 57 44 6F`<br>`A0 00 00 01 57 44 75`<br>`A0 00 00 01 57 44 7A`<br>`A0 00 00 01 57 44 87`<br>`A0 00 00 01 57 44 88`<br>`A0 00 00 01 57 44 89`<br>`A0 00 00 01 57 44 8A` |
+| AVIA | `avia` | Tank/Flotte | `A0 00 00 01 57 44 C3` |
+| Shell (euroShell) | `shell` | Tank/Flotte | `A0 00 00 01 57 44 6A`<br>`A0 00 00 01 57 44 6B`<br>`A0 00 00 01 57 44 6C`<br>`A0 00 00 01 57 44 9F`<br>`A0 00 00 01 57 44 D8` |
+| Esso | `esso` | Tank/Flotte | `A0 00 00 01 57 44 68`<br>`A0 00 00 01 57 44 69` |
+| BP | `bp` | Tank/Flotte | `A0 00 00 01 57 44 AA` |
+| Aral | `aral` | Tank/Flotte | `A0 00 00 01 57 44 B0` |
+| OMV | `omv` | Tank/Flotte | `A0 00 00 01 57 44 AF` |
+| Eni | `eni` | Tank/Flotte | `A0 00 00 01 57 44 A8`<br>`A0 00 00 01 57 44 C2` |
+| Routex | `routex` | Tank/Flotte | `A0 00 00 01 57 44 B4`<br>`A0 00 00 01 57 44 B5`<br>`A0 00 00 01 57 44 D5` |
+| JET | `jet` | Tank/Flotte | `A0 00 00 01 57 44 DD` |
+| Q8 | `q8` | Tank/Flotte | `A0 00 00 01 57 44 D2` |
+| Texaco | `texaco` | Tank/Flotte | `A0 00 00 01 57 44 D3` |
+| Lukoil | `lukoil` | Tank/Flotte | `A0 00 00 01 57 44 D1` |
+| Agrola | `agrola` | Tank/Flotte | `A0 00 00 01 57 44 A4`<br>`D7 56 00 01 18 01 01` |
+| Migrol | `migrol` | Tank/Flotte | `A0 00 00 01 57 44 8B` |
+| Tamoil | `tamoil` | Tank/Flotte | `A0 00 00 01 57 44 A1` |
+| SOCAR | `socar` | Tank/Flotte | `A0 00 00 01 57 44 B6`<br>`A0 00 00 01 57 44 B8`<br>`A0 00 00 01 57 44 C8`<br>`A0 00 00 01 57 44 EC`<br>`A0 00 00 01 57 44 ED` |
+| DKV | `dkv` | Tank/Flotte | `A0 00 00 01 57 44 6D`<br>`A0 00 00 01 57 44 A6`<br>`A0 00 00 01 57 44 AD`<br>`A0 00 00 01 57 44 FF` |
+| UTA | `uta` | Tank/Flotte | `A0 00 00 01 57 44 A5`<br>`A0 00 00 01 57 44 AC`<br>`A0 00 00 01 57 44 AE`<br>`A0 00 00 01 57 44 FE` |
+| Eurowag | `eurowag` | Tank/Flotte | `A0 00 00 01 57 44 DE` |
+| Novofleet | `novofleet` | Tank/Flotte | `A0 00 00 01 57 44 AB` |
+| LogPay | `logpay` | Tank/Flotte | `A0 00 00 01 57 44 B1`<br>`A0 00 00 01 57 44 B2`<br>`A0 00 00 01 57 44 B3` |
+| Transcard | `transcard` | Tank/Flotte | `A0 00 00 01 57 44 A2` |
+| Oel-Pool | `oel-pool` | Tank/Flotte | `A0 00 00 01 57 44 A3` |
+| Oil! | `oil` | Tank/Flotte | `A0 00 00 01 57 44 C7` |
+| HOYER | `hoyer` | Tank/Flotte | `A0 00 00 01 57 45 00` |
+| Jubin | `jubin` | Tank/Flotte | `A0 00 00 01 57 44 5F` |
+| Voegtlin-Meyer | `voegtlin-meyer` | Tank/Flotte | `A0 00 00 01 57 44 C4`<br>`A0 00 00 01 57 44 CE`<br>`A0 00 00 01 57 44 CF` |
+| Moveri | `moveri` | Tank/Flotte | `A0 00 00 01 57 44 BE` |
 | Click to Pay | `click-to-pay` | Online |  |
 | PayPal | `paypal` | Online | `A0 00 00 01 57 44 EE` |
 | Alipay+ | `alipay-plus` | Online |  |

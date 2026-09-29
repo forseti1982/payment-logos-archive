@@ -71,10 +71,12 @@ const section = (variant) => brands.groups.map((g) => {
 const sections = `## Hell\n\n${section("light")}\n## Dunkel\n\n${section("dark")}`;
 
 // Visible AID table: every brand with at least one active Application Identifier.
-const aidRows = brands.groups.flatMap((g) => byGroup(g.id)).filter((b) => has(b.id) && (b.ep2Aids ?? []).some((a) => a.active))
+const aidRows = brands.groups.flatMap((g) => byGroup(g.id)).filter((b) => (b.ep2Aids ?? []).some((a) => a.active))
   .map((b) => {
     const aids = b.ep2Aids.filter((a) => a.active);
-    return `| <img src="dist/tiles/svg/${b.id}.svg" width="60" alt="${esc(b.name)}"> | <img src="dist/tiles/svg-dark/${b.id}.svg" width="60" alt="${esc(b.name)} dunkel"> | ${cell(b.name)}<br>\`${b.id}\` | ${aids.map((a) => `\`${a.aid}\``).join("<br>")} | ${aids.map((a) => cell(a.description)).join("<br>")} |`;
+    const tl = has(b.id) ? `<img src="dist/tiles/svg/${b.id}.svg" width="60" alt="${esc(b.name)}">` : "Logo fehlt";
+    const td = has(b.id) ? `<img src="dist/tiles/svg-dark/${b.id}.svg" width="60" alt="${esc(b.name)} dunkel">` : "";
+    return `| ${tl} | ${td} | ${cell(b.name)}<br>\`${b.id}\` | ${aids.map((a) => `\`${a.aid}\``).join("<br>")} | ${aids.map((a) => cell(a.description)).join("<br>")} |`;
   }).join("\n");
 const aidTable = `## AID (Application Identifier)\n\nZuordnung der aktiven ep2-AIDs zu Marke und Kachel. Maschinenlesbar in \`registry/brands.json\` (\`ep2Aids\`), Quellen in [docs/AID-QUELLEN.md](docs/AID-QUELLEN.md).\n\n| Hell | Dunkel | Marke / ID | AID | Bezeichnung |\n|---|---|---|---|---|\n${aidRows}\n`;
 

@@ -45,6 +45,7 @@ function readSvg(file) {
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<metadata\b[\s\S]*?<\/metadata>/g, "")
     .replace(/<sodipodi:namedview\b[\s\S]*?(\/>|<\/sodipodi:namedview>)/g, "")
+    .replace(/<inkscape:[a-zA-Z-]+\b[^>]*?\/>/g, "")
     .replace(/\s(sodipodi|inkscape):[a-zA-Z-]+="[^"]*"/g, "")
     .trim();
   const attrs = [...open.matchAll(/\s([a-zA-Z:-]+)="([^"]*)"/g)]

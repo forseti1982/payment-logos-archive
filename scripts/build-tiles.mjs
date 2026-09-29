@@ -63,6 +63,7 @@ function readSvg(file) {
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<metadata\b[\s\S]*?<\/metadata>/g, "")
     .replace(/<sodipodi:namedview\b[\s\S]*?(\/>|<\/sodipodi:namedview>)/g, "")
+    .replace(/<inkscape:[a-zA-Z-]+\b[^>]*?\/>/g, "")
     .replace(/\s(sodipodi|inkscape):[a-zA-Z-]+="[^"]*"/g, "")
     .trim();
   // Presentation attributes on the source root (e.g. fill="none") are inherited by
