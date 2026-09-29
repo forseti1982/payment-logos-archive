@@ -47,8 +47,12 @@ const NEXT = {
 function wall(list) {
   return list.map((b) => {
     const src = has(b.id) ? `dist/tiles/svg/${b.id}.svg` : "docs/img/missing-tile.svg";
-    const label = has(b.id) ? `${b.name} · ${b.id}` : `${b.name} · Logo fehlt`;
-    return `<img src="${src}" width="96" alt="${esc(b.name)}" title="${esc(label)}">`;
+    const aids = (b.ep2Aids ?? []).filter((a) => a.active).map((a) => a.aid);
+    const label = (has(b.id) ? `${b.name} · ${b.id}` : `${b.name} · Logo fehlt`) + (aids.length ? ` · AID ${aids.join(", ")}` : "");
+    const img = `<img src="${src}" width="96" alt="${esc(b.name)}" title="${esc(label)}">`;
+    // GitHub shows the dark tile automatically when the viewer uses dark mode.
+    const dark = `dist/tiles/svg-dark/${b.id}.svg`;
+    return fs.existsSync(path.join(root, dark)) ? `<picture><source media="(prefers-color-scheme: dark)" srcset="${dark}">${img}</picture>` : img;
   }).join("\n");
 }
 
@@ -86,14 +90,19 @@ Zahlungslogos als einheitliche Kacheln für Terminal, Checkout und Portal.
 ${sections}
 ## Verwenden
 
+Hell in \`dist/tiles/svg/\`, dunkel in \`dist/tiles/svg-dark/\`, gleiche Dateinamen. Diese Seite zeigt automatisch die Variante zu deinem GitHub-Farbschema.
+
 \`\`\`html
-<img src="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg/twint.svg" width="120" alt="TWINT">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg-dark/twint.svg">
+  <img src="https://raw.githubusercontent.com/forseti1982/payment-logos-archive/master/dist/tiles/svg/twint.svg" width="120" alt="TWINT">
+</picture>
 \`\`\`
 
 <details>
-<summary>Alle IDs und ep2-AIDs</summary>
+<summary>Alle IDs und AIDs (Application Identifier)</summary>
 
-| Marke | ID | Gruppe | ep2-AID (aktiv) |
+| Marke | ID | Gruppe | AID (Application Identifier, ep2, aktiv) |
 |---|---|---|---|
 ${ref}
 
